@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, Query } from "@nestjs/common";
+import { Body, Controller, Get, Inject, Param, Post, Query } from "@nestjs/common";
 import { ApiTags } from "@nestjs/swagger";
 import { randomBytes } from "node:crypto";
 import { ApplicationDecisionInput, PartnerApplicationInput } from "@oryvia/contracts";
@@ -22,7 +22,7 @@ const TRANSITIONS: Record<ApplicationState, ApplicationState[]> = {
 @ApiTags("partner")
 @Controller("v1/partner")
 export class PartnerController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   @Get("programmes")
   programmes() {
@@ -100,7 +100,7 @@ export class PartnerController {
 @ApiTags("admin")
 @Controller("v1/admin/applications")
 export class AdminApplicationsController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   @Get()
   @RequirePermissions("partners.applications.review")

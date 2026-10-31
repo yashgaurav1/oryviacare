@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Headers, HttpCode, Param, Patch, Post, Query, Req, Res } from "@nestjs/common";
+import { Body, Controller, Delete, Get, Headers, HttpCode, Inject, Param, Patch, Post, Query, Req, Res } from "@nestjs/common";
 import { ApiTags } from "@nestjs/swagger";
 import type { Request, Response } from "express";
 import { CartItemInput, CartQuantityInput, CheckoutQuoteInput, PlaceOrderInput, ReturnRequestInput } from "@oryvia/contracts";
@@ -23,7 +23,7 @@ function owner(req: Request, p: Principal | null): CartOwner {
 @Controller("v1/carts")
 export class CartController {
   private readonly carts: CartService;
-  constructor(db: DbService) {
+  constructor(@Inject(DbService) db: DbService) {
     this.carts = new CartService(db.client);
   }
 
@@ -72,7 +72,7 @@ export class CartController {
 export class CheckoutController {
   private readonly checkout: CheckoutService;
   private readonly carts: CartService;
-  constructor(private readonly db: DbService) {
+  constructor(@Inject(DbService) private readonly db: DbService) {
     this.checkout = new CheckoutService(db.client);
     this.carts = new CartService(db.client);
   }
@@ -143,7 +143,7 @@ const TrackQuery = z.object({ token: z.string().min(20).max(100) });
 @ApiTags("orders")
 @Controller("v1")
 export class OrdersController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   private async present(orderId: string, includeAddress: boolean) {
     const o = await this.db.client.order.findUniqueOrThrow({

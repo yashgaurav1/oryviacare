@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, Query } from "@nestjs/common";
+import { Body, Controller, Get, Inject, Param, Post, Query } from "@nestjs/common";
 import { ApiTags } from "@nestjs/swagger";
 import { OrderTransitionInput, PackageApprovalInput, PageQuery, ProductPublishInput, StockReceiptInput } from "@oryvia/contracts";
 import { z } from "zod";
@@ -23,7 +23,7 @@ const istEndExclusive = (d: string) => new Date(new Date(`${d}T00:00:00+05:30`).
 @ApiTags("admin")
 @Controller("v1/admin")
 export class AdminController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   // ── Overview: real aggregates only ──
   @Get("overview")

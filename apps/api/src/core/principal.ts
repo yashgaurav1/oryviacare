@@ -1,6 +1,6 @@
 // Identity and authorization are derived only from the verified Better Auth session.
 // No route trusts a role, user id or account id supplied by the client.
-import { type CanActivate, type ExecutionContext, Injectable, SetMetadata, createParamDecorator } from "@nestjs/common";
+import { type CanActivate, createParamDecorator, type ExecutionContext, Inject, Injectable, SetMetadata } from "@nestjs/common";
 import { Reflector } from "@nestjs/core";
 import { fromNodeHeaders } from "better-auth/node";
 import type { Request } from "express";
@@ -58,7 +58,7 @@ export const RequirePermissions = (...perms: PermissionKey[]) => SetMetadata(PER
 
 @Injectable()
 export class AuthGuard implements CanActivate {
-  constructor(private readonly reflector: Reflector) {}
+  constructor(@Inject(Reflector) private readonly reflector: Reflector) {}
 
   async canActivate(ctx: ExecutionContext): Promise<boolean> {
     const req = ctx.switchToHttp().getRequest<Req>();

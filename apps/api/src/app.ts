@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { randomUUID } from "node:crypto";
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { Controller, Get, Module, type INestApplication } from "@nestjs/common";
+import { Controller, Get, type INestApplication, Inject, Module } from "@nestjs/common";
 import { APP_FILTER, APP_GUARD, NestFactory } from "@nestjs/core";
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 import { toNodeHandler } from "better-auth/node";
@@ -23,7 +23,7 @@ const REPO_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../../..");
 
 @Controller("health")
 class HealthController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
   @Get("live")
   live() {
     return { status: "ok" };

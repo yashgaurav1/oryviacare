@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, Query } from "@nestjs/common";
+import { Body, Controller, Get, Inject, Param, Post, Query } from "@nestjs/common";
 import { ApiTags } from "@nestjs/swagger";
 import { randomBytes } from "node:crypto";
 import { ContactInput, NewsletterInput, PageQuery, QuoteRequestInput } from "@oryvia/contracts";
@@ -24,7 +24,7 @@ const ProductListQuery = PageQuery.extend({
 @ApiTags("catalog")
 @Controller("v1/catalog")
 export class CatalogController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   private async cards(products: Array<{ id: string }>) {
     const full = await this.db.client.product.findMany({
@@ -161,7 +161,7 @@ export class CatalogController {
 @ApiTags("packages")
 @Controller("v1/packages")
 export class PackagesController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   @Get()
   async list() {
@@ -200,7 +200,7 @@ export class PackagesController {
 @ApiTags("enquiries")
 @Controller("v1")
 export class EnquiryController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   @Post("contact")
   async contact(@Body() body: unknown, @CurrentPrincipal() p: Principal | null) {
@@ -264,7 +264,7 @@ export class EnquiryController {
 @ApiTags("content")
 @Controller("v1/content")
 export class ContentController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   @Get("articles")
   async articles() {

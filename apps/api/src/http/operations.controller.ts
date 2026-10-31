@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, Query } from "@nestjs/common";
+import { Body, Controller, Get, Inject, Param, Post, Query } from "@nestjs/common";
 import { ApiTags } from "@nestjs/swagger";
 import {
   LineCancelInput,
@@ -27,7 +27,7 @@ const ReturnListQuery = PageQuery.extend({ status: z.enum(["submitted", "approve
 @ApiTags("admin-operations")
 @Controller("v1/admin")
 export class OperationsController {
-  constructor(private readonly db: DbService) {}
+  constructor(@Inject(DbService) private readonly db: DbService) {}
 
   /** Line progress, shipments, returns and refund balance for one order. */
   @Get("orders/:id/operations")
