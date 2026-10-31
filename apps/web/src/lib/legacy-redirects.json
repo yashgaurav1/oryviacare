@@ -1,0 +1,122 @@
+[
+  {
+    "source": "/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin",
+    "destination": "/journal/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin"
+  },
+  {
+    "source": "/how-to-choose-the-right-face-wash-for-your-skin-type",
+    "destination": "/journal/how-to-choose-the-right-face-wash-for-your-skin-type"
+  },
+  {
+    "source": "/how-to-exfoliate-without-irritating-your-skin",
+    "destination": "/journal/how-to-exfoliate-without-irritating-your-skin"
+  },
+  {
+    "source": "/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp",
+    "destination": "/journal/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp"
+  },
+  {
+    "source": "/blackheads-dullness-and-tanning-understanding-what-your-skin-needs",
+    "destination": "/journal/blackheads-dullness-and-tanning-understanding-what-your-skin-needs"
+  },
+  {
+    "source": "/privacy-policy",
+    "destination": "/policies/privacy"
+  },
+  {
+    "source": "/refund_returns",
+    "destination": "/policies/returns"
+  },
+  {
+    "source": "/about-us",
+    "destination": "/about"
+  },
+  {
+    "source": "/contact-us",
+    "destination": "/contact"
+  },
+  {
+    "source": "/my-account",
+    "destination": "/account"
+  },
+  {
+    "source": "/news",
+    "destination": "/journal"
+  },
+  {
+    "source": "/terms-and-conditions",
+    "destination": "/policies/terms"
+  },
+  {
+    "source": "/registration",
+    "destination": "/register"
+  },
+  {
+    "source": "/my-account-2",
+    "destination": "/account"
+  },
+  {
+    "source": "/lost-password",
+    "destination": "/forgot-password"
+  },
+  {
+    "source": "/product/haldi-chandan-6-step-facial-kit",
+    "destination": "/products/haldi-chandan-6-step-facial-kit"
+  },
+  {
+    "source": "/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay",
+    "destination": "/products/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay"
+  },
+  {
+    "source": "/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum",
+    "destination": "/products/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum"
+  },
+  {
+    "source": "/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein",
+    "destination": "/products/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein"
+  },
+  {
+    "source": "/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair",
+    "destination": "/products/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair"
+  },
+  {
+    "source": "/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care",
+    "destination": "/products/oryvia-face-scrub-for-exfoliation-blackhead-tan-care"
+  },
+  {
+    "source": "/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c",
+    "destination": "/products/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c"
+  },
+  {
+    "source": "/product/starter-salon-pack",
+    "destination": "/packages/starter-salon-pack"
+  },
+  {
+    "source": "/product/best-seller-salon-pack",
+    "destination": "/packages/best-seller-salon-pack"
+  },
+  {
+    "source": "/product/wholsale-salon-pack",
+    "destination": "/packages/wholsale-salon-pack"
+  },
+  {
+    "source": "/product/saver-salon-pack",
+    "destination": "/packages/saver-salon-pack"
+  },
+  {
+    "source": "/category/uncategorized",
+    "destination": "/journal"
+  },
+  {
+    "source": "/product-category/hair-care",
+    "destination": "/category/hair-care"
+  },
+  {
+    "source": "/product-category/skincare",
+    "destination": "/category/skin-care"
+  },
+  {
+    "source": "/product-category/packages",
+    "destination": "/packages"
+  }
+]

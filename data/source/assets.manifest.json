@@ -1,0 +1,4024 @@
+{
+  "generated_at": "2026-10-31T04:05:51.750Z",
+  "note": "Checksums/dimensions are filled by `npm run source:assets` after a permitted download. Rights: brand-owned source site; merchant confirmation required.",
+  "assets": [
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Herbal-Beauty-Collection.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 10339
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 10339
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 10339
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 10339
+        },
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[11]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 1086,
+      "height": 1448,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/08_product_packaging.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "gallery",
+          "order": 1,
+          "legacy_media_id": 10144
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 10144
+        },
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[1] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[12]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 378,
+      "height": 495,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/11_Product_Benefits.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "gallery",
+          "order": 2,
+          "legacy_media_id": 9733
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "gallery",
+          "order": 1,
+          "legacy_media_id": 9733
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[1] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[2] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 512,
+      "height": 512,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Gold-Facial-Kit-Glow.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "gallery",
+          "order": 3,
+          "legacy_media_id": 9212
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Anti-Hairfall-Shampoo-Ad.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "gallery",
+          "order": 4,
+          "legacy_media_id": 9753
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "gallery",
+          "order": 1,
+          "legacy_media_id": 9753
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/00_premium_standalone_product.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "gallery",
+          "order": 1,
+          "legacy_media_id": 10136
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/01_luxury_botanical_product.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "gallery",
+          "order": 2,
+          "legacy_media_id": 10137
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[2] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 378,
+      "height": 521,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_product_benefits.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "gallery",
+          "order": 3,
+          "legacy_media_id": 10138
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[3] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 377,
+      "height": 521,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_skincare_lifestyle.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "gallery",
+          "order": 4,
+          "legacy_media_id": 10139
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[4] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 376,
+      "height": 521,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/04_ingredients_highlights.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "gallery",
+          "order": 5,
+          "legacy_media_id": 10140
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[5] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 378,
+      "height": 521,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_before_after_style.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "gallery",
+          "order": 6,
+          "legacy_media_id": 10141
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[6] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 378,
+      "height": 495,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_how_to_use-1.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "gallery",
+          "order": 7,
+          "legacy_media_id": 10142
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[7] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 377,
+      "height": 495,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Product.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 9767
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_Model_Lifestyle_Application.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "gallery",
+          "order": 1,
+          "legacy_media_id": 9768
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/04_Scrub_Texture_Closeup.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "gallery",
+          "order": 2,
+          "legacy_media_id": 9769
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_Gentle_Exfoliation_Benefits.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "gallery",
+          "order": 3,
+          "legacy_media_id": 9770
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Blackhead_Tan_Care_Promo.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "gallery",
+          "order": 4,
+          "legacy_media_id": 9771
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Botanical_Product_Hero.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 9759
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[4]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 500,
+      "height": 509,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_Model_Lifestyle.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "gallery",
+          "order": 1,
+          "legacy_media_id": 9760
+        },
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[1]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[1] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[1]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 509,
+      "height": 510,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_How_To_Use.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "gallery",
+          "order": 2,
+          "legacy_media_id": 9763
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[2] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 509,
+      "height": 507,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_Key_Benefits.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "gallery",
+          "order": 3,
+          "legacy_media_id": 9762
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[3] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 501,
+      "height": 507,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/04_Ingredient_Highlights.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "gallery",
+          "order": 4,
+          "legacy_media_id": 9761
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[4] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 508,
+      "height": 507,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Black-and-Gold-Anti-Hairfall-Shampoo.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 9756
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Oryvia-Anti-Hairfall-Shampoo-Advertisement-1.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "gallery",
+          "order": 2,
+          "legacy_media_id": 9755
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Anti-Hairfall-Shampoo-Advertisement.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "gallery",
+          "order": 3,
+          "legacy_media_id": 9754
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Square_Product_Promo.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 9744
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/07_Original_Product_Front_Photo.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "gallery",
+          "order": 1,
+          "legacy_media_id": 9745
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Hero-1.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "gallery",
+          "order": 2,
+          "legacy_media_id": 9748
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_Premium_Infographic_Set_1.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "gallery",
+          "order": 3,
+          "legacy_media_id": 9749
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/09_Original_Product_Jar.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "gallery",
+          "order": 4,
+          "legacy_media_id": 9747
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/08_Original_Product_Back_Packaging.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "gallery",
+          "order": 5,
+          "legacy_media_id": 9746
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Model_Lifestyle.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 9735
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/09_Back_Label_Details.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "gallery",
+          "order": 2,
+          "legacy_media_id": 9737
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[2] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 512,
+      "height": 512,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/12_Skincare_Routine.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "gallery",
+          "order": 3,
+          "legacy_media_id": 9734
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[3] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 512,
+      "height": 512,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Ingredient_Highlights.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "gallery",
+          "order": 4,
+          "legacy_media_id": 9736
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[4] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 512,
+      "height": 512,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/02_Product_Studio_Hero.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "primary",
+          "order": 0,
+          "legacy_media_id": 9721
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/03_Model_Lifestyle.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "gallery",
+          "order": 1,
+          "legacy_media_id": 9722
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/06_Six_Step_Facial_Overview.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "gallery",
+          "order": 2,
+          "legacy_media_id": 9725
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/05_Haldi_Chandan_Product_Story.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "gallery",
+          "order": 3,
+          "legacy_media_id": 9724
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/04_Packaging_Front_And_Back.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "gallery",
+          "order": 4,
+          "legacy_media_id": 9723
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://secure.gravatar.com/avatar/22bef003e316a233a90cea81f0f10011a31a84638b87a8d055445930cdc98fc1?s=50&d=mm&r=g",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[0]"
+        }
+      ],
+      "alt_observed": [
+        "Oryvia Care"
+      ],
+      "width": 25,
+      "height": 25,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/oryvia_hero_1905x826-1024x444.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[1]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 1024,
+      "height": 444,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/07_water_splash_product-228x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[9]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 228,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/06_Six_Step_Facial_Overview-768x576.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[1]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[0]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 768,
+      "height": 576,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_Gentle_Exfoliation_Benefits-768x512.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[2]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 768,
+      "height": 512,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://startersites.io/elementor/furniture/wp-content/uploads/2024/05/newsletter-section-image-.webp",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[5]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 600,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/00_premium_standalone_product-1024x910.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[1]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 1024,
+      "height": 910,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Herbal-Beauty-Collection-225x300.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[10]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 225,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_Gentle_Exfoliation_Benefits-300x200.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[8]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 300,
+      "height": 200,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_Gentle_Exfoliation_Benefits-1024x683.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[1]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 1024,
+      "height": 683,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_Model_Lifestyle-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[6] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/07_water_splash_product.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[3]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 376,
+      "height": 495,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/06_Six_Step_Facial_Overview-300x225.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[6]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 300,
+      "height": 225,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/06_Six_Step_Facial_Overview-1024x768.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+          "role": "page_image",
+          "location": "img[1]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 1024,
+      "height": 768,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/oryvia_hero_1905x826.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[0]"
+        }
+      ],
+      "alt_observed": [
+        "oryvia_hero_1905x826"
+      ],
+      "width": 1905,
+      "height": 826,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Oryvia-Anti-Dandruff-Shampoo-Ad.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[1]"
+        }
+      ],
+      "alt_observed": [
+        "Oryvia Anti-Dandruff Shampoo Ad"
+      ],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Reveal-Your-Glow-with-Oryvia-D-Tan.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[2]"
+        }
+      ],
+      "alt_observed": [
+        "Reveal Your Glow with Oryvia D-Tan"
+      ],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Haldi-Care-Glow-Ritual-1.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[3]"
+        }
+      ],
+      "alt_observed": [
+        "oryvia haldi care glow ritual 1"
+      ],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/elementor/thumbs/ORYVIA-D-Tan-Radiance-Cream-Ad-ruudqjkpjvqps9f51wfse5axh64rihibw24y07z6ow.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/",
+          "role": "page_image",
+          "location": "img[4]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-Tan Radiance Cream Ad"
+      ],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Herbal-Beauty-Collection-768x1024.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/news/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/category/uncategorized/",
+          "role": "page_image",
+          "location": "img[4]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 768,
+      "height": 1024,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Skin_care-04.webp",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/10305-2/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[1]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[1]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[1]"
+        },
+        {
+          "page": "category:skincare",
+          "role": "category_image"
+        }
+      ],
+      "alt_observed": [],
+      "width": 640,
+      "height": 640,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Personal_Care-04-1.webp",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/10305-2/",
+          "role": "page_image",
+          "location": "img[1]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "category:packages",
+          "role": "category_image"
+        }
+      ],
+      "alt_observed": [],
+      "width": 640,
+      "height": 640,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Hair_Care-05.webp",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/10305-2/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[0]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "category:hair-care",
+          "role": "category_image"
+        }
+      ],
+      "alt_observed": [],
+      "width": 640,
+      "height": 640,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2024/05/icon-1.svg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/10305-2/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[21]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[20]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[13]"
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2024/05/icon-2.svg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/10305-2/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[17]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[22]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[21]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[14]"
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2024/05/icon-3.svg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/10305-2/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[18]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[23]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[22]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[15]"
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2024/05/icon-4.svg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/10305-2/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[17]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[17]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[19]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[17]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[24]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[23]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[17]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[16]"
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2024/05/subscribe-section-image.webp",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/10305-2/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[18]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[18]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[20]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[18]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[25]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[24]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[18]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[17]"
+        }
+      ],
+      "alt_observed": [],
+      "width": null,
+      "height": null,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/02_Product_Studio_Hero-800x600.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 800,
+      "height": 600,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/03_Model_Lifestyle-800x600.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[1] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 800,
+      "height": 600,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/06_Six_Step_Facial_Overview-800x600.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[2] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 800,
+      "height": 600,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/05_Haldi_Chandan_Product_Story-800x600.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[3] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 800,
+      "height": 600,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/04_Packaging_Front_And_Back-800x600.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[4] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 800,
+      "height": 600,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/02_Product_Studio_Hero-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[5] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[19]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[7]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[7]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/03_Model_Lifestyle-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[6] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/06_Six_Step_Facial_Overview-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[7] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/05_Haldi_Chandan_Product_Story-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[8] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/04_Packaging_Front_And_Back-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[9] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Model_Lifestyle-500x500.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[17]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[4]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 500,
+      "height": 500,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Product-500x500.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[19]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[5]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 500,
+      "height": 500,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Square_Product_Promo-500x500.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[20]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[7]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 500,
+      "height": 500,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Model_Lifestyle-800x800.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Model_Lifestyle-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[5] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[19]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[15]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[6]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/11_Product_Benefits-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[6] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[7] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/09_Back_Label_Details-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[7] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/12_Skincare_Routine-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[8] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Ingredient_Highlights-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[9] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/08/02_Product_Studio_Hero-500x375.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[18]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/skincare/",
+          "role": "page_image",
+          "location": "img[8]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care"
+      ],
+      "width": 500,
+      "height": 375,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Square_Product_Promo-800x800.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/07_Original_Product_Front_Photo-800x1067.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[1] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 800,
+      "height": 1067,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Hero-1-800x600.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[2] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 800,
+      "height": 600,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_Premium_Infographic_Set_1-800x533.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[3] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 800,
+      "height": 533,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/09_Original_Product_Jar-800x1067.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[4] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 800,
+      "height": 1067,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/08_Original_Product_Back_Packaging-800x600.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[5] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 800,
+      "height": 600,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Square_Product_Promo-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[6] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[21]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[5]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/07_Original_Product_Front_Photo-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[7] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Hero-1-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[8] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_Premium_Infographic_Set_1-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[9] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/09_Original_Product_Jar-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[10] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/08_Original_Product_Back_Packaging-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+          "role": "page_image",
+          "location": "img[11] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Black-and-Gold-Anti-Hairfall-Shampoo-800x800.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Anti-Hairfall-Shampoo-Ad-800x800.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[1] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[4] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Oryvia-Anti-Hairfall-Shampoo-Advertisement-1-800x800.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[2] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Anti-Hairfall-Shampoo-Advertisement-800x800.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[3] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Black-and-Gold-Anti-Hairfall-Shampoo-300x300.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[4] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[14]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[13]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[4]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Anti-Hairfall-Shampoo-Ad-300x300.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[5] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[9] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Oryvia-Anti-Hairfall-Shampoo-Advertisement-1-300x300.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[6] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Anti-Hairfall-Shampoo-Advertisement-300x300.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+          "role": "page_image",
+          "location": "img[7] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Botanical_Product_Hero-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[5] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[12]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[3]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[3]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_How_To_Use-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[7] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_Key_Benefits-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[8] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/04_Ingredient_Highlights-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[9] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Black-and-Gold-Anti-Hairfall-Shampoo-500x500.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/hair-care/",
+          "role": "page_image",
+          "location": "img[5]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein"
+      ],
+      "width": 500,
+      "height": 500,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Product-800x800.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_Model_Lifestyle_Application-800x800.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[1] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/04_Scrub_Texture_Closeup-800x800.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[2] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_Gentle_Exfoliation_Benefits-800x533.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[3] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 800,
+      "height": 533,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Blackhead_Tan_Care_Promo-800x800.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[4] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 800,
+      "height": 800,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Product-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[5] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[19]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[11]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[2]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[2]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_Model_Lifestyle_Application-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[6] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/04_Scrub_Texture_Closeup-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[7] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_Gentle_Exfoliation_Benefits-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[8] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_Blackhead_Tan_Care_Promo-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+          "role": "page_image",
+          "location": "img[9] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/00_premium_standalone_product-800x711.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[1] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 800,
+      "height": 711,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/08_product_packaging-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[8] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[26]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[6] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[1]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[1]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[1]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/00_premium_standalone_product-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[9] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/01_luxury_botanical_product-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[10] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/02_product_benefits-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[11] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/03_skincare_lifestyle-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[12] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/04_ingredients_highlights-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[13] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/05_before_after_style-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[14] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/06_how_to_use-1-300x300.jpg",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[15] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://secure.gravatar.com/avatar/22bef003e316a233a90cea81f0f10011a31a84638b87a8d055445930cdc98fc1?s=60&d=mm&r=g",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "role": "page_image",
+          "location": "img[16]"
+        }
+      ],
+      "alt_observed": [],
+      "width": 60,
+      "height": 60,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Herbal-Beauty-Collection-800x1067.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[0] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Starter Beauty Combo Pack",
+        "ORYVIA Professional Salon Combo Pack",
+        "ORYVIA Premium Beauty Business Combo Pack",
+        "ORYVIA Ultimate Salon Stock Combo Pack"
+      ],
+      "width": 800,
+      "height": 1067,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Gold-Facial-Kit-Glow-800x1067.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[3] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 800,
+      "height": 1067,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Herbal-Beauty-Collection-300x300.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[5] gallery"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[25]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[16]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[16]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Starter Beauty Combo Pack",
+        "ORYVIA Professional Salon Combo Pack",
+        "ORYVIA Premium Beauty Business Combo Pack",
+        "ORYVIA Ultimate Salon Stock Combo Pack"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Gold-Facial-Kit-Glow-300x300.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[8] gallery"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 300,
+      "height": 300,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    },
+    {
+      "original_url": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Herbal-Beauty-Collection-500x667.png",
+      "roles": [
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[17]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[18]"
+        },
+        {
+          "page": "https://oryviacare.in/product/starter-salon-pack/",
+          "role": "page_image",
+          "location": "img[19]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[8]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[9]"
+        },
+        {
+          "page": "https://oryviacare.in/product/saver-salon-pack/",
+          "role": "page_image",
+          "location": "img[10]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[4]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[5]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[6]"
+        },
+        {
+          "page": "https://oryviacare.in/product-category/packages/",
+          "role": "page_image",
+          "location": "img[7]"
+        }
+      ],
+      "alt_observed": [
+        "ORYVIA Professional Salon Combo Pack",
+        "ORYVIA Ultimate Salon Stock Combo Pack",
+        "ORYVIA Premium Beauty Business Combo Pack",
+        "ORYVIA Starter Beauty Combo Pack"
+      ],
+      "width": 500,
+      "height": 667,
+      "checksum_sha256": null,
+      "storage_key": null,
+      "classification": "unclassified (photograph | marketing composite | 3D) — requires visual review",
+      "rights": "source-site asset; merchant confirmation required"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@oryvia/migration",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx src/crawl.ts",
+    "assets": "tsx src/assets.ts",
+    "import": "tsx --env-file-if-exists=../../.env src/import.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "normalize": "tsx src/normalize.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "zod": "^4.6.7",
+    "@oryvia/db": "*",
+    "image-size": "^2.0.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3",
+    "vitest": "^5.0.5",
+    "@types/node": "^24.0.0"
+  }
+}

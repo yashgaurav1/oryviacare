@@ -1,0 +1,1543 @@
+{
+  "generated_at": "2026-10-31T04:05:51.745Z",
+  "products": [
+    {
+      "source_identity": "woo:product:10146",
+      "legacy_id": 10146,
+      "slug": "oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c",
+      "canonical_url": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+      "product_type": "simple",
+      "name": {
+        "value": "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "products[id=10146].name",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+            "source_url": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+            "source_location": "h1",
+            "retrieved_at": "2026-10-31T02:24:27.646Z",
+            "method": "html_dom"
+          }
+        ]
+      },
+      "short_description": {
+        "value": "Refresh your skincare routine with ORYVIA Face Wash. Its refreshing cleansing formula helps remove everyday dirt and excess oil, leaving your skin feeling clean, fresh and comfortable.",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "Refresh your skincare routine with ORYVIA Face Wash. Its refreshing cleansing formula helps remove everyday dirt and excess oil, leaving your skin feeling clean, fresh and comfortable.",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "short_description",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "description_sections": {
+        "value": [
+          {
+            "heading": null,
+            "paragraphs": [
+              "Give your daily skincare routine a refreshing start with ORYVIA Face Wash, a facial cleanser designed to remove everyday impurities and excess oil while leaving your skin feeling clean and refreshed.",
+              "Enriched with Aloe Vera, Niacinamide and Vitamin C, this face wash brings together popular skincare ingredients in a convenient pump bottle for everyday cleansing."
+            ],
+            "items": []
+          },
+          {
+            "heading": "Key Features",
+            "paragraphs": [],
+            "items": [
+              "Everyday cleansing: Helps remove dirt and excess oil from the skin.",
+              "Aloe Vera: A popular skincare ingredient known for its soothing and moisturising properties.",
+              "Niacinamide: A skincare ingredient commonly used to support the skin barrier and improve the appearance of uneven skin texture.",
+              "Vitamin C: An antioxidant ingredient commonly used in skincare for a brighter-looking complexion.",
+              "Convenient packaging: Pump dispenser for easy application.",
+              "Daily skincare routine: Suitable for incorporating into your regular cleansing routine, subject to the product’s directions."
+            ]
+          },
+          {
+            "heading": "How to Use",
+            "paragraphs": [],
+            "items": [
+              "Wet your face with clean water.",
+              "Dispense a small amount of face wash into your palm.",
+              "Gently massage over your face, avoiding the eyes.",
+              "Rinse thoroughly with water and pat dry."
+            ]
+          },
+          {
+            "heading": "Product Details",
+            "paragraphs": [],
+            "items": [
+              "Brand: ORYVIA",
+              "Product: Face Wash",
+              "Net Quantity: 200 ml",
+              "Key Ingredients Highlighted: Aloe Vera, Niacinamide and Vitamin C",
+              "Packaging: Pump bottle"
+            ]
+          },
+          {
+            "heading": "Precautions",
+            "paragraphs": [
+              "For external use only. Avoid direct contact with eyes. Discontinue use if irritation occurs. Check the product packaging for the complete ingredient list, directions, batch details and expiry date.",
+              "Make ORYVIA Face Wash a refreshing part of your daily skincare routine."
+            ],
+            "items": []
+          }
+        ],
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": [
+              {
+                "heading": null,
+                "paragraphs": [
+                  "Give your daily skincare routine a refreshing start with ORYVIA Face Wash, a facial cleanser designed to remove everyday impurities and excess oil while leaving your skin feeling clean and refreshed.",
+                  "Enriched with Aloe Vera, Niacinamide and Vitamin C, this face wash brings together popular skincare ingredients in a convenient pump bottle for everyday cleansing."
+                ],
+                "items": []
+              },
+              {
+                "heading": "Key Features",
+                "paragraphs": [],
+                "items": [
+                  "Everyday cleansing: Helps remove dirt and excess oil from the skin.",
+                  "Aloe Vera: A popular skincare ingredient known for its soothing and moisturising properties.",
+                  "Niacinamide: A skincare ingredient commonly used to support the skin barrier and improve the appearance of uneven skin texture.",
+                  "Vitamin C: An antioxidant ingredient commonly used in skincare for a brighter-looking complexion.",
+                  "Convenient packaging: Pump dispenser for easy application.",
+                  "Daily skincare routine: Suitable for incorporating into your regular cleansing routine, subject to the product’s directions."
+                ]
+              },
+              {
+                "heading": "How to Use",
+                "paragraphs": [],
+                "items": [
+                  "Wet your face with clean water.",
+                  "Dispense a small amount of face wash into your palm.",
+                  "Gently massage over your face, avoiding the eyes.",
+                  "Rinse thoroughly with water and pat dry."
+                ]
+              },
+              {
+                "heading": "Product Details",
+                "paragraphs": [],
+                "items": [
+                  "Brand: ORYVIA",
+                  "Product: Face Wash",
+                  "Net Quantity: 200 ml",
+                  "Key Ingredients Highlighted: Aloe Vera, Niacinamide and Vitamin C",
+                  "Packaging: Pump bottle"
+                ]
+              },
+              {
+                "heading": "Precautions",
+                "paragraphs": [
+                  "For external use only. Avoid direct contact with eyes. Discontinue use if irritation occurs. Check the product packaging for the complete ingredient list, directions, batch details and expiry date.",
+                  "Make ORYVIA Face Wash a refreshing part of your daily skincare routine."
+                ],
+                "items": []
+              }
+            ],
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "description (parsed headings)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "key_features": [
+        "Everyday cleansing: Helps remove dirt and excess oil from the skin.",
+        "Aloe Vera: A popular skincare ingredient known for its soothing and moisturising properties.",
+        "Niacinamide: A skincare ingredient commonly used to support the skin barrier and improve the appearance of uneven skin texture.",
+        "Vitamin C: An antioxidant ingredient commonly used in skincare for a brighter-looking complexion.",
+        "Convenient packaging: Pump dispenser for easy application.",
+        "Daily skincare routine: Suitable for incorporating into your regular cleansing routine, subject to the product’s directions."
+      ],
+      "directions": [
+        "Wet your face with clean water.",
+        "Dispense a small amount of face wash into your palm.",
+        "Gently massage over your face, avoiding the eyes.",
+        "Rinse thoroughly with water and pat dry."
+      ],
+      "precautions": [
+        "For external use only. Avoid direct contact with eyes. Discontinue use if irritation occurs. Check the product packaging for the complete ingredient list, directions, batch details and expiry date.",
+        "Make ORYVIA Face Wash a refreshing part of your daily skincare routine."
+      ],
+      "product_details": {
+        "Brand": "ORYVIA",
+        "Product": "Face Wash",
+        "Net Quantity": "200 ml",
+        "Key Ingredients Highlighted": "Aloe Vera, Niacinamide and Vitamin C",
+        "Packaging": "Pump bottle"
+      },
+      "net_quantity": {
+        "text": "200 ml",
+        "value": 200,
+        "unit": "ml"
+      },
+      "featured_ingredients": [
+        "Aloe Vera",
+        "Niacinamide",
+        "Vitamin C"
+      ],
+      "full_ingredient_list": null,
+      "full_ingredient_list_note": "Not published on source; product pages refer to packaging.",
+      "packaging": "Pump bottle",
+      "manufacturer": null,
+      "country_of_origin": null,
+      "sku": null,
+      "categories": [
+        "skincare"
+      ],
+      "tags": [],
+      "attributes": [],
+      "variations": [],
+      "currency": "INR",
+      "selling_price_paise": {
+        "value": 39900,
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": 39900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 39900,
+            "source_url": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:27.646Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 39900,
+            "source_url": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+            "source_location": "Product.offers[0].priceSpecification[0].price",
+            "retrieved_at": "2026-10-31T02:24:27.646Z",
+            "method": "json_ld"
+          }
+        ]
+      },
+      "reference_price_paise": {
+        "value": 99900,
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:27.646Z",
+            "method": "html_dom"
+          }
+        ],
+        "note": "Observed strike-through 'Original price'. Not verified as MRP; must be classified by merchant."
+      },
+      "tax_wording": null,
+      "availability_claim": {
+        "is_in_stock": true,
+        "is_purchasable": true,
+        "note": "Store availability flag; not a stocktake."
+      },
+      "images": [
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/08_product_packaging.jpg",
+          "order": 0,
+          "alt": null,
+          "legacy_media_id": 10144
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/00_premium_standalone_product.jpg",
+          "order": 1,
+          "alt": null,
+          "legacy_media_id": 10136
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/01_luxury_botanical_product.jpg",
+          "order": 2,
+          "alt": null,
+          "legacy_media_id": 10137
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/02_product_benefits.jpg",
+          "order": 3,
+          "alt": null,
+          "legacy_media_id": 10138
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/03_skincare_lifestyle.jpg",
+          "order": 4,
+          "alt": null,
+          "legacy_media_id": 10139
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/04_ingredients_highlights.jpg",
+          "order": 5,
+          "alt": null,
+          "legacy_media_id": 10140
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/05_before_after_style.jpg",
+          "order": 6,
+          "alt": null,
+          "legacy_media_id": 10141
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/06_how_to_use-1.jpg",
+          "order": 7,
+          "alt": null,
+          "legacy_media_id": 10142
+        }
+      ],
+      "reviews": [
+        {
+          "author_display": "Priya",
+          "date_text": "October 21, 2026",
+          "source_url": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+          "source_location": "p[39]",
+          "provenance": "html_only_not_in_store_api",
+          "verified_purchase": null,
+          "review_state": "needs_review"
+        }
+      ],
+      "seo": {
+        "title": "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C – Oryvia Care",
+        "meta_description": null,
+        "canonical": "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "robots": "max-image-preview:large"
+      },
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "woo:product:9765",
+      "legacy_id": 9765,
+      "slug": "oryvia-face-scrub-for-exfoliation-blackhead-tan-care",
+      "canonical_url": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+      "product_type": "simple",
+      "name": {
+        "value": "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "products[id=9765].name",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care",
+            "source_url": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+            "source_location": "h1",
+            "retrieved_at": "2026-10-31T02:24:26.825Z",
+            "method": "html_dom"
+          }
+        ]
+      },
+      "short_description": {
+        "value": "Add a refreshing exfoliation step to your skincare routine with ORYVIA Face Scrub. The product label highlights exfoliation, gentle cleansing and hydration. It is presented in a clear jar with a metallic gold lid and a 100 g net quantity shown on the pack.",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "Add a refreshing exfoliation step to your skincare routine with ORYVIA Face Scrub. The product label highlights exfoliation, gentle cleansing and hydration. It is presented in a clear jar with a metallic gold lid and a 100 g net quantity shown on the pack.",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "short_description",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "description_sections": {
+        "value": [
+          {
+            "heading": null,
+            "paragraphs": [
+              "Refresh your skincare routine with ORYVIA Face Scrub. Its granular scrub texture is designed for exfoliation, while the packaging highlights gentle cleansing and hydration. Use it as directed on the product label to help remove surface buildup and leave skin feeling clean and smooth. The product can be positioned for blackhead and tan care, but avoid guaranteeing blackhead removal, tan removal or instant results unless those claims are substantiated by the manufacturer.",
+              "SPECIFICATIONS Brand: ORYVIA Product name: Face Scrub Product category: Skin Care Subcategory: Face Scrub / Exfoliator Net quantity: 100 g (3.52 oz) Form: Granular scrub / gel-like scrub texture (visual description only) Packaging: Clear jar with metallic gold-coloured lid Key functions shown on the label: Exfoliates, gently cleanses, hydrates Complete ingredients: Check the actual product label; not readable in the supplied photos Country of origin: The back label appears to state Made in India; verify before publishing Manufacturer, MRP, batch, manufacturing date and expiry: Copy the details from the physical unit being sold",
+              "SUGGESTED KEY FEATURES FOR MARKETPLACE – Helps exfoliate the skin’s surface – Gently cleanses as stated on the label – Hydration-focused positioning as stated on the label – Suitable as a facial-care routine step – 100 g jar with a metallic gold-coloured lid – Marketed for blackhead and tan care; claims should match substantiation and label directions",
+              "DIRECTIONS FOR USE Follow the instructions on the actual product packaging. If the label does not give complete directions, confirm them with the manufacturer before publishing. General caution for facial scrubs: use gentle pressure, avoid the eye area and do not apply to irritated or broken skin.",
+              "PRECAUTIONS For external use only. Perform a patch test before first use. Avoid eye contact. Stop use if irritation occurs. Do not use on broken or irritated skin. Keep out of reach of children."
+            ],
+            "items": []
+          }
+        ],
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": [
+              {
+                "heading": null,
+                "paragraphs": [
+                  "Refresh your skincare routine with ORYVIA Face Scrub. Its granular scrub texture is designed for exfoliation, while the packaging highlights gentle cleansing and hydration. Use it as directed on the product label to help remove surface buildup and leave skin feeling clean and smooth. The product can be positioned for blackhead and tan care, but avoid guaranteeing blackhead removal, tan removal or instant results unless those claims are substantiated by the manufacturer.",
+                  "SPECIFICATIONS Brand: ORYVIA Product name: Face Scrub Product category: Skin Care Subcategory: Face Scrub / Exfoliator Net quantity: 100 g (3.52 oz) Form: Granular scrub / gel-like scrub texture (visual description only) Packaging: Clear jar with metallic gold-coloured lid Key functions shown on the label: Exfoliates, gently cleanses, hydrates Complete ingredients: Check the actual product label; not readable in the supplied photos Country of origin: The back label appears to state Made in India; verify before publishing Manufacturer, MRP, batch, manufacturing date and expiry: Copy the details from the physical unit being sold",
+                  "SUGGESTED KEY FEATURES FOR MARKETPLACE – Helps exfoliate the skin’s surface – Gently cleanses as stated on the label – Hydration-focused positioning as stated on the label – Suitable as a facial-care routine step – 100 g jar with a metallic gold-coloured lid – Marketed for blackhead and tan care; claims should match substantiation and label directions",
+                  "DIRECTIONS FOR USE Follow the instructions on the actual product packaging. If the label does not give complete directions, confirm them with the manufacturer before publishing. General caution for facial scrubs: use gentle pressure, avoid the eye area and do not apply to irritated or broken skin.",
+                  "PRECAUTIONS For external use only. Perform a patch test before first use. Avoid eye contact. Stop use if irritation occurs. Do not use on broken or irritated skin. Keep out of reach of children."
+                ],
+                "items": []
+              }
+            ],
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "description (parsed headings)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "key_features": [],
+      "directions": [],
+      "precautions": [],
+      "product_details": {},
+      "net_quantity": null,
+      "featured_ingredients": [],
+      "full_ingredient_list": null,
+      "full_ingredient_list_note": "Not published on source; product pages refer to packaging.",
+      "packaging": null,
+      "manufacturer": null,
+      "country_of_origin": null,
+      "sku": null,
+      "categories": [
+        "skincare"
+      ],
+      "tags": [],
+      "attributes": [],
+      "variations": [],
+      "currency": "INR",
+      "selling_price_paise": {
+        "value": 39900,
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": 39900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 39900,
+            "source_url": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:26.825Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 39900,
+            "source_url": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+            "source_location": "Product.offers[0].priceSpecification[0].price",
+            "retrieved_at": "2026-10-31T02:24:26.825Z",
+            "method": "json_ld"
+          }
+        ]
+      },
+      "reference_price_paise": {
+        "value": 99900,
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:26.825Z",
+            "method": "html_dom"
+          }
+        ],
+        "note": "Observed strike-through 'Original price'. Not verified as MRP; must be classified by merchant."
+      },
+      "tax_wording": null,
+      "availability_claim": {
+        "is_in_stock": true,
+        "is_purchasable": true,
+        "note": "Store availability flag; not a stocktake."
+      },
+      "images": [
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Product.jpg",
+          "order": 0,
+          "alt": null,
+          "legacy_media_id": 9767
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/03_Model_Lifestyle_Application.jpg",
+          "order": 1,
+          "alt": null,
+          "legacy_media_id": 9768
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/04_Scrub_Texture_Closeup.jpg",
+          "order": 2,
+          "alt": null,
+          "legacy_media_id": 9769
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/05_Gentle_Exfoliation_Benefits.jpg",
+          "order": 3,
+          "alt": null,
+          "legacy_media_id": 9770
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/06_Blackhead_Tan_Care_Promo.jpg",
+          "order": 4,
+          "alt": null,
+          "legacy_media_id": 9771
+        }
+      ],
+      "reviews": [],
+      "seo": {
+        "title": "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care – Oryvia Care",
+        "meta_description": null,
+        "canonical": "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "robots": "max-image-preview:large"
+      },
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "woo:product:9757",
+      "legacy_id": 9757,
+      "slug": "oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair",
+      "canonical_url": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+      "product_type": "simple",
+      "name": {
+        "value": "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "products[id=9757].name",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair",
+            "source_url": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+            "source_location": "h1",
+            "retrieved_at": "2026-10-31T02:24:25.793Z",
+            "method": "html_dom"
+          }
+        ]
+      },
+      "short_description": {
+        "value": "Keep your hair-care routine fresh and simple with ORYVIA Anti-Dandruff Shampoo. Designed for dandruff-focused scalp care, this shampoo features a premium pump bottle and a formula highlighting Tea Tree Oil, Salicylic Acid and Zinc PCA.",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "Keep your hair-care routine fresh and simple with ORYVIA Anti-Dandruff Shampoo. Designed for dandruff-focused scalp care, this shampoo features a premium pump bottle and a formula highlighting Tea Tree Oil, Salicylic Acid and Zinc PCA.",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "short_description",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "description_sections": {
+        "value": [
+          {
+            "heading": null,
+            "paragraphs": [
+              "Give your scalp a refreshing cleanse with ORYVIA Anti-Dandruff Shampoo. Designed for a convenient hair-care routine, this shampoo comes in a premium black bottle with a metallic gold pump.",
+              "The product artwork highlights Tea Tree Oil, Salicylic Acid and Zinc PCA, alongside dandruff-focused cleansing and scalp-care benefits. Its convenient pump packaging makes dispensing easy during your regular hair-washing routine.",
+              "Choose ORYVIA for a simple, refreshing addition to your hair-care routine. Follow the instructions and precautions printed on the actual product packaging."
+            ],
+            "items": []
+          },
+          {
+            "heading": "Product Specifications",
+            "paragraphs": [],
+            "items": [
+              "Brand: ORYVIA",
+              "Product Name: Anti-Dandruff Shampoo",
+              "Product Category: Hair Care",
+              "Subcategory: Shampoo",
+              "Net Quantity: 200 ml",
+              "Form: Liquid",
+              "Packaging Type: Pump Bottle",
+              "Ideal For: Adults; verify age-related directions on the label",
+              "Hair Type: Verify against manufacturer information",
+              "Fragrance: Check product packaging",
+              "Country of Origin: Verify on the physical label",
+              "Manufacturer: Verify on the physical label",
+              "MRP: As printed on the product",
+              "Shelf Life / Expiry: As printed on the product"
+            ]
+          },
+          {
+            "heading": "Directions for Use",
+            "paragraphs": [
+              "Follow the manufacturer’s directions for recommended frequency of use."
+            ],
+            "items": [
+              "Wet your hair and scalp thoroughly.",
+              "Apply an appropriate amount of shampoo.",
+              "Gently massage into the scalp and hair.",
+              "Rinse thoroughly with water."
+            ]
+          },
+          {
+            "heading": "Safety Precautions",
+            "paragraphs": [],
+            "items": [
+              "For external use only.",
+              "Avoid contact with eyes.",
+              "Stop use if irritation occurs.",
+              "Keep out of reach of children.",
+              "Check the full ingredient list before use if you have known sensitivities."
+            ]
+          }
+        ],
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": [
+              {
+                "heading": null,
+                "paragraphs": [
+                  "Give your scalp a refreshing cleanse with ORYVIA Anti-Dandruff Shampoo. Designed for a convenient hair-care routine, this shampoo comes in a premium black bottle with a metallic gold pump.",
+                  "The product artwork highlights Tea Tree Oil, Salicylic Acid and Zinc PCA, alongside dandruff-focused cleansing and scalp-care benefits. Its convenient pump packaging makes dispensing easy during your regular hair-washing routine.",
+                  "Choose ORYVIA for a simple, refreshing addition to your hair-care routine. Follow the instructions and precautions printed on the actual product packaging."
+                ],
+                "items": []
+              },
+              {
+                "heading": "Product Specifications",
+                "paragraphs": [],
+                "items": [
+                  "Brand: ORYVIA",
+                  "Product Name: Anti-Dandruff Shampoo",
+                  "Product Category: Hair Care",
+                  "Subcategory: Shampoo",
+                  "Net Quantity: 200 ml",
+                  "Form: Liquid",
+                  "Packaging Type: Pump Bottle",
+                  "Ideal For: Adults; verify age-related directions on the label",
+                  "Hair Type: Verify against manufacturer information",
+                  "Fragrance: Check product packaging",
+                  "Country of Origin: Verify on the physical label",
+                  "Manufacturer: Verify on the physical label",
+                  "MRP: As printed on the product",
+                  "Shelf Life / Expiry: As printed on the product"
+                ]
+              },
+              {
+                "heading": "Directions for Use",
+                "paragraphs": [
+                  "Follow the manufacturer’s directions for recommended frequency of use."
+                ],
+                "items": [
+                  "Wet your hair and scalp thoroughly.",
+                  "Apply an appropriate amount of shampoo.",
+                  "Gently massage into the scalp and hair.",
+                  "Rinse thoroughly with water."
+                ]
+              },
+              {
+                "heading": "Safety Precautions",
+                "paragraphs": [],
+                "items": [
+                  "For external use only.",
+                  "Avoid contact with eyes.",
+                  "Stop use if irritation occurs.",
+                  "Keep out of reach of children.",
+                  "Check the full ingredient list before use if you have known sensitivities."
+                ]
+              }
+            ],
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "description (parsed headings)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "key_features": [],
+      "directions": [
+        "Wet your hair and scalp thoroughly.",
+        "Apply an appropriate amount of shampoo.",
+        "Gently massage into the scalp and hair.",
+        "Rinse thoroughly with water."
+      ],
+      "precautions": [
+        "For external use only.",
+        "Avoid contact with eyes.",
+        "Stop use if irritation occurs.",
+        "Keep out of reach of children.",
+        "Check the full ingredient list before use if you have known sensitivities."
+      ],
+      "product_details": {},
+      "net_quantity": null,
+      "featured_ingredients": [],
+      "full_ingredient_list": null,
+      "full_ingredient_list_note": "Not published on source; product pages refer to packaging.",
+      "packaging": null,
+      "manufacturer": null,
+      "country_of_origin": null,
+      "sku": null,
+      "categories": [
+        "hair-care"
+      ],
+      "tags": [],
+      "attributes": [],
+      "variations": [],
+      "currency": "INR",
+      "selling_price_paise": {
+        "value": 49900,
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:25.793Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+            "source_location": "Product.offers[0].priceSpecification[0].price",
+            "retrieved_at": "2026-10-31T02:24:25.793Z",
+            "method": "json_ld"
+          }
+        ]
+      },
+      "reference_price_paise": {
+        "value": 99900,
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:25.793Z",
+            "method": "html_dom"
+          }
+        ],
+        "note": "Observed strike-through 'Original price'. Not verified as MRP; must be classified by merchant."
+      },
+      "tax_wording": null,
+      "availability_claim": {
+        "is_in_stock": true,
+        "is_purchasable": true,
+        "note": "Store availability flag; not a stocktake."
+      },
+      "images": [
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/02_Botanical_Product_Hero.jpg",
+          "order": 0,
+          "alt": null,
+          "legacy_media_id": 9759
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/03_Model_Lifestyle.jpg",
+          "order": 1,
+          "alt": null,
+          "legacy_media_id": 9760
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/06_How_To_Use.jpg",
+          "order": 2,
+          "alt": null,
+          "legacy_media_id": 9763
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/05_Key_Benefits.jpg",
+          "order": 3,
+          "alt": null,
+          "legacy_media_id": 9762
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/04_Ingredient_Highlights.jpg",
+          "order": 4,
+          "alt": null,
+          "legacy_media_id": 9761
+        }
+      ],
+      "reviews": [],
+      "seo": {
+        "title": "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair – Oryvia Care",
+        "meta_description": null,
+        "canonical": "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "robots": "max-image-preview:large"
+      },
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "woo:product:9752",
+      "legacy_id": 9752,
+      "slug": "oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein",
+      "canonical_url": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+      "product_type": "simple",
+      "name": {
+        "value": "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "products[id=9752].name",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+            "source_url": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+            "source_location": "h1",
+            "retrieved_at": "2026-10-31T02:24:24.811Z",
+            "method": "html_dom"
+          }
+        ]
+      },
+      "short_description": {
+        "value": "ORYVIA Anti-Hairfall Shampoo is a 200 ml shampoo presented in a black bottle with a gold pump. The label highlights Onion Extract, Ceramide NP and Quinoa Protein, and describes the product for hair fall and weak hair. The packaging also states sulphate free and paraben free.",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA Anti-Hairfall Shampoo is a 200 ml shampoo presented in a black bottle with a gold pump. The label highlights Onion Extract, Ceramide NP and Quinoa Protein, and describes the product for hair fall and weak hair. The packaging also states sulphate free and paraben free.",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "short_description",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "description_sections": {
+        "value": [
+          {
+            "heading": null,
+            "paragraphs": [
+              "Care for your hair with ORYVIA Anti-Hairfall Shampoo. The 200 ml bottle features a convenient pump dispenser and a formula highlighting Onion Extract, Ceramide NP and Quinoa Protein. According to the product label, it is designed for hair fall and weak hair and aims to reduce hair breakage, nourish and strengthen hair, and support a healthy scalp. Use as directed on the product packaging.",
+              "SPECIFICATIONS Brand: ORYVIA Product name: Anti-Hairfall Shampoo Product type: Shampoo Net quantity: 200 ml Key ingredients named on label: Onion Extract, Ceramide NP, Quinoa Protein Packaging: Pump bottle Sulphate-free / paraben-free: Stated on the product label Manufacturer / marketer / MRP / batch / manufacturing date / expiry: Verify on the physical unit being sold",
+              "DIRECTIONS Follow the directions printed on the actual product label. Avoid contact with eyes and rinse thoroughly if contact occurs.",
+              "PRECAUTIONS For external use only. Stop use if irritation occurs. Keep out of reach of children. Check the full ingredient list for any known sensitivities."
+            ],
+            "items": []
+          }
+        ],
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": [
+              {
+                "heading": null,
+                "paragraphs": [
+                  "Care for your hair with ORYVIA Anti-Hairfall Shampoo. The 200 ml bottle features a convenient pump dispenser and a formula highlighting Onion Extract, Ceramide NP and Quinoa Protein. According to the product label, it is designed for hair fall and weak hair and aims to reduce hair breakage, nourish and strengthen hair, and support a healthy scalp. Use as directed on the product packaging.",
+                  "SPECIFICATIONS Brand: ORYVIA Product name: Anti-Hairfall Shampoo Product type: Shampoo Net quantity: 200 ml Key ingredients named on label: Onion Extract, Ceramide NP, Quinoa Protein Packaging: Pump bottle Sulphate-free / paraben-free: Stated on the product label Manufacturer / marketer / MRP / batch / manufacturing date / expiry: Verify on the physical unit being sold",
+                  "DIRECTIONS Follow the directions printed on the actual product label. Avoid contact with eyes and rinse thoroughly if contact occurs.",
+                  "PRECAUTIONS For external use only. Stop use if irritation occurs. Keep out of reach of children. Check the full ingredient list for any known sensitivities."
+                ],
+                "items": []
+              }
+            ],
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "description (parsed headings)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "key_features": [],
+      "directions": [],
+      "precautions": [],
+      "product_details": {},
+      "net_quantity": null,
+      "featured_ingredients": [],
+      "full_ingredient_list": null,
+      "full_ingredient_list_note": "Not published on source; product pages refer to packaging.",
+      "packaging": null,
+      "manufacturer": null,
+      "country_of_origin": null,
+      "sku": null,
+      "categories": [
+        "hair-care"
+      ],
+      "tags": [],
+      "attributes": [],
+      "variations": [],
+      "currency": "INR",
+      "selling_price_paise": {
+        "value": 49900,
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:24.811Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+            "source_location": "Product.offers[0].priceSpecification[0].price",
+            "retrieved_at": "2026-10-31T02:24:24.811Z",
+            "method": "json_ld"
+          }
+        ]
+      },
+      "reference_price_paise": {
+        "value": 99900,
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:24.811Z",
+            "method": "html_dom"
+          }
+        ],
+        "note": "Observed strike-through 'Original price'. Not verified as MRP; must be classified by merchant."
+      },
+      "tax_wording": null,
+      "availability_claim": {
+        "is_in_stock": true,
+        "is_purchasable": true,
+        "note": "Store availability flag; not a stocktake."
+      },
+      "images": [
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Black-and-Gold-Anti-Hairfall-Shampoo.png",
+          "order": 0,
+          "alt": null,
+          "legacy_media_id": 9756
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Anti-Hairfall-Shampoo-Ad.png",
+          "order": 1,
+          "alt": null,
+          "legacy_media_id": 9753
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/Oryvia-Anti-Hairfall-Shampoo-Advertisement-1.png",
+          "order": 2,
+          "alt": null,
+          "legacy_media_id": 9755
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/Luxury-Anti-Hairfall-Shampoo-Advertisement.png",
+          "order": 3,
+          "alt": null,
+          "legacy_media_id": 9754
+        }
+      ],
+      "reviews": [],
+      "seo": {
+        "title": "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein – Oryvia Care",
+        "meta_description": null,
+        "canonical": "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "robots": "max-image-preview:large"
+      },
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "woo:product:9738",
+      "legacy_id": 9738,
+      "slug": "oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum",
+      "canonical_url": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+      "product_type": "simple",
+      "name": {
+        "value": "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "products[id=9738].name",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum",
+            "source_url": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+            "source_location": "h1",
+            "retrieved_at": "2026-10-31T02:24:23.953Z",
+            "method": "html_dom"
+          }
+        ]
+      },
+      "short_description": {
+        "value": "The ORYVIA Gold 6 Step Facial Kit brings six facial-care stages together in one coordinated kit. The outer packaging lists cleanser, scrub, gel, cream, mask and face serum. Its black-and-gold presentation makes it a convenient option for a step-by-step at-home facial routine.",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "The ORYVIA Gold 6 Step Facial Kit brings six facial-care stages together in one coordinated kit. The outer packaging lists cleanser, scrub, gel, cream, mask and face serum. Its black-and-gold presentation makes it a convenient option for a step-by-step at-home facial routine.",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "short_description",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "description_sections": {
+        "value": [
+          {
+            "heading": null,
+            "paragraphs": [
+              "Make your skincare routine feel organized with the ORYVIA Gold 6 Step Facial Kit. The kit packaging lists six stages: cleanser, scrub, gel, cream, mask and face serum. The elegant black-and-gold box is designed for a coordinated facial-care experience at home. Please follow the instructions supplied with the product and check the pack for exact quantity and ingredient information.",
+              "SPECIFICATIONS Brand: ORYVIA Product name: Gold 6 Step Facial Kit Product type: Facial kit Number of steps: 6 Components listed: Cleanser, Scrub, Gel, Cream, Mask, Face Serum Net quantity: Verify from the physical label Country of origin: Verify from the physical label Manufacturer / marketer: Verify from the physical label MRP, batch, manufacturing date and expiry: Use the details printed on the unit being sold",
+              "USAGE Use the six products in the order and manner stated on the actual package. Do not rely on generated promotional graphics for application times or directions.",
+              "PRECAUTIONS For external use only. Perform a patch test before first use. Avoid contact with eyes. Stop use if irritation develops. Keep out of reach of children."
+            ],
+            "items": []
+          }
+        ],
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": [
+              {
+                "heading": null,
+                "paragraphs": [
+                  "Make your skincare routine feel organized with the ORYVIA Gold 6 Step Facial Kit. The kit packaging lists six stages: cleanser, scrub, gel, cream, mask and face serum. The elegant black-and-gold box is designed for a coordinated facial-care experience at home. Please follow the instructions supplied with the product and check the pack for exact quantity and ingredient information.",
+                  "SPECIFICATIONS Brand: ORYVIA Product name: Gold 6 Step Facial Kit Product type: Facial kit Number of steps: 6 Components listed: Cleanser, Scrub, Gel, Cream, Mask, Face Serum Net quantity: Verify from the physical label Country of origin: Verify from the physical label Manufacturer / marketer: Verify from the physical label MRP, batch, manufacturing date and expiry: Use the details printed on the unit being sold",
+                  "USAGE Use the six products in the order and manner stated on the actual package. Do not rely on generated promotional graphics for application times or directions.",
+                  "PRECAUTIONS For external use only. Perform a patch test before first use. Avoid contact with eyes. Stop use if irritation develops. Keep out of reach of children."
+                ],
+                "items": []
+              }
+            ],
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "description (parsed headings)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "key_features": [],
+      "directions": [],
+      "precautions": [],
+      "product_details": {},
+      "net_quantity": null,
+      "featured_ingredients": [],
+      "full_ingredient_list": null,
+      "full_ingredient_list_note": "Not published on source; product pages refer to packaging.",
+      "packaging": null,
+      "manufacturer": null,
+      "country_of_origin": null,
+      "sku": null,
+      "categories": [
+        "skincare"
+      ],
+      "tags": [],
+      "attributes": [],
+      "variations": [],
+      "currency": "INR",
+      "selling_price_paise": {
+        "value": 49900,
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:23.953Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+            "source_location": "Product.offers[0].priceSpecification[0].price",
+            "retrieved_at": "2026-10-31T02:24:23.953Z",
+            "method": "json_ld"
+          }
+        ]
+      },
+      "reference_price_paise": {
+        "value": 99900,
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:23.953Z",
+            "method": "html_dom"
+          }
+        ],
+        "note": "Observed strike-through 'Original price'. Not verified as MRP; must be classified by merchant."
+      },
+      "tax_wording": null,
+      "availability_claim": {
+        "is_in_stock": true,
+        "is_purchasable": true,
+        "note": "Store availability flag; not a stocktake."
+      },
+      "images": [
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/06_Square_Product_Promo.jpg",
+          "order": 0,
+          "alt": null,
+          "legacy_media_id": 9744
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/07_Original_Product_Front_Photo.jpg",
+          "order": 1,
+          "alt": null,
+          "legacy_media_id": 9745
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/02_Premium_Studio_Hero-1.jpg",
+          "order": 2,
+          "alt": null,
+          "legacy_media_id": 9748
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/03_Premium_Infographic_Set_1.jpg",
+          "order": 3,
+          "alt": null,
+          "legacy_media_id": 9749
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/09_Original_Product_Jar.jpg",
+          "order": 4,
+          "alt": null,
+          "legacy_media_id": 9747
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/08_Original_Product_Back_Packaging.jpg",
+          "order": 5,
+          "alt": null,
+          "legacy_media_id": 9746
+        }
+      ],
+      "reviews": [],
+      "seo": {
+        "title": "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum – Oryvia Care",
+        "meta_description": null,
+        "canonical": "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "robots": "max-image-preview:large"
+      },
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "woo:product:9726",
+      "legacy_id": 9726,
+      "slug": "oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay",
+      "canonical_url": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+      "product_type": "simple",
+      "name": {
+        "value": "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "products[id=9726].name",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+            "source_url": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+            "source_location": "h1",
+            "retrieved_at": "2026-10-31T02:24:23.064Z",
+            "method": "html_dom"
+          }
+        ]
+      },
+      "short_description": {
+        "value": "ORYVIA D-TAN comes in a 200 g white jar with a gold lid and coordinating black-and-gold carton. The front label describes the product as being for smooth, radiant and even-toned skin, and lists peppermint, alpha-arbutin and kaolin clay as key ingredient callouts.",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA D-TAN comes in a 200 g white jar with a gold lid and coordinating black-and-gold carton. The front label describes the product as being for smooth, radiant and even-toned skin, and lists peppermint, alpha-arbutin and kaolin clay as key ingredient callouts.",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "short_description",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "description_sections": {
+        "value": [
+          {
+            "heading": null,
+            "paragraphs": [
+              "Add ORYVIA D-TAN to your personal skincare routine. The product is presented in premium black-and-gold packaging and comes in a 200 g jar. According to the front label, its featured ingredient callouts are peppermint, alpha-arbutin and kaolin clay. The package describes the intended skin appearance as smooth, radiant and even-toned. Read the directions, ingredients and cautions on the physical pack before use.",
+              "KEY FEATURES – Brand: ORYVIA – Product name: D-TAN – Net content: 200 g (7.05 oz as printed on pack) – Packaging: White jar with gold-coloured lid and black-and-gold carton – Label callouts: Peppermint, Alpha-Arbutin, Kaolin Clay – Front-label positioning: Smooth, radiant and even-toned skin – Country of origin: Made in India"
+            ],
+            "items": []
+          }
+        ],
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": [
+              {
+                "heading": null,
+                "paragraphs": [
+                  "Add ORYVIA D-TAN to your personal skincare routine. The product is presented in premium black-and-gold packaging and comes in a 200 g jar. According to the front label, its featured ingredient callouts are peppermint, alpha-arbutin and kaolin clay. The package describes the intended skin appearance as smooth, radiant and even-toned. Read the directions, ingredients and cautions on the physical pack before use.",
+                  "KEY FEATURES – Brand: ORYVIA – Product name: D-TAN – Net content: 200 g (7.05 oz as printed on pack) – Packaging: White jar with gold-coloured lid and black-and-gold carton – Label callouts: Peppermint, Alpha-Arbutin, Kaolin Clay – Front-label positioning: Smooth, radiant and even-toned skin – Country of origin: Made in India"
+                ],
+                "items": []
+              }
+            ],
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "description (parsed headings)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "key_features": [],
+      "directions": [],
+      "precautions": [],
+      "product_details": {},
+      "net_quantity": null,
+      "featured_ingredients": [],
+      "full_ingredient_list": null,
+      "full_ingredient_list_note": "Not published on source; product pages refer to packaging.",
+      "packaging": null,
+      "manufacturer": null,
+      "country_of_origin": null,
+      "sku": null,
+      "categories": [
+        "skincare"
+      ],
+      "tags": [],
+      "attributes": [],
+      "variations": [],
+      "currency": "INR",
+      "selling_price_paise": {
+        "value": 99900,
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:23.064Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 99900,
+            "source_url": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+            "source_location": "Product.offers[0].priceSpecification[0].price",
+            "retrieved_at": "2026-10-31T02:24:23.064Z",
+            "method": "json_ld"
+          }
+        ]
+      },
+      "reference_price_paise": {
+        "value": 199900,
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": 199900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 199900,
+            "source_url": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:23.064Z",
+            "method": "html_dom"
+          }
+        ],
+        "note": "Observed strike-through 'Original price'. Not verified as MRP; must be classified by merchant."
+      },
+      "tax_wording": null,
+      "availability_claim": {
+        "is_in_stock": true,
+        "is_purchasable": true,
+        "note": "Store availability flag; not a stocktake."
+      },
+      "images": [
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/02_Model_Lifestyle.jpg",
+          "order": 0,
+          "alt": null,
+          "legacy_media_id": 9735
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/11_Product_Benefits.jpg",
+          "order": 1,
+          "alt": null,
+          "legacy_media_id": 9733
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/09_Back_Label_Details.jpg",
+          "order": 2,
+          "alt": null,
+          "legacy_media_id": 9737
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/12_Skincare_Routine.jpg",
+          "order": 3,
+          "alt": null,
+          "legacy_media_id": 9734
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/10/06_Ingredient_Highlights.jpg",
+          "order": 4,
+          "alt": null,
+          "legacy_media_id": 9736
+        }
+      ],
+      "reviews": [],
+      "seo": {
+        "title": "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay – Oryvia Care",
+        "meta_description": null,
+        "canonical": "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "robots": "max-image-preview:large"
+      },
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "woo:product:171",
+      "legacy_id": 171,
+      "slug": "haldi-chandan-6-step-facial-kit",
+      "canonical_url": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+      "product_type": "simple",
+      "name": {
+        "value": "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "products[id=171].name",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care",
+            "source_url": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+            "source_location": "h1",
+            "retrieved_at": "2026-10-31T02:24:22.315Z",
+            "method": "html_dom"
+          }
+        ]
+      },
+      "short_description": {
+        "value": "Six-step facial-care routine.Includes cleanser, scrub, gel, cream, mask, and face serum, as listed on the package.Haldi Chandan-inspired skincare theme.Intended for a step-by-step at-home facial routine.Net quantity: 80 g.Patch test recommended; external use only.",
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": "Six-step facial-care routine.Includes cleanser, scrub, gel, cream, mask, and face serum, as listed on the package.Haldi Chandan-inspired skincare theme.Intended for a step-by-step at-home facial routine.Net quantity: 80 g.Patch test recommended; external use only.",
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "short_description",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "description_sections": {
+        "value": [
+          {
+            "heading": null,
+            "paragraphs": [
+              "The ORYVIA Haldi Chandan 6 Step Facial Kit offers a step-by-step facial-care routine in one convenient pack. The outer packaging lists six stages: cleanser, scrub, gel, cream, mask, and face serum. With its Haldi Chandan-inspired theme and stated net weight of 80 g, the kit is designed for an at-home facial routine. Follow the directions on the packaging and perform a patch test before use. For external use only."
+            ],
+            "items": []
+          }
+        ],
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": [
+              {
+                "heading": null,
+                "paragraphs": [
+                  "The ORYVIA Haldi Chandan 6 Step Facial Kit offers a step-by-step facial-care routine in one convenient pack. The outer packaging lists six stages: cleanser, scrub, gel, cream, mask, and face serum. With its Haldi Chandan-inspired theme and stated net weight of 80 g, the kit is designed for an at-home facial routine. Follow the directions on the packaging and perform a patch test before use. For external use only."
+                ],
+                "items": []
+              }
+            ],
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "description (parsed headings)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          }
+        ]
+      },
+      "key_features": [],
+      "directions": [],
+      "precautions": [],
+      "product_details": {},
+      "net_quantity": null,
+      "featured_ingredients": [],
+      "full_ingredient_list": null,
+      "full_ingredient_list_note": "Not published on source; product pages refer to packaging.",
+      "packaging": null,
+      "manufacturer": null,
+      "country_of_origin": null,
+      "sku": null,
+      "categories": [
+        "skincare"
+      ],
+      "tags": [],
+      "attributes": [],
+      "variations": [],
+      "currency": "INR",
+      "selling_price_paise": {
+        "value": 49900,
+        "review_state": "observed",
+        "observations": [
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:22.315Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 49900,
+            "source_url": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+            "source_location": "Product.offers[0].priceSpecification[0].price",
+            "retrieved_at": "2026-10-31T02:24:22.315Z",
+            "method": "json_ld"
+          }
+        ]
+      },
+      "reference_price_paise": {
+        "value": 89900,
+        "review_state": "needs_review",
+        "observations": [
+          {
+            "value": 89900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price (minor units)",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 89900,
+            "source_url": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:22.315Z",
+            "method": "html_dom"
+          }
+        ],
+        "note": "Observed strike-through 'Original price'. Not verified as MRP; must be classified by merchant."
+      },
+      "tax_wording": null,
+      "availability_claim": {
+        "is_in_stock": true,
+        "is_purchasable": true,
+        "note": "Store availability flag; not a stocktake."
+      },
+      "images": [
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/08/02_Product_Studio_Hero.jpg",
+          "order": 0,
+          "alt": null,
+          "legacy_media_id": 9721
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/08/03_Model_Lifestyle.jpg",
+          "order": 1,
+          "alt": null,
+          "legacy_media_id": 9722
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/08/06_Six_Step_Facial_Overview.jpg",
+          "order": 2,
+          "alt": null,
+          "legacy_media_id": 9725
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/08/05_Haldi_Chandan_Product_Story.jpg",
+          "order": 3,
+          "alt": null,
+          "legacy_media_id": 9724
+        },
+        {
+          "src": "https://oryviacare.in/wp-content/uploads/2026/08/04_Packaging_Front_And_Back.jpg",
+          "order": 4,
+          "alt": null,
+          "legacy_media_id": 9723
+        }
+      ],
+      "reviews": [],
+      "seo": {
+        "title": "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care – Oryvia Care",
+        "meta_description": null,
+        "canonical": "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "robots": "max-image-preview:large"
+      },
+      "review_state": "needs_review"
+    }
+  ]
+}

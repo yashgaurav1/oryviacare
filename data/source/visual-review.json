@@ -1,0 +1,36 @@
+{
+  "reviewed_at": "2026-10-31",
+  "method": "Visual inspection of downloaded source media. Text readings are OCR candidates and MUST be confirmed by the merchant against physical packaging before use.",
+  "findings": [
+    {
+      "entity": "product:oryvia-face-scrub-for-exfoliation-blackhead-tan-care",
+      "asset": "https://oryviacare.in/wp-content/uploads/2026/10/07_Original_Product_Front_Photo.jpg",
+      "classification": "photograph (back label)",
+      "ocr_candidates": { "mrp_inr_incl_taxes": "399.00", "mfd": "09/2026", "batch": "B2605059", "shelf_life": "Use before 24 months from MFD", "manufacturer": "Sage Apothecary Pvt. Ltd., Gurugram (Mfg. Lic. 372-Cos(H))", "marketer": "ORYVIA, Chak Swar, District Rampur UP-244924" },
+      "issue": "Website strike-through 'original price' ₹999 exceeds printed MRP candidate ₹399. Strike-through must not be displayed until the merchant classifies it.",
+      "severity": "blocker"
+    },
+    {
+      "entity": "product:oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum",
+      "asset": "https://oryviacare.in/wp-content/uploads/2026/10/08_Original_Product_Back_Packaging.jpg",
+      "classification": "photograph (box front and back)",
+      "ocr_candidates": { "mrp_inr_incl_taxes": "499", "net_weight": "80 g", "mfg": "08/2026", "exp": "07/2028", "batch_codes": "SOGK-01 … SOGK-07", "manufacturer": "Shukti Food & Pharma Co., Karnal (Mfg. Lic. 822-ISM (HR))" },
+      "issue": "Website strike-through 'original price' ₹999 exceeds printed MRP candidate ₹499. Strike-through must not be displayed until the merchant classifies it.",
+      "severity": "blocker"
+    },
+    {
+      "entity": "media:marketing-composites",
+      "asset": "https://oryviacare.in/wp-content/uploads/2026/10/oryvia_hero_1905x826.png; https://oryviacare.in/wp-content/uploads/2026/10/ORYVIA-Herbal-Beauty-Collection.png",
+      "classification": "marketing composite (rendered), not a product photograph",
+      "issue": "Composite label text contradicts itself and product pages (Face Wash 'Vitamin C' vs 'Vitamin E'; Anti-Hairfall 'Onion Extract, Ceramide NP' vs 'Bhringraj, Caffeine, Biotin, Keratin'; Scrub 200g vs 100g). Never use composites as evidence for ingredients or pack size.",
+      "severity": "high"
+    },
+    {
+      "entity": "media:category-images",
+      "asset": "Skin_care-04.webp, Hair_Care-05.webp, Personal_Care-04-1.webp",
+      "classification": "generic icon illustration",
+      "issue": "Category 'images' are generic line icons, not product/category imagery.",
+      "severity": "low"
+    }
+  ]
+}

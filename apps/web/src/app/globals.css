@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+/* Oryvia design tokens — see docs/DESIGN_SYSTEM.md. Contrast pairs verified there. */
+:root {
+  --canvas: #f7f4ec;
+  --surface: #ffffff;
+  --surface-sunk: #f1ece0;
+  --ink: #14201a;
+  --ink-muted: #5d6660;
+  --primary: #173f35;
+  --primary-hover: #0f2e26;
+  --on-primary: #ffffff;
+  --teal: #274c4f;
+  --gold: #c9a24b;
+  --gold-soft: #ecdcab;
+  --cream: #f3ecd8;
+  --divider: #e6e0d2;
+  --border-control: #b9b3a5;
+  --success: #1f6b45;
+  --success-bg: #e6f2ea;
+  --warning: #7a5410;
+  --warning-bg: #fbf1dc;
+  --error: #a3261b;
+  --error-bg: #fbe9e6;
+  --info: #1f4f73;
+  --info-bg: #e6eef5;
+  --focus: #1f6fb2;
+  --glass: rgb(255 255 255 / 0.8);
+  --glass-border: rgb(255 255 255 / 0.6);
+  --shadow-ambient: 0 1px 2px rgb(20 32 26 / 0.04), 0 8px 24px rgb(20 32 26 / 0.06);
+  --shadow-overlay: 0 24px 64px rgb(20 32 26 / 0.18);
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-sunk: var(--surface-sunk);
+  --color-ink: var(--ink);
+  --color-muted: var(--ink-muted);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-teal: var(--teal);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-cream: var(--cream);
+  --color-divider: var(--divider);
+  --color-control: var(--border-control);
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --color-warning: var(--warning);
+  --color-warning-bg: var(--warning-bg);
+  --color-error: var(--error);
+  --color-error-bg: var(--error-bg);
+  --color-info: var(--info);
+  --color-info-bg: var(--info-bg);
+  --font-display: var(--font-playfair), "Georgia", serif;
+  --font-sans: var(--font-jost), system-ui, sans-serif;
+  --radius-card: 18px;
+  --radius-control: 11px;
+}
+
+html {
+  background: var(--canvas);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-sans);
+  background: var(--canvas);
+  min-height: 100dvh;
+}
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Glass material: navigation, workspace framing, summary cards. Never under long text or dense tables. */
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-ambient);
+}
+@supports (backdrop-filter: blur(1px)) {
+  .glass {
+    backdrop-filter: blur(16px) saturate(1.2);
+    -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  }
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-ambient);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0 1.25rem;
+  border-radius: var(--radius-control);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: background-color 150ms, box-shadow 150ms, transform 150ms;
+}
+.btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.btn-primary {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--primary-hover);
+}
+.btn-secondary {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--border-control);
+}
+.btn-secondary:hover:not(:disabled) {
+  box-shadow: inset 0 0 0 1px var(--ink);
+}
+.btn-ghost {
+  color: var(--teal);
+  padding: 0 0.75rem;
+}
+.btn-ghost:hover {
+  background: var(--surface-sunk);
+}
+.btn-danger {
+  background: var(--error);
+  color: #fff;
+}
+
+.input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.5rem 0.875rem;
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  border: 1px solid var(--border-control);
+  color: var(--ink);
+}
+.input:focus-visible {
+  outline-offset: 0;
+}
+.input[aria-invalid="true"] {
+  border-color: var(--error);
+}
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.375rem;
+}
+.field-error {
+  color: var(--error);
+  font-size: 0.8125rem;
+  margin-top: 0.25rem;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--teal);
+  font-weight: 500;
+}
+
+.prose-oryvia p {
+  margin: 0 0 1rem;
+  line-height: 1.75;
+}
+.prose-oryvia h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin: 2rem 0 0.75rem;
+}
+.prose-oryvia ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+.prose-oryvia li {
+  margin-bottom: 0.375rem;
+  line-height: 1.65;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.rise {
+  animation: rise 600ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.float-slow {
+  animation: float 7s ease-in-out infinite;
+}
+@media (hover: hover) and (pointer: fine) {
+  .lift {
+    transition: transform 220ms ease, box-shadow 220ms ease;
+  }
+  .lift:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 4px rgb(20 32 26 / 0.05), 0 16px 36px rgb(20 32 26 / 0.1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}

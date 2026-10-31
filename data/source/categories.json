@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-31T04:05:51.748Z",
+  "categories": [
+    {
+      "source_identity": "woo:product_cat:72",
+      "legacy_id": 72,
+      "slug": "hair-care",
+      "name": "Hair Care",
+      "parent_legacy_id": null,
+      "description": null,
+      "image": "https://oryviacare.in/wp-content/uploads/2026/10/Hair_Care-05.webp",
+      "product_count_observed": 2,
+      "source_url": "https://oryviacare.in/product-category/hair-care/"
+    },
+    {
+      "source_identity": "woo:product_cat:281",
+      "legacy_id": 281,
+      "slug": "packages",
+      "name": "Packages",
+      "parent_legacy_id": null,
+      "description": null,
+      "image": "https://oryviacare.in/wp-content/uploads/2026/10/Personal_Care-04-1.webp",
+      "product_count_observed": 4,
+      "source_url": "https://oryviacare.in/product-category/packages/"
+    },
+    {
+      "source_identity": "woo:product_cat:255",
+      "legacy_id": 255,
+      "slug": "skincare",
+      "name": "Skin Care",
+      "parent_legacy_id": null,
+      "description": null,
+      "image": "https://oryviacare.in/wp-content/uploads/2026/10/Skin_care-04.webp",
+      "product_count_observed": 5,
+      "source_url": "https://oryviacare.in/product-category/skincare/"
+    }
+  ]
+}

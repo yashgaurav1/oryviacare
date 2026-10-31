@@ -1,0 +1,40 @@
+{
+  "name": "oryvia-pro",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Oryvia Care storefront and Oryvia Pro operations platform",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "scripts/migration"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "db:start": "npm run start -w @oryvia/db",
+    "db:migrate": "npm run migrate -w @oryvia/db",
+    "db:generate": "npm run generate -w @oryvia/db",
+    "source:crawl": "npm run crawl -w @oryvia/migration",
+    "source:assets": "npm run assets -w @oryvia/migration",
+    "import:dry-run": "npm run import -w @oryvia/migration -- --dry-run",
+    "import:apply": "npm run import -w @oryvia/migration",
+    "dev:api": "npm run dev -w @oryvia/api",
+    "dev:web": "npm run dev -w @oryvia/web",
+    "dev:worker": "npm run worker -w @oryvia/api",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "seed:reference": "npm run seed:reference -w @oryvia/api",
+    "seed:dev": "npm run seed:dev -w @oryvia/api",
+    "bootstrap:owner": "npm run bootstrap:owner -w @oryvia/api --",
+    "source:normalize": "npm run normalize -w @oryvia/migration",
+    "test:api": "npm run test -w @oryvia/api"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "prisma@7.10.1": true,
+    "@prisma/engines@7.10.1": true,
+    "@embedded-postgres/windows-x64@18.6.0-beta.19": true
+  }
+}

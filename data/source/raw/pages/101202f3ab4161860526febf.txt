@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /wp-content/uploads/wc-logs/
+Disallow: /wp-content/uploads/woocommerce_transient_files/
+Disallow: /wp-content/uploads/woocommerce_uploads/
+Disallow: /*?add-to-cart=
+Disallow: /*?*add-to-cart=
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://oryviacare.in/wp-sitemap.xml
+
+# Blocksy - prevent crawling of URLs from Shop Filters extension
+User-agent: *
+Disallow: /*?filter_
+Disallow: /*?*&filter_
+Disallow: /*?min_price=
+Disallow: /*?*&min_price=
+Disallow: /*?max_price=
+Disallow: /*?*&max_price=

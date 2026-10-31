@@ -1,0 +1,27 @@
+{
+  "scope": "Public, unauthenticated pages of https://oryviacare.in reachable from robots.txt sitemaps and internal links, plus public WooCommerce Store API and WP REST endpoints. Excludes account/cart/checkout/auth routes, mutation URLs, faceted duplicates and author archives.",
+  "started_at": "2026-10-31T02:23:59.042Z",
+  "finished_at": "2026-10-31T02:24:42.216Z",
+  "page_budget": 400,
+  "discovered": 111,
+  "fetched": 46,
+  "parsed": 43,
+  "excluded": 65,
+  "failed": 3,
+  "duplicate": 0,
+  "unresolved": 0,
+  "by_type": {
+    "robots": 1,
+    "sitemap": 7,
+    "page": 15,
+    "excluded": 65,
+    "home": 1,
+    "news_index": 1,
+    "shop": 1,
+    "product": 11,
+    "post_category": 1,
+    "product_category": 3,
+    "api": 5
+  },
+  "api_products": 11
+}

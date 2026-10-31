@@ -1,0 +1,8 @@
+{
+  "url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+  "finalUrl": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+  "status": 200,
+  "contentType": "application/json; charset=UTF-8",
+  "retries": 0,
+  "fetchedAt": "2026-10-31T02:24:38.465Z"
+}

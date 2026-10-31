@@ -1,0 +1,764 @@
+{
+  "generated_at": "2026-10-31T04:05:51.747Z",
+  "packages": [
+    {
+      "source_identity": "woo:product:10257",
+      "legacy_id": 10257,
+      "slug": "saver-salon-pack",
+      "canonical_url": "https://oryviacare.in/product/saver-salon-pack/",
+      "name": "ORYVIA Ultimate Salon Stock Combo Pack",
+      "components_observed": [
+        {
+          "legacy_product_id": 10146,
+          "product_slug": "oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c",
+          "name": "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+          "qty": 30,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "399",
+          "order": 1,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9765,
+          "product_slug": "oryvia-face-scrub-for-exfoliation-blackhead-tan-care",
+          "name": "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care",
+          "qty": 30,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "399",
+          "order": 2,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9757,
+          "product_slug": "oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair",
+          "name": "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair",
+          "qty": 25,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 3,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9752,
+          "product_slug": "oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein",
+          "name": "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+          "qty": 25,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 4,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9738,
+          "product_slug": "oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum",
+          "name": "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum",
+          "qty": 8,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 5,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9726,
+          "product_slug": "oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay",
+          "name": "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+          "qty": 25,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "999",
+          "order": 6,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 171,
+          "product_slug": "haldi-chandan-6-step-facial-kit",
+          "name": "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care",
+          "qty": 25,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 7,
+          "source_location": ".woosb-product[data-qty]"
+        }
+      ],
+      "observations": {
+        "selling_price_paise": [
+          {
+            "value": 5999900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 5999900,
+            "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:31.325Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 5999900,
+            "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+            "source_location": ".woosb-products[data-price]",
+            "retrieved_at": "2026-10-31T02:24:31.325Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 5000000,
+            "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+            "source_location": "narrative li[18] 'Package Price'",
+            "retrieved_at": "2026-10-31T02:24:31.325Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 5000000,
+            "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+            "source_location": "narrative p[4] 'Product Name' suffix",
+            "retrieved_at": "2026-10-31T02:24:31.325Z",
+            "method": "html_dom"
+          }
+        ],
+        "reference_value_paise": [
+          {
+            "value": 19033200,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 19033200,
+            "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:31.325Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 7931000,
+            "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+            "source_location": "narrative li[19] 'Original package value shown'",
+            "retrieved_at": "2026-10-31T02:24:31.325Z",
+            "method": "html_dom"
+          }
+        ],
+        "widget_discount_amount_rupees": "30333",
+        "total_units": [
+          {
+            "value": {
+              "paid": null,
+              "free": null,
+              "total": 168
+            },
+            "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+            "source_location": ".woosb-product[data-qty] sum (no paid/free split)",
+            "retrieved_at": "2026-10-31T02:24:31.325Z",
+            "method": "html_dom"
+          },
+          {
+            "value": {
+              "paid": 145,
+              "free": 23,
+              "total": 168
+            },
+            "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+            "source_location": "narrative li[17] 'Total'",
+            "retrieved_at": "2026-10-31T02:24:31.325Z",
+            "method": "html_dom"
+          }
+        ],
+        "free_products_text": {
+          "value": "Free products: 5 D-Tan packs, 8 Herbal Facial Kits, 5 Scrubs, and 5 Face Washes",
+          "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+          "source_location": "narrative li[16]",
+          "retrieved_at": "2026-10-31T02:24:31.325Z",
+          "method": "html_dom"
+        },
+        "narrative_name": {
+          "value": "Product Name: ORYVIA Ultimate Salon Stock Combo Pack | ₹50,000 Bulk Beauty Package",
+          "source_url": "https://oryviacare.in/product/saver-salon-pack/",
+          "source_location": "narrative p[4]",
+          "retrieved_at": "2026-10-31T02:24:31.325Z",
+          "method": "html_dom"
+        }
+      },
+      "conflicts": [
+        "selling price observations disagree: ₹59999 vs ₹50000",
+        "reference value observations disagree: ₹190332 vs ₹79310",
+        "narrative 'Herbal Facial Kit' does not identify Gold vs Haldi Chandan kit SKU",
+        "widget does not classify components as paid or complimentary"
+      ],
+      "review_state": "needs_review",
+      "purchasable": false,
+      "purchase_blocked_reason": "Package requires an approved version before purchase (quote request available)."
+    },
+    {
+      "source_identity": "woo:product:10256",
+      "legacy_id": 10256,
+      "slug": "wholsale-salon-pack",
+      "canonical_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+      "name": "ORYVIA Premium Beauty Business Combo Pack",
+      "components_observed": [
+        {
+          "legacy_product_id": 10146,
+          "product_slug": "oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c",
+          "name": "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+          "qty": 16,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "399",
+          "order": 1,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9765,
+          "product_slug": "oryvia-face-scrub-for-exfoliation-blackhead-tan-care",
+          "name": "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care",
+          "qty": 19,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "399",
+          "order": 2,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9757,
+          "product_slug": "oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair",
+          "name": "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair",
+          "qty": 16,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 3,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9752,
+          "product_slug": "oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein",
+          "name": "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+          "qty": 16,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 4,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9738,
+          "product_slug": "oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum",
+          "name": "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum",
+          "qty": 5,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 5,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9726,
+          "product_slug": "oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay",
+          "name": "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+          "qty": 18,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "999",
+          "order": 6,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 171,
+          "product_slug": "haldi-chandan-6-step-facial-kit",
+          "name": "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care",
+          "qty": 16,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 7,
+          "source_location": ".woosb-product[data-qty]"
+        }
+      ],
+      "observations": {
+        "selling_price_paise": [
+          {
+            "value": 3719900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 3719900,
+            "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:30.355Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 3719900,
+            "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+            "source_location": ".woosb-products[data-price]",
+            "retrieved_at": "2026-10-31T02:24:30.355Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 3000000,
+            "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+            "source_location": "narrative li[18] 'Package Price'",
+            "retrieved_at": "2026-10-31T02:24:30.355Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 3000000,
+            "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+            "source_location": "narrative p[4] 'Product Name' suffix",
+            "retrieved_at": "2026-10-31T02:24:30.355Z",
+            "method": "html_dom"
+          }
+        ],
+        "reference_value_paise": [
+          {
+            "value": 12229400,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 12229400,
+            "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:30.355Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 4758600,
+            "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+            "source_location": "narrative li[19] 'Original package value shown'",
+            "retrieved_at": "2026-10-31T02:24:30.355Z",
+            "method": "html_dom"
+          }
+        ],
+        "widget_discount_amount_rupees": "21195",
+        "total_units": [
+          {
+            "value": {
+              "paid": null,
+              "free": null,
+              "total": 106
+            },
+            "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+            "source_location": ".woosb-product[data-qty] sum (no paid/free split)",
+            "retrieved_at": "2026-10-31T02:24:30.355Z",
+            "method": "html_dom"
+          },
+          {
+            "value": {
+              "paid": 92,
+              "free": 11,
+              "total": 103
+            },
+            "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+            "source_location": "narrative li[17] 'Total'",
+            "retrieved_at": "2026-10-31T02:24:30.355Z",
+            "method": "html_dom"
+          }
+        ],
+        "free_products_text": {
+          "value": "Free products: 3 D-Tan packs, 5 Herbal Facial Kits, and 3 Scrubs",
+          "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "source_location": "narrative li[16]",
+          "retrieved_at": "2026-10-31T02:24:30.355Z",
+          "method": "html_dom"
+        },
+        "narrative_name": {
+          "value": "Product Name: ORYVIA Premium Beauty Business Combo Pack | ₹30,000 Wholesale Package",
+          "source_url": "https://oryviacare.in/product/wholsale-salon-pack/",
+          "source_location": "narrative p[4]",
+          "retrieved_at": "2026-10-31T02:24:30.355Z",
+          "method": "html_dom"
+        }
+      },
+      "conflicts": [
+        "selling price observations disagree: ₹37199 vs ₹30000",
+        "reference value observations disagree: ₹122294 vs ₹47586",
+        "unit count: widget lists 106 units; narrative states 92 paid + 11 free = 103",
+        "narrative 'Herbal Facial Kit' does not identify Gold vs Haldi Chandan kit SKU",
+        "widget does not classify components as paid or complimentary"
+      ],
+      "review_state": "needs_review",
+      "purchasable": false,
+      "purchase_blocked_reason": "Package requires an approved version before purchase (quote request available)."
+    },
+    {
+      "source_identity": "woo:product:10255",
+      "legacy_id": 10255,
+      "slug": "best-seller-salon-pack",
+      "canonical_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+      "name": "ORYVIA Professional Salon Combo Pack",
+      "components_observed": [
+        {
+          "legacy_product_id": 10146,
+          "product_slug": "oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c",
+          "name": "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+          "qty": 12,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "399",
+          "order": 1,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9765,
+          "product_slug": "oryvia-face-scrub-for-exfoliation-blackhead-tan-care",
+          "name": "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care",
+          "qty": 12,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "399",
+          "order": 2,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9757,
+          "product_slug": "oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair",
+          "name": "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair",
+          "qty": 12,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 3,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9752,
+          "product_slug": "oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein",
+          "name": "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+          "qty": 12,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 4,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9738,
+          "product_slug": "oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum",
+          "name": "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum",
+          "qty": 4,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 5,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9726,
+          "product_slug": "oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay",
+          "name": "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+          "qty": 10,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "999",
+          "order": 6,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 171,
+          "product_slug": "haldi-chandan-6-step-facial-kit",
+          "name": "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care",
+          "qty": 12,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 7,
+          "source_location": ".woosb-product[data-qty]"
+        }
+      ],
+      "observations": {
+        "selling_price_paise": [
+          {
+            "value": 2399900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 2399900,
+            "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:29.484Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 2399900,
+            "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+            "source_location": ".woosb-products[data-price]",
+            "retrieved_at": "2026-10-31T02:24:29.484Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 2000000,
+            "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+            "source_location": "narrative li[18] 'Package Price'",
+            "retrieved_at": "2026-10-31T02:24:29.484Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 2000000,
+            "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+            "source_location": "narrative p[4] 'Product Name' suffix",
+            "retrieved_at": "2026-10-31T02:24:29.484Z",
+            "method": "html_dom"
+          }
+        ],
+        "reference_value_paise": [
+          {
+            "value": 8272600,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 8272600,
+            "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:29.484Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 3172400,
+            "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+            "source_location": "narrative li[19] 'Original package value shown'",
+            "retrieved_at": "2026-10-31T02:24:29.484Z",
+            "method": "html_dom"
+          }
+        ],
+        "widget_discount_amount_rupees": "15527",
+        "total_units": [
+          {
+            "value": {
+              "paid": null,
+              "free": null,
+              "total": 74
+            },
+            "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+            "source_location": ".woosb-product[data-qty] sum (no paid/free split)",
+            "retrieved_at": "2026-10-31T02:24:29.484Z",
+            "method": "html_dom"
+          },
+          {
+            "value": {
+              "paid": 72,
+              "free": 6,
+              "total": 78
+            },
+            "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+            "source_location": "narrative li[17] 'Total'",
+            "retrieved_at": "2026-10-31T02:24:29.484Z",
+            "method": "html_dom"
+          }
+        ],
+        "free_products_text": {
+          "value": "Free products: 2 D-Tan packs and 4 Herbal Facial Kits",
+          "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "source_location": "narrative li[16]",
+          "retrieved_at": "2026-10-31T02:24:29.484Z",
+          "method": "html_dom"
+        },
+        "narrative_name": {
+          "value": "Product Name: ORYVIA Professional Salon Combo Pack | ₹20,000 Business Package",
+          "source_url": "https://oryviacare.in/product/best-seller-salon-pack/",
+          "source_location": "narrative p[4]",
+          "retrieved_at": "2026-10-31T02:24:29.484Z",
+          "method": "html_dom"
+        }
+      },
+      "conflicts": [
+        "selling price observations disagree: ₹23999 vs ₹20000",
+        "reference value observations disagree: ₹82726 vs ₹31724",
+        "unit count: widget lists 74 units; narrative states 72 paid + 6 free = 78",
+        "narrative 'Herbal Facial Kit' does not identify Gold vs Haldi Chandan kit SKU",
+        "widget does not classify components as paid or complimentary"
+      ],
+      "review_state": "needs_review",
+      "purchasable": false,
+      "purchase_blocked_reason": "Package requires an approved version before purchase (quote request available)."
+    },
+    {
+      "source_identity": "woo:product:10254",
+      "legacy_id": 10254,
+      "slug": "starter-salon-pack",
+      "canonical_url": "https://oryviacare.in/product/starter-salon-pack/",
+      "name": "ORYVIA Starter Beauty Combo Pack",
+      "components_observed": [
+        {
+          "legacy_product_id": 10146,
+          "product_slug": "oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c",
+          "name": "ORYVIA Face Wash with Aloe Vera, Niacinamide & Vitamin C",
+          "qty": 8,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "399",
+          "order": 1,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9765,
+          "product_slug": "oryvia-face-scrub-for-exfoliation-blackhead-tan-care",
+          "name": "ORYVIA Face Scrub for Exfoliation, Blackhead & Tan Care",
+          "qty": 6,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "399",
+          "order": 2,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9757,
+          "product_slug": "oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair",
+          "name": "ORYVIA Anti-Dandruff Shampoo for Healthy Scalp & Strong Hair",
+          "qty": 6,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 3,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9752,
+          "product_slug": "oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein",
+          "name": "ORYVIA Anti-Hairfall Shampoo with Onion Extract, Ceramide NP & Quinoa Protein",
+          "qty": 6,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 4,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9738,
+          "product_slug": "oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum",
+          "name": "ORYVIA Gold 6 Step Facial Kit with Cleanser, Scrub, Gel, Cream, Mask & Face Serum",
+          "qty": 3,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 5,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 9726,
+          "product_slug": "oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay",
+          "name": "ORYVIA D-TAN Face Pack with Peppermint, Alpha-Arbutin & Kaolin Clay",
+          "qty": 4,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "999",
+          "order": 6,
+          "source_location": ".woosb-product[data-qty]"
+        },
+        {
+          "legacy_product_id": 171,
+          "product_slug": "haldi-chandan-6-step-facial-kit",
+          "name": "ORYVIA Haldi Chandan 6 Step Facial Kit for At-Home Facial Care",
+          "qty": 6,
+          "paid_or_free": null,
+          "listed_unit_price_rupees": "499",
+          "order": 7,
+          "source_location": ".woosb-product[data-qty]"
+        }
+      ],
+      "observations": {
+        "selling_price_paise": [
+          {
+            "value": 1159900,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.price",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 1159900,
+            "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+            "source_location": "purchase area ins .amount",
+            "retrieved_at": "2026-10-31T02:24:28.560Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 1159900,
+            "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+            "source_location": ".woosb-products[data-price]",
+            "retrieved_at": "2026-10-31T02:24:28.560Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 1000000,
+            "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+            "source_location": "narrative li[23] 'Package Price'",
+            "retrieved_at": "2026-10-31T02:24:28.560Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 1000000,
+            "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+            "source_location": "narrative p[9] 'Product Name' suffix",
+            "retrieved_at": "2026-10-31T02:24:28.560Z",
+            "method": "html_dom"
+          }
+        ],
+        "reference_value_paise": [
+          {
+            "value": 4236100,
+            "source_url": "https://oryviacare.in/wp-json/wc/store/v1/products?per_page=100&page=1",
+            "source_location": "prices.regular_price",
+            "retrieved_at": "2026-10-31T02:24:38.465Z",
+            "method": "store_api"
+          },
+          {
+            "value": 4236100,
+            "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+            "source_location": "purchase area del .amount",
+            "retrieved_at": "2026-10-31T02:24:28.560Z",
+            "method": "html_dom"
+          },
+          {
+            "value": 1586200,
+            "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+            "source_location": "narrative li[24] 'Original package value shown'",
+            "retrieved_at": "2026-10-31T02:24:28.560Z",
+            "method": "html_dom"
+          }
+        ],
+        "widget_discount_amount_rupees": "8462",
+        "total_units": [
+          {
+            "value": {
+              "paid": null,
+              "free": null,
+              "total": 39
+            },
+            "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+            "source_location": ".woosb-product[data-qty] sum (no paid/free split)",
+            "retrieved_at": "2026-10-31T02:24:28.560Z",
+            "method": "html_dom"
+          },
+          {
+            "value": {
+              "paid": 36,
+              "free": 4,
+              "total": 40
+            },
+            "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+            "source_location": "narrative li[22] 'Total'",
+            "retrieved_at": "2026-10-31T02:24:28.560Z",
+            "method": "html_dom"
+          }
+        ],
+        "free_products_text": {
+          "value": "Free products: 2 Herbal Facial Kits and 2 Face Washes",
+          "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+          "source_location": "narrative li[21]",
+          "retrieved_at": "2026-10-31T02:24:28.560Z",
+          "method": "html_dom"
+        },
+        "narrative_name": {
+          "value": "Product Name: ORYVIA Starter Beauty Combo Pack | ₹10,000 Professional Salon Package",
+          "source_url": "https://oryviacare.in/product/starter-salon-pack/",
+          "source_location": "narrative p[9]",
+          "retrieved_at": "2026-10-31T02:24:28.560Z",
+          "method": "html_dom"
+        }
+      },
+      "conflicts": [
+        "selling price observations disagree: ₹11599 vs ₹10000",
+        "reference value observations disagree: ₹42361 vs ₹15862",
+        "unit count: widget lists 39 units; narrative states 36 paid + 4 free = 40",
+        "narrative 'Herbal Facial Kit' does not identify Gold vs Haldi Chandan kit SKU",
+        "widget does not classify components as paid or complimentary"
+      ],
+      "review_state": "needs_review",
+      "purchasable": false,
+      "purchase_blocked_reason": "Package requires an approved version before purchase (quote request available)."
+    }
+  ]
+}

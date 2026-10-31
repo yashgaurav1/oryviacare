@@ -1,0 +1,2061 @@
+{
+  "generated_at": "2026-10-31T04:05:51.748Z",
+  "pages": [
+    {
+      "source_identity": "wp:page:10424",
+      "kind": "page",
+      "slug": "erp-subscription",
+      "url": "https://oryviacare.in/erp-subscription/",
+      "title": "ERP Subscription",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "",
+      "sections": [],
+      "text_length": 0,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10312",
+      "kind": "page",
+      "slug": "shop",
+      "url": "https://oryviacare.in/shop/",
+      "title": "Shop",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "Oryvia Shop Skincare & hair care essentials Simple, focused products with clear ingredients and directions for use. NewestMost popularTop ratedPrice: low to highPrice: high to lowName: A to Z Load more products Need help choosing? Ask us on WhatsApp. Contact Us on WhatsApp Customer Reviews What our customers say 0.0 ‹ › Used an Oryvia […]",
+      "sections": [
+        {
+          "heading": "Skincare & hair care essentials",
+          "paragraphs": [
+            "Simple, focused products with clear ingredients and directions for use."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Ask us on WhatsApp.",
+          "paragraphs": [],
+          "items": []
+        },
+        {
+          "heading": "What our customers say",
+          "paragraphs": [
+            "Used an Oryvia product? We would love to hear what you think."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 208,
+      "shortcode_only": false,
+      "issues": [
+        "placeholder WhatsApp number"
+      ],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10305",
+      "kind": "page",
+      "slug": "10305-2",
+      "url": "https://oryviacare.in/10305-2/",
+      "title": ".",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "Oryvia Shop Skincare & hair care essentials Simple, focused products with clear ingredients and directions for use. NewestMost popularTop ratedPrice: low to highPrice: high to lowName: A to Z Load more products Need help choosing? Ask us on WhatsApp. Contact Us on WhatsApp",
+      "sections": [
+        {
+          "heading": "Skincare & hair care essentials",
+          "paragraphs": [
+            "Simple, focused products with clear ingredients and directions for use."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Ask us on WhatsApp.",
+          "paragraphs": [],
+          "items": []
+        }
+      ],
+      "text_length": 123,
+      "shortcode_only": false,
+      "issues": [
+        "placeholder WhatsApp number"
+      ],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10252",
+      "kind": "page",
+      "slug": "lost-password",
+      "url": "https://oryviacare.in/lost-password/",
+      "title": "Lost Password",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "[user_registration_lost_password]",
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "[user_registration_lost_password]"
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 34,
+      "shortcode_only": true,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10251",
+      "kind": "page",
+      "slug": "my-account-2",
+      "url": "https://oryviacare.in/my-account-2/",
+      "title": "My Account",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "[user_registration_my_account]",
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "[user_registration_my_account]"
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 31,
+      "shortcode_only": true,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10250",
+      "kind": "page",
+      "slug": "login",
+      "url": "https://oryviacare.in/login/",
+      "title": "Login",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "[user_registration_login]",
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "[user_registration_login]"
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 26,
+      "shortcode_only": true,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10249",
+      "kind": "page",
+      "slug": "registration",
+      "url": "https://oryviacare.in/registration/",
+      "title": "Registration",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "[user_registration_form id=”10248″]",
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "[user_registration_form id=”10248″]"
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 36,
+      "shortcode_only": true,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10128",
+      "kind": "page",
+      "slug": "terms-and-conditions",
+      "url": "https://oryviacare.in/terms-and-conditions/",
+      "title": "Terms & Conditions",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "ORYVIA Care · Customer Information Terms & Conditions Please read these terms before placing an order with ORYVIA Care. They explain the rules for using our website, purchasing products, payments, delivery, cancellations, and customer support. Effective date: 21 October 2026Website: oryviacare.in Important: By browsing our website or placing an order, you agree to these Terms […]",
+      "sections": [
+        {
+          "heading": "Terms & Conditions",
+          "paragraphs": [
+            "Please read these terms before placing an order with ORYVIA Care. They explain the rules for using our website, purchasing products, payments, delivery, cancellations, and customer support.",
+            "Welcome to ORYVIA Care. These Terms & Conditions govern your access to and use of our website and the purchase of products through our online store.",
+            "Throughout these Terms, “ORYVIA Care”, “ORYVIA”, “we”, “us”, and “our” refer to the business operating this website. “You”, “your”, “customer”, and “user” refer to any person who visits our website, creates an account, or purchases our products.",
+            "By accessing our website or placing an order, you agree to these Terms & Conditions, together with our Privacy Policy and any other applicable policies published on our website. If you do not agree with these Terms, please discontinue use of our website."
+          ],
+          "items": []
+        },
+        {
+          "heading": "01About ORYVIA Care",
+          "paragraphs": [
+            "ORYVIA Care is a skincare and personal care brand offering products through its online store, including face wash, facial scrub, D-Tan products, herbal facial kits, anti-dandruff shampoo, anti-hairfall shampoo, and other products that may be introduced from time to time.",
+            "Our website allows customers to browse products, view product information, place orders, make payments through available payment methods, and request customer support."
+          ],
+          "items": []
+        },
+        {
+          "heading": "02Eligibility to Use Our Website",
+          "paragraphs": [
+            "You may use our website if you are legally capable of entering into a binding agreement under applicable law.",
+            "If you are under the age of 18, you may use the website or make a purchase only with the involvement and supervision of a parent or legal guardian, where permitted by law.",
+            "You agree to provide accurate, complete, and current information when creating an account, placing an order, or contacting our customer support team.",
+            "You must not use our website for unlawful activities, fraudulent purchases, unauthorised access, or any activity that could harm our business, website, customers, or service providers."
+          ],
+          "items": []
+        },
+        {
+          "heading": "03Products and Product Information",
+          "paragraphs": [
+            "We make reasonable efforts to display our products, photographs, descriptions, ingredients, sizes, prices, and other relevant details accurately.",
+            "Some variations may occur due to differences in screen settings, lighting, image display, minor packaging changes, manufacturing updates, or product information updates that do not materially misrepresent the product offered.",
+            "Product images are provided to help customers understand the products. Please consult the actual product label and packaging for ingredients, directions, precautions, net quantity, batch details, expiry or use-by information, and other applicable product declarations.",
+            "Where product information on the website conflicts with mandatory information on the actual product or applicable law, please contact us for clarification. We will not knowingly misrepresent a product or use this clause to avoid our legal obligations.",
+            "Product availability may change without notice. We reserve the right to discontinue products, subject to existing confirmed orders and applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "04Skincare and Personal Care Disclaimer",
+          "paragraphs": [
+            "Our skincare and personal care products are intended to be used according to their stated purpose and directions.",
+            "Product descriptions, ingredient information, and general skincare information on this website are provided for informational purposes. They are not intended to diagnose, treat, cure, or prevent a medical condition unless expressly authorised and stated in accordance with applicable law.",
+            "Individual skin types and responses to skincare products may vary. We do not guarantee identical results for every customer.",
+            "Customers should:",
+            "Please contact a qualified healthcare professional if you have a skin condition, significant sensitivity, or concerns about whether a product is suitable for you.",
+            "Nothing in this section limits liability for a defective or unsafe product where such liability applies under law."
+          ],
+          "items": [
+            "Read the ingredient list and product instructions before use.",
+            "Check for ingredients to which they may have a known sensitivity.",
+            "Perform a patch test where appropriate and follow product-specific directions.",
+            "Avoid contact with the eyes unless the product is expressly intended for that use.",
+            "Discontinue use if irritation or an adverse reaction occurs and seek appropriate medical advice when necessary.",
+            "Follow age restrictions, warnings, and precautions displayed on the product packaging."
+          ]
+        },
+        {
+          "heading": "05Account Registration and Security",
+          "paragraphs": [
+            "Some website features may require you to create a customer account. You are responsible for maintaining the confidentiality of your account credentials and for activities carried out through your account, to the extent permitted by law.",
+            "You agree to notify us promptly if you suspect unauthorised access to your account.",
+            "We may suspend or restrict an account where reasonably necessary to investigate suspected fraud, unauthorised access, abuse, or a violation of these Terms. We will act consistently with applicable law and relevant consumer rights.",
+            "Creating an account does not guarantee that every product will remain available or that every order will be accepted."
+          ],
+          "items": []
+        },
+        {
+          "heading": "06Product Prices, Taxes, and Promotions",
+          "paragraphs": [
+            "All prices will be displayed in Indian Rupees (INR), unless otherwise stated. The price applicable to your purchase is the price displayed at checkout before you confirm the order, together with any clearly disclosed taxes, shipping charges, or other applicable fees.",
+            "Our website may display regular selling prices, Maximum Retail Prices (MRP), promotional prices and discounts, coupon codes, special offers, bundle prices, or other product combinations.",
+            "MRP and discount claims will be presented in accordance with applicable law. Any stated discount will be based on a genuine reference price and will not be presented in a misleading manner.",
+            "Promotions may be subject to clearly disclosed eligibility conditions, validity periods, product availability, or limits per customer. Coupon codes cannot be applied retrospectively unless we expressly permit this. Where promotions cannot be combined, the applicable restriction will be displayed before purchase.",
+            "We reserve the right to correct genuine pricing or listing errors. If an error affects an order you have placed, we will contact you and explain the available options. We will not use a pricing error to disregard a confirmed contractual obligation or applicable consumer rights."
+          ],
+          "items": []
+        },
+        {
+          "heading": "07Orders and Order Confirmation",
+          "paragraphs": [
+            "When you place an order, you are submitting a request to purchase the selected products under the applicable checkout terms.",
+            "After receiving your order, we may send an acknowledgement by email, SMS, or another available communication method. An acknowledgement of receipt does not necessarily mean that the order has been dispatched. Order acceptance and processing will be communicated through the relevant order status or confirmation.",
+            "We may decline or cancel an order for legitimate reasons, including:",
+            "Where we cancel an order after receiving payment, we will arrange an appropriate refund in accordance with the applicable refund policy and law.",
+            "We will not cancel a confirmed order arbitrarily or use cancellation to avoid our obligations to customers. Please review your order details carefully before completing checkout."
+          ],
+          "items": [
+            "The product is unavailable.",
+            "A payment has failed or cannot be verified.",
+            "We identify a suspected fraudulent or unauthorised transaction.",
+            "The delivery information is incomplete or invalid and cannot reasonably be corrected.",
+            "A genuine pricing, inventory, or technical error prevents fulfilment."
+          ]
+        },
+        {
+          "heading": "08Payment Terms",
+          "paragraphs": [
+            "We may offer payment methods such as prepaid online payments, debit cards, credit cards, UPI, net banking, digital wallets, or Cash on Delivery (COD), depending on availability. The methods actually available to you will be displayed during checkout.",
+            "Online payments may be processed by third-party payment service providers. Your use of those services may also be subject to the providers' terms and policies.",
+            "You agree to provide accurate payment information and to use only payment methods you are authorised to use. An order may not be processed until payment is successfully authorised or confirmed, where applicable.",
+            "For COD orders, payment must be made according to the delivery service's instructions. COD availability, charges, and delivery restrictions, if any, will be displayed where applicable.",
+            "If a payment is deducted but the order is not confirmed, please contact us with the relevant transaction reference. We will investigate and coordinate any applicable refund or correction."
+          ],
+          "items": []
+        },
+        {
+          "heading": "09Shipping and Delivery",
+          "paragraphs": [
+            "We deliver to eligible locations within the service areas displayed or supported at checkout.",
+            "Delivery estimates are indicative and may be affected by product availability, courier operations, weather, public holidays, transport disruptions, incorrect addresses, or other circumstances beyond our reasonable control.",
+            "The applicable shipping fee, available delivery options, and estimated delivery timeframe will be disclosed during checkout or through the relevant shipping policy.",
+            "Customers are responsible for entering a complete and accurate shipping address and an accessible contact number.",
+            "If a delivery attempt fails because of incorrect address details, an unavailable recipient, or repeated refusal of delivery, additional arrangements or charges may apply where permitted and disclosed.",
+            "If your order is delayed, lost, delivered incorrectly, damaged in transit, or marked as delivered but not received, please contact our support team. We will investigate with the delivery provider and take appropriate action under our policies and applicable law.",
+            "We are not responsible for delays beyond our reasonable control, but this does not remove any statutory rights you may have or any obligations we retain under applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "10Order Cancellation",
+          "paragraphs": [
+            "You may request cancellation before your order is dispatched by contacting our customer support team or using any cancellation facility available on the website.",
+            "Cancellation requests will be handled according to the order's processing status and the applicable cancellation policy.",
+            "Once an order has been dispatched, it may no longer be possible to cancel it through the normal order process. In such cases, please contact us for instructions concerning delivery refusal, return eligibility, or other available options.",
+            "If we cancel an order or approve a cancellation for which payment has already been received, any applicable refund will be processed according to our refund policy and applicable law.",
+            "We reserve the right to cancel an order for legitimate operational, stock, payment, or security reasons, subject to applicable legal obligations."
+          ],
+          "items": []
+        },
+        {
+          "heading": "11Returns, Exchanges, and Refunds",
+          "paragraphs": [
+            "We want customers to receive the products they ordered in the expected condition. Returns, exchanges, replacements, and refunds will be handled under the Return & Refund Policy published on our website.",
+            "Because our products include skincare and personal care items, return eligibility may depend on product condition, packaging integrity, hygiene requirements, and the reason for the request.",
+            "Subject to applicable law and the published policy, eligible requests may include products that are:",
+            "Where a product is damaged, incorrect, defective, or expired, please contact us promptly and provide your order number and supporting photographs or other reasonable information where available.",
+            "For hygiene and safety reasons, we may restrict returns of products that have been opened, used, or unsealed, except where a return, replacement, refund, or other remedy is required by law or provided under our published policy.",
+            "A customer may not be eligible for a return merely because they have changed their mind, where the published policy lawfully excludes such returns.",
+            "Approved refunds will generally be made through the original payment method or another mutually appropriate method, subject to payment-provider procedures and applicable law. Processing time may vary by payment method.",
+            "We will communicate the status of a return or refund request where reasonably possible. Nothing in these Terms limits a consumer's legal remedies for defective products, deficient services, misleading representations, or other circumstances covered by applicable consumer protection law."
+          ],
+          "items": [
+            "Damaged during delivery.",
+            "Incorrectly supplied.",
+            "Defective or expired when received.",
+            "Significantly different from the product description.",
+            "Otherwise eligible for a remedy under applicable law."
+          ]
+        },
+        {
+          "heading": "12Use of Products and Customer Responsibility",
+          "paragraphs": [
+            "Customers are responsible for reading and following the directions, warnings, storage instructions, and precautions supplied with each product. Products should not be used beyond their stated expiry or use-by date.",
+            "Customers should store products as instructed and keep them out of the reach of children where appropriate.",
+            "ORYVIA Care is not responsible for harm arising solely from misuse, failure to follow clearly provided directions, unauthorised modification, improper storage, or use contrary to product warnings, to the extent such exclusion is permitted by law.",
+            "This section does not exclude responsibility for defects, inadequate warnings, unsafe products, or other matters for which we are legally responsible."
+          ],
+          "items": []
+        },
+        {
+          "heading": "13Intellectual Property",
+          "paragraphs": [
+            "Unless otherwise stated, the ORYVIA Care name, logo, website design, product descriptions, written content, photographs, graphics, and other original materials on this website are owned by us or used with permission.",
+            "You may browse the website and use its content for personal, non-commercial shopping purposes.",
+            "You must not reproduce, republish, distribute, modify, commercially exploit, or publicly display our protected content without prior written permission, except where permitted under applicable law.",
+            "Nothing in these Terms transfers ownership of our intellectual property to you."
+          ],
+          "items": []
+        },
+        {
+          "heading": "14Reviews, Feedback, and User Submissions",
+          "paragraphs": [
+            "If you submit a product review, rating, photograph, suggestion, or other content through our website, you confirm that you have the right to submit it and that it is not unlawful, deceptive, defamatory, or in violation of another person's rights.",
+            "You must not submit fake reviews, impersonate another customer, manipulate ratings, or post content intended to mislead consumers.",
+            "Subject to applicable law and our Privacy Policy, you grant us permission to display and use submitted feedback for website administration and product-related purposes, to the extent reasonably necessary and consistent with applicable platform terms or consent.",
+            "We may remove or moderate content that violates these Terms or applicable law, while respecting any rights that customers have under law. We do not permit reviews to be represented as verified customer experiences when they have not been verified."
+          ],
+          "items": []
+        },
+        {
+          "heading": "15Promotions and Third-Party Services",
+          "paragraphs": [
+            "We may occasionally offer discount codes, promotional campaigns, loyalty benefits, or product bundles. Promotional offers are subject to their expressly stated terms and conditions. We may modify or withdraw an offer prospectively where reasonably necessary and permitted by law.",
+            "Our website may use third-party services for payments, delivery tracking, analytics, customer communication, or other functions.",
+            "We are not responsible for the independent terms or privacy practices of third-party services. However, where a third party acts on our behalf in delivering our services, we will take the steps required by applicable law and our relevant agreements."
+          ],
+          "items": []
+        },
+        {
+          "heading": "16Prohibited Activities",
+          "paragraphs": [
+            "You agree not to:",
+            "We may investigate suspected violations and take proportionate action, including restricting access or reporting unlawful conduct to the relevant authorities where appropriate."
+          ],
+          "items": [
+            "Use the website for fraudulent or unlawful purposes.",
+            "Interfere with website security or functionality.",
+            "Attempt unauthorised access to our website, systems, or customer accounts.",
+            "Introduce malicious software or harmful code.",
+            "Misuse discount codes, payment systems, or refund processes.",
+            "Copy or exploit website content in violation of intellectual property rights.",
+            "Submit false information or fraudulent complaints.",
+            "Engage in conduct that violates applicable law or the rights of others."
+          ]
+        },
+        {
+          "heading": "17Limitation of Liability",
+          "paragraphs": [
+            "To the maximum extent permitted by applicable law, we will not be liable for indirect or consequential losses that are not reasonably foreseeable and that are not otherwise recoverable under law.",
+            "We are not responsible for service interruptions caused by circumstances beyond our reasonable control, provided we continue to meet any applicable obligations.",
+            "Nothing in these Terms excludes or limits liability for fraud, wilful misconduct, or any liability that cannot lawfully be excluded or limited.",
+            "Nothing in these Terms removes your statutory rights concerning defective products, misleading advertising, unfair trade practices, deficient services, refunds, or other consumer remedies available under applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "18Indemnity",
+          "paragraphs": [
+            "You agree to be responsible for losses or claims arising directly from your unlawful use of the website, fraudulent conduct, or material violation of these Terms, to the extent permitted by applicable law.",
+            "This section does not require you to compensate us for losses caused by our own unlawful conduct, negligence where liability cannot be excluded, or breach of our legal obligations."
+          ],
+          "items": []
+        },
+        {
+          "heading": "19Privacy and Personal Information",
+          "paragraphs": [
+            "Your use of our website is also governed by our Privacy Policy, which explains how we collect, use, store, and share personal information.",
+            "If the URL differs on our website, replace the link above with the correct published page address."
+          ],
+          "items": []
+        },
+        {
+          "heading": "20Suspension and Termination",
+          "paragraphs": [
+            "We may temporarily suspend or restrict access to parts of our website where reasonably necessary for security, maintenance, investigation of suspected fraud, or compliance with applicable law.",
+            "We may terminate or restrict access for serious or repeated violations of these Terms, subject to applicable law and any existing contractual or consumer obligations.",
+            "Termination of website access does not remove rights or obligations that already arose from a confirmed order, pending refund, or legal claim."
+          ],
+          "items": []
+        },
+        {
+          "heading": "21Changes to These Terms",
+          "paragraphs": [
+            "We may revise these Terms from time to time to reflect changes in our products, services, business practices, website functionality, or applicable law.",
+            "The updated version will be published on this page with a revised effective date. Changes will apply prospectively where appropriate. If a change materially affects an existing order or contractual obligation, we will handle it in accordance with the applicable agreement and law.",
+            "We encourage you to review these Terms periodically."
+          ],
+          "items": []
+        },
+        {
+          "heading": "22Governing Law and Dispute Resolution",
+          "paragraphs": [
+            "These Terms are governed by the laws of India.",
+            "If you have a concern about an order or our services, we encourage you to contact our customer support team first so that we can attempt to resolve it promptly.",
+            "If a dispute cannot be resolved informally, you may pursue the remedies available under applicable law, including approaching the appropriate consumer dispute redressal authority or other competent forum.",
+            "Nothing in these Terms prevents you from exercising a statutory consumer right or filing a complaint before a forum that has jurisdiction under applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "23Customer Complaints and Grievance Redressal",
+          "paragraphs": [
+            "We are committed to addressing customer questions and complaints fairly and promptly.",
+            "For order-related concerns, including payment issues, delivery delays, cancellations, damaged products, incorrect products, or refunds, please contact us using the details below.",
+            "Please include your name, order number where applicable, a description of the issue, and relevant supporting information. We will acknowledge and address complaints within the timelines required by applicable law.",
+            "For complaints that remain unresolved, customers may also use the applicable consumer grievance mechanisms available in India."
+          ],
+          "items": []
+        },
+        {
+          "heading": "24Severability and No Waiver",
+          "paragraphs": [
+            "If any provision of these Terms is held invalid or unenforceable, the remaining provisions will continue to apply to the extent permitted by law.",
+            "Our failure to enforce a provision on one occasion does not mean that we waive our right to enforce it on another occasion."
+          ],
+          "items": []
+        },
+        {
+          "heading": "25Entire Agreement",
+          "paragraphs": [
+            "These Terms, together with the Privacy Policy, Return & Refund Policy, Shipping Policy, and other terms expressly incorporated into the purchase process, form the terms governing your use of our website and purchases from our store.",
+            "If there is a conflict between these Terms and a mandatory requirement of applicable law, the law will prevail.",
+            "Where a product-specific offer or promotion contains additional terms that are clearly disclosed before purchase, those terms will apply to that offer to the extent they are consistent with these Terms and applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "26Contact ORYVIA Care",
+          "paragraphs": [
+            "For questions regarding these Terms & Conditions or your purchase, contact us:",
+            "Thank you for choosing ORYVIA Care.",
+            "Your skincare and personal care destination for everyday essentials."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 21010,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10063",
+      "kind": "page",
+      "slug": "news",
+      "url": "https://oryviacare.in/news/",
+      "title": "News",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "",
+      "sections": [],
+      "text_length": 0,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:10062",
+      "kind": "page",
+      "slug": "my-account",
+      "url": "https://oryviacare.in/my-account/",
+      "title": "My account",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "",
+      "sections": [],
+      "text_length": 0,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:933",
+      "kind": "page",
+      "slug": "contact-us",
+      "url": "https://oryviacare.in/contact-us/",
+      "title": "Contact Us",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "Contact Us We would love to hear from you. Questions about a product, an order, or a salon package? Send us a message and we will get back to you. WhatsAppChat with usFastest way to reach us Call us+91 9105430713Mon – Sat, 10 AM – 6 PM Email usoryviacare@gmail.comWe reply as soon as we can […]",
+      "sections": [
+        {
+          "heading": "We would love to hear from you.",
+          "paragraphs": [
+            "Questions about a product, an order, or a salon package? Send us a message and we will get back to you."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Business hours",
+          "paragraphs": [],
+          "items": [
+            "Monday – Saturday10:00 AM – 6:00 PM",
+            "SundayClosed"
+          ]
+        },
+        {
+          "heading": "Looking for answers fast?",
+          "paragraphs": [
+            "Ingredients, usage, delivery and returns are covered in our FAQ."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Follow us",
+          "paragraphs": [],
+          "items": []
+        }
+      ],
+      "text_length": 300,
+      "shortcode_only": false,
+      "issues": [
+        "address placeholder",
+        "placeholder social link",
+        "placeholder WhatsApp number"
+      ],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:931",
+      "kind": "page",
+      "slug": "about-us",
+      "url": "https://oryviacare.in/about-us/",
+      "title": "About Us",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "About Oryvia Care that feels simple and honest. Oryvia is a skincare and hair care brand inspired by traditional care, made for everyday routines. ORYVIA OryviaTraditional Skincare& Hair Care Our story Why we created Oryvia Oryvia was started in [Rampur,UP] with a simple aim: to offer skincare and hair care that is easy to understand […]",
+      "sections": [
+        {
+          "heading": "Care that feels simple and honest.",
+          "paragraphs": [
+            "Oryvia is a skincare and hair care brand inspired by traditional care, made for everyday routines."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Why we created Oryvia",
+          "paragraphs": [
+            "Oryvia was started in [Rampur,UP] with a simple aim: to offer skincare and hair care that is easy to understand and easy to use.",
+            "We saw the high price of Skincare Products that inspire us to create a brand.",
+            "Today our range is small and focused. Every product has a clear purpose, a full ingredient list, and directions for use."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Our mission",
+          "paragraphs": [
+            "To make skincare and hair care simple to understand and easy to follow, with clear ingredients and clear directions."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Our vision",
+          "paragraphs": [
+            "To be a brand people trust for honest information and everyday care, one routine at a time."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Our principles",
+          "paragraphs": [],
+          "items": []
+        },
+        {
+          "heading": "A focused range",
+          "paragraphs": [
+            "A small number of products, each with one clear job, instead of a long shelf to choose from."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Ingredient transparency",
+          "paragraphs": [
+            "The full ingredient list is on the pack and on each product page, so you can check it yourself."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Clear guidance",
+          "paragraphs": [
+            "Simple directions for use, plus a reminder to patch test before first use."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Real support",
+          "paragraphs": [
+            "Questions about a product or an order? Message us and a real person will reply."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How the range fits together",
+          "paragraphs": [],
+          "items": []
+        },
+        {
+          "heading": "Cleanse",
+          "paragraphs": [
+            "Start with Face Wash to wash the face."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Exfoliate",
+          "paragraphs": [
+            "Use Scrub as directed on the pack."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Treat",
+          "paragraphs": [
+            "Apply D-TAN as directed on the label."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Pamper",
+          "paragraphs": [
+            "Use the 6 Step Facial Kit for a step-by-step facial."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Hair care",
+          "paragraphs": [
+            "Choose Anti-Dandruff or Anti-Hairfall Shampoo.",
+            "Always follow the directions on each pack and patch test before first use."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Made for your routine",
+          "paragraphs": [],
+          "items": []
+        },
+        {
+          "heading": "For you, and for your business",
+          "paragraphs": [],
+          "items": []
+        },
+        {
+          "heading": "Everyday customers",
+          "paragraphs": [
+            "Order single products for your own routine, with full ingredient lists and directions on every product page."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Salons & businesses",
+          "paragraphs": [
+            "Buying in bulk for a salon or business? Ask about our packages and current pricing."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How to order from Oryvia",
+          "paragraphs": [],
+          "items": [
+            "ChooseBrowse the range and read the ingredients and directions on each product page.",
+            "OrderOrder on the website, or message us on WhatsApp if you need help.",
+            "DeliveryWe dispatch your order and share tracking details once it ships.",
+            "SupportQuestions after your order? Message us and we will help."
+          ]
+        },
+        {
+          "heading": "Have a question about Oryvia?",
+          "paragraphs": [],
+          "items": []
+        }
+      ],
+      "text_length": 2131,
+      "shortcode_only": false,
+      "issues": [
+        "bracketed placeholder text"
+      ],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:929",
+      "kind": "page",
+      "slug": "home",
+      "url": "https://oryviacare.in/",
+      "title": "Home",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "Traditional Skincare & Hair Care Reveal yournatural glow. Thoughtfully made skincare and hair care rituals for a smoother, healthier, more radiant you. Simple formulas. Visible care. Shop Now → Business Packages SkincareFace & glow rituals Hair CareShampoos for every need Salon GradeTrusted by professionals ORYVIA Featured Oryvia Our Collection Bestselling Rituals ‹ › Our Approach […]",
+      "sections": [
+        {
+          "heading": "Reveal yournatural glow.",
+          "paragraphs": [
+            "Thoughtfully made skincare and hair care rituals for a smoother, healthier, more radiant you. Simple formulas. Visible care."
+          ],
+          "items": [
+            "SkincareFace & glow rituals",
+            "Hair CareShampoos for every need",
+            "Salon GradeTrusted by professionals"
+          ]
+        },
+        {
+          "heading": "Bestselling Rituals",
+          "paragraphs": [],
+          "items": []
+        },
+        {
+          "heading": "Made simple. Explained honestly.",
+          "paragraphs": [
+            "A focused range, a full ingredient list on every product, and clear directions for use."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Skincare approach",
+          "paragraphs": [
+            "Traditional-style care for skin and hair, with a few products that each do one clear job."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Ingredient transparency",
+          "paragraphs": [
+            "The full ingredient list is on the pack and on each product page, so you can check it for yourself."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Product quality",
+          "paragraphs": [
+            "Batch number and manufacturing date on the pack, sealed packaging, and a licensed facility."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Usage guidance",
+          "paragraphs": [
+            "Directions on every pack. Patch test first, and stop use and see a doctor if irritation continues."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How to use",
+          "paragraphs": [
+            "D-TAN",
+            "For external use only. Avoid contact with eyes. Patch test before first use. Individual results vary."
+          ],
+          "items": [
+            "ApplySpread an even layer on clean, dry skin. Avoid the eyes.",
+            "WaitLeave on for the time shown on the label.",
+            "RinseWash off with water. Use sunscreen in the day.",
+            "WetWet your face with water.",
+            "MassageWork a small amount into the skin gently.",
+            "RinseRinse well. Use morning and night.",
+            "DampenStart with damp skin.",
+            "MassageUse gentle circles, away from the eyes.",
+            "RinseUse as often as the pack says.",
+            "Follow the orderUse the steps in the sequence shown on the kit.",
+            "Time each stepLeave each product on as directed on its pack.",
+            "FinishRinse and moisturise as directed.",
+            "WetWet hair and scalp thoroughly.",
+            "MassageWork into the scalp and leave briefly.",
+            "RinseRinse well. Use as directed on the pack."
+          ]
+        },
+        {
+          "heading": "Business Packages",
+          "paragraphs": [
+            "Prices in INR. Free products are included with every package. Offer valid while stocks last."
+          ],
+          "items": []
+        },
+        {
+          "heading": "See Oryvia in Action",
+          "paragraphs": [],
+          "items": []
+        },
+        {
+          "heading": "Blackheads, Dullness and Tanning: Understanding What Your Skin Needs",
+          "paragraphs": [
+            "SEO Title: Blackheads, Dullness and Tanning: A Simple Skincare Guide | Oryvia Care URL Slug: /blackheads-dullness-tanning-skincare-guide/ Meta Description: Learn the difference between blackheads, dullness and"
+          ],
+          "items": []
+        },
+        {
+          "heading": "Dandruff Care Guide: Everyday Habits for a Healthier-Feeling Scalp",
+          "paragraphs": [
+            "Dandruff Care Guide: Everyday Habits for a Healthier-Feeling Scalp White flakes on your shoulders, an itchy scalp, or visible scaling can make hair care frustrating."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How to Exfoliate Without Irritating Your Skin",
+          "paragraphs": [
+            "Does your skin sometimes feel rough or look less fresh than usual? Exfoliation may be one part of your skincare routine to consider. A face"
+          ],
+          "items": []
+        },
+        {
+          "heading": "How to Choose the Right Face Wash for Your Skin Type",
+          "paragraphs": [
+            "How to Choose the Right Face Wash for Your Skin Type A face wash is often the first step in a skincare routine, but choosing"
+          ],
+          "items": []
+        },
+        {
+          "heading": "The Ultimate Daily Skincare Routine for Healthy, Glowing Skin",
+          "paragraphs": [
+            "The Ultimate Daily Skincare Routine for Healthy, Glowing Skin Healthy-looking skin does not always require an elaborate routine or a shelf full of products. Often,"
+          ],
+          "items": []
+        },
+        {
+          "heading": "What our customers say",
+          "paragraphs": [],
+          "items": []
+        },
+        {
+          "heading": "Questions, answered.",
+          "paragraphs": [
+            "Cannot find what you are looking for? Message us and we will help.",
+            "Each product has directions on its pack and on its product page. Follow those directions, and do a patch test on a small area of skin before first use.",
+            "The full ingredient list is printed on the pack and shown on each product page. If you are unsure about an ingredient, message us before you buy.",
+            "Skin reacts differently from person to person, so we cannot promise a product will suit everyone. Please patch test first, and stop using a product if you notice irritation. If it continues, see a doctor.",
+            "Orders are dispatched within [X] working days and usually reach you in [X–X] working days, depending on your location. You will receive tracking details once your order ships.",
+            "[Write your actual policy here, for example: unopened items can be returned within X days; damaged or wrong items are replaced.] See our Returns & Refunds page for full details.",
+            "[List only what your checkout really offers, for example: UPI, cards, net banking, cash on delivery.]",
+            "Yes. We have business packages for salons and bulk buyers. See the Business Packages section or message us on WhatsApp for details and current prices.",
+            "Message us on WhatsApp, call, or email. Contact details are in the footer of this page."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 4183,
+      "shortcode_only": false,
+      "issues": [
+        "unresolved template placeholder copy",
+        "placeholder WhatsApp number"
+      ],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:909",
+      "kind": "page",
+      "slug": "checkout",
+      "url": "https://oryviacare.in/checkout/",
+      "title": "Checkout",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "",
+      "sections": [],
+      "text_length": 0,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:908",
+      "kind": "page",
+      "slug": "cart",
+      "url": "https://oryviacare.in/cart/",
+      "title": "Cart",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "",
+      "sections": [],
+      "text_length": 0,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:11",
+      "kind": "page",
+      "slug": "refund_returns",
+      "url": "https://oryviacare.in/refund_returns/",
+      "title": "Refund and Returns Policy",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "Return & Refund Policy | ORYVIA Care ORYVIA Care · Customer Policy Return & Refund Policy We want you to receive the ORYVIA Care products you ordered in the expected condition. This policy explains how to contact us if an order arrives damaged, incorrect, defective, or otherwise has a problem. Effective Date: 21 October 2026 […]",
+      "sections": [
+        {
+          "heading": "Return & Refund Policy",
+          "paragraphs": [
+            "We want you to receive the ORYVIA Care products you ordered in the expected condition. This policy explains how to contact us if an order arrives damaged, incorrect, defective, or otherwise has a problem.",
+            "Effective Date: 21 October 2026 · Website: oryviacare.in"
+          ],
+          "items": []
+        },
+        {
+          "heading": "1. When Can I Request a Return or Refund?",
+          "paragraphs": [
+            "You may contact us to request a return, replacement, or refund if your order is affected by an issue such as:",
+            "We will assess each request based on the facts, the information provided, the product type, and applicable law. Where appropriate, we may offer a replacement, refund, or another suitable resolution."
+          ],
+          "items": [
+            "The product arrived damaged or leaked during delivery.",
+            "You received a product different from the one you ordered.",
+            "The product appears defective or was expired when delivered.",
+            "The product is materially different from its description or has another issue for which a remedy is available under applicable law."
+          ]
+        },
+        {
+          "heading": "2. Time to Report an Issue",
+          "paragraphs": [
+            "Please contact us within 48 hours of delivery if an order arrives damaged, incorrect, leaking, or visibly defective. This helps us investigate the issue promptly.",
+            "If you discover a problem later, or if a product is defective or otherwise eligible for a remedy under applicable law, please contact us as soon as reasonably possible. The reporting window above is a request for prompt notification and does not remove any non-excludable legal rights."
+          ],
+          "items": []
+        },
+        {
+          "heading": "3. Conditions for Returns",
+          "paragraphs": [
+            "Where a return is appropriate and permitted, please keep the product and its packaging in a safe condition until we respond.",
+            "For hygiene and safety reasons, opened, used, or unsealed skincare and personal-care products may not be eligible for change-of-mind returns, except where a return, replacement, refund, or other remedy is required by law or is expressly offered by us."
+          ],
+          "items": [
+            "Keep the product, outer packaging, and any included accessories where possible.",
+            "Do not discard the item before our support team has reviewed your request.",
+            "Share clear photographs or a short video if needed to show damage, leakage, incorrect items, or the relevant label and expiry details.",
+            "Keep your order number or purchase confirmation available."
+          ]
+        },
+        {
+          "heading": "4. Items That May Not Qualify for a Change-of-Mind Return",
+          "paragraphs": [
+            "Subject to applicable law and the remedies available for defective, damaged, incorrect, expired, or misdescribed products, the following may not be accepted for a change-of-mind return:",
+            "This section does not exclude legal remedies for product defects, safety issues, incorrect fulfilment, misleading descriptions, or other circumstances covered by applicable law."
+          ],
+          "items": [
+            "Products that have been opened, used, or unsealed.",
+            "Products damaged after delivery due to misuse, improper storage, or handling unrelated to a product defect.",
+            "Orders where the customer has changed their mind, if the item is not covered by a voluntary return offer."
+          ]
+        },
+        {
+          "heading": "5. How to Request a Return or Refund",
+          "paragraphs": [
+            "We may request reasonable additional information needed to verify the order and assess the reported issue."
+          ],
+          "items": [
+            "Contact us using the customer support details below, preferably from the email address or phone number associated with your order.",
+            "Provide your order number, the product name, and a short description of the issue.",
+            "Attach clear photographs or video where relevant, such as images of the damaged package, product, shipping label, or expiry information.",
+            "Wait for our team to review your request and provide return or resolution instructions. Please do not send an item to an address that has not been confirmed by our team."
+          ]
+        },
+        {
+          "heading": "6. Refund Approval and Processing",
+          "paragraphs": [
+            "If a refund is approved, it will generally be issued to the original payment method where possible, or through another appropriate method agreed with you and permitted by law.",
+            "Any applicable refund will be processed within the time required by law and the terms communicated when the refund is approved. If a refund is delayed, please contact us with your order number."
+          ],
+          "items": [
+            "Prepaid orders: The refund will be initiated through the relevant payment provider or payment method, where supported.",
+            "Cash on Delivery orders: We may request suitable bank or digital payment details to process an approved refund. We will not ask for your card PIN, UPI PIN, OTP, or account password.",
+            "Processing time: The time taken for the amount to appear in your account may depend on the payment provider or bank. We will share the refund status where reasonably possible."
+          ]
+        },
+        {
+          "heading": "7. Return Shipping Costs",
+          "paragraphs": [
+            "If the return is due to an incorrect item, damage in transit, a verified product defect, or another issue attributable to us, we will explain the return or collection arrangement and handle reasonable return costs as required by our policy and applicable law.",
+            "For any voluntary change-of-mind return that we expressly permit, responsibility for return shipping costs will be communicated before the return is arranged."
+          ],
+          "items": []
+        },
+        {
+          "heading": "8. Order Cancellations",
+          "paragraphs": [
+            "You may request cancellation before dispatch by contacting us or using any cancellation option available on the website. Whether cancellation can be completed depends on the order's processing status.",
+            "Once an order has been dispatched, cancellation through the normal order process may no longer be possible. Please contact our team for guidance. If we cancel an order after payment has been collected, we will arrange any applicable refund in accordance with applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "9. Damaged, Incorrect, or Missing Deliveries",
+          "paragraphs": [
+            "If a parcel arrives visibly damaged, please take photographs of the outer packaging and product, if it is safe and practical to do so. If an item is missing or incorrect, contact us with your order details and a description of what you received.",
+            "We may coordinate with our delivery partner to investigate. We will assess the available information and communicate an appropriate resolution under this policy and applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "10. Exchanges and Replacements",
+          "paragraphs": [
+            "Exchanges or replacements may be offered when a product is damaged, incorrect, defective, or otherwise eligible for a remedy. Availability depends on stock and the nature of the issue.",
+            "If the same product is unavailable, we will discuss an appropriate alternative or refund where applicable. We will not substitute a materially different product without your agreement where such agreement is required."
+          ],
+          "items": []
+        },
+        {
+          "heading": "11. Promotional Offers and Bundles",
+          "paragraphs": [
+            "If an order includes a discount, bundle, or promotional offer, the refund amount will be calculated in accordance with the offer terms shown at purchase and applicable law.",
+            "Where only part of a bundle is returned, we may need to recalculate the promotion if its disclosed terms require all bundle items to be retained to qualify. We will explain the calculation before completing the refund. This provision does not restrict any mandatory consumer remedy."
+          ],
+          "items": []
+        },
+        {
+          "heading": "12. Contact and Customer Grievances",
+          "paragraphs": [
+            "For return, refund, replacement, cancellation, or delivery concerns, contact our team using the details below.",
+            "Brand: ORYVIA Care",
+            "Website: https://oryviacare.in/",
+            "Customer Support Email: oryviacare@gmail.com]",
+            "Customer Support Phone: +91 9105430713",
+            "Business Name: ORYVIA CARE",
+            "Business Address: Chak Swar,Rampur, UP, 244924",
+            "Please include your order number, the product name, a clear description of the issue, and relevant supporting images where applicable. We will review your request and respond within the timelines required by applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "13. Updates to This Policy",
+          "paragraphs": [
+            "We may update this Return & Refund Policy to reflect changes in our operations, products, delivery arrangements, or applicable law. The revised version will be published on this page with an updated effective date. Changes will not remove rights that have already accrued or any consumer rights that cannot lawfully be excluded."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Need Help With an Order?",
+          "paragraphs": [
+            "We're here to help with order issues and eligible return or refund requests.",
+            "ORYVIA Care Website: oryviacare.in Email: oryviacare@gmail.com",
+            "This policy should be reviewed against your actual return process, payment methods, shipping arrangements, and applicable Indian consumer protection requirements before publication."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 8027,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:page:3",
+      "kind": "page",
+      "slug": "privacy-policy",
+      "url": "https://oryviacare.in/privacy-policy/",
+      "title": "Privacy Policy",
+      "published_at": "2026-10-29T14:18:40",
+      "modified_at": "2026-10-29T14:18:40",
+      "excerpt": "ORYVIA Care · Privacy & Trust Privacy Policy This Privacy Policy explains how ORYVIA Care collects, uses, stores, and shares information when you browse our skincare store, create an account, place an order, or contact us. Effective date: 21 October 2026Website: oryviacare.in Your privacy matters. We use personal information to operate our online store, fulfil […]",
+      "sections": [
+        {
+          "heading": "Privacy Policy",
+          "paragraphs": [
+            "This Privacy Policy explains how ORYVIA Care collects, uses, stores, and shares information when you browse our skincare store, create an account, place an order, or contact us.",
+            "At ORYVIA Care (“ORYVIA”, “we”, “our”, or “us”), we respect your privacy and are committed to protecting the personal information you share with us.",
+            "This Privacy Policy applies when you visit oryviacare.in, browse our products, create an account, place an order, contact us, or otherwise interact with our website and services.",
+            "Our store offers skincare and personal care products, including face wash, facial scrub, D-Tan products, herbal facial kits, anti-dandruff shampoo, anti-hairfall shampoo, and other products that may be introduced from time to time."
+          ],
+          "items": []
+        },
+        {
+          "heading": "01Who We Are",
+          "paragraphs": [
+            "This website is operated under the ORYVIA Care brand. The business contact details for privacy questions and requests are set out below. Please complete the marked business details before publishing this page."
+          ],
+          "items": []
+        },
+        {
+          "heading": "02Information We Collect",
+          "paragraphs": [
+            "We collect information reasonably necessary to operate our website, process orders, provide customer service, and improve the shopping experience. The information we collect depends on how you interact with us."
+          ],
+          "items": []
+        },
+        {
+          "heading": "A. Personal and contact information",
+          "paragraphs": [
+            "When you create an account, place an order, or contact us, we may collect:"
+          ],
+          "items": [
+            "Your name, email address, and mobile phone number.",
+            "Billing and shipping or delivery addresses.",
+            "Account details and login-related information.",
+            "Order history, purchased products, and customer service enquiries.",
+            "Information you choose to provide in forms, emails, reviews, or support messages."
+          ]
+        },
+        {
+          "heading": "B. Order and transaction information",
+          "paragraphs": [
+            "We may collect order numbers, items and quantities purchased, order totals, discounts, payment status, delivery status, and details required to manage cancellations, returns, refunds, or disputes."
+          ],
+          "items": []
+        },
+        {
+          "heading": "C. Payment information",
+          "paragraphs": [
+            "Payments may be handled by third-party payment service providers. We may receive transaction references, payment status, payment method details, and other information needed to confirm or manage a payment.",
+            "We do not intend to store complete payment card numbers, card security codes, or payment account passwords on our own servers. The information collected and retained may depend on the payment method and provider used."
+          ],
+          "items": []
+        },
+        {
+          "heading": "D. Technical and website usage information",
+          "paragraphs": [
+            "Depending on our website configuration, we or our service providers may automatically collect information such as IP address, browser type, device and operating system details, pages visited, referring pages, visit times, and diagnostic or interaction information."
+          ],
+          "items": []
+        },
+        {
+          "heading": "03How We Use Your Information",
+          "paragraphs": [
+            "We may use information for the following purposes:",
+            "We will not use personal information for a materially unrelated purpose without providing information or obtaining consent where required by applicable law."
+          ],
+          "items": [
+            "To receive, confirm, process, and fulfil orders.",
+            "To arrange packaging, shipping, delivery updates, and order tracking.",
+            "To manage payments, cancellations, returns, refunds, and exchanges.",
+            "To create and maintain customer accounts.",
+            "To answer questions, handle complaints, and provide customer support.",
+            "To send important service messages about orders, delivery, security, or changes to our policies.",
+            "To maintain website operations, troubleshoot errors, and improve usability and performance.",
+            "To protect our website, customers, and business from fraud, misuse, and unauthorised access.",
+            "To maintain business records and comply with legal requirements.",
+            "To send marketing communications where permitted by law and where required, with your consent."
+          ]
+        },
+        {
+          "heading": "04Consent and Permitted Processing",
+          "paragraphs": [
+            "We process personal information for purposes disclosed to you and permitted by applicable law. Depending on the context, this may include fulfilling your purchase, responding to your request, meeting legal obligations, protecting our website and business, or carrying out processing for which valid consent has been provided.",
+            "Where consent is required, we will seek it before the relevant processing. You may withdraw consent through the available contact channels or other method we provide. Withdrawal does not affect processing lawfully carried out before the withdrawal.",
+            "If you withdraw consent for information necessary to provide a requested service, we may be unable to continue providing that service. We will explain the practical effect where reasonably possible."
+          ],
+          "items": []
+        },
+        {
+          "heading": "05How We Share Information",
+          "paragraphs": [
+            "We do not sell your personal information to third parties for their own independent marketing purposes. We may share relevant information with service providers or other parties when reasonably necessary for the purposes described in this Policy.",
+            "Where third parties process information on our behalf, we aim to share only what is reasonably necessary for their role and to use appropriate contractual, confidentiality, and security measures as required by law."
+          ],
+          "items": [
+            "Payment providers: to process payments, verify transactions, and handle refunds.",
+            "Shipping and logistics partners: to deliver orders and provide tracking updates.",
+            "Website hosting and technical providers: to host, maintain, secure, and operate the website.",
+            "Analytics and website tools: to understand usage, measure performance, and diagnose issues where these tools are enabled.",
+            "Communication and support providers: to deliver service messages and respond to customer enquiries.",
+            "Professional advisers and public authorities: where reasonably necessary for legal compliance, fraud prevention, dispute resolution, or a lawful request."
+          ]
+        },
+        {
+          "heading": "06Cookies and Similar Technologies",
+          "paragraphs": [
+            "Our website may use cookies and similar technologies to support essential functions and improve your browsing experience. Depending on the tools enabled, these technologies may be used to:",
+            "You can manage cookies through your browser settings. Disabling certain cookies may affect the shopping cart, account access, checkout, or other website features. Where required by law, we will obtain consent before using non-essential cookies or similar tracking technologies."
+          ],
+          "items": [
+            "Keep products in your shopping cart.",
+            "Maintain login sessions and remember preferences.",
+            "Support checkout, security, and fraud prevention.",
+            "Measure website traffic and performance where analytics are enabled.",
+            "Support advertising or marketing measurement where applicable."
+          ]
+        },
+        {
+          "heading": "07Data Retention",
+          "paragraphs": [
+            "We retain personal information only for as long as reasonably necessary for the purposes described in this Policy or as required by applicable law.",
+            "When information is no longer needed, we will take reasonable steps to delete it or permanently anonymise it, subject to lawful retention requirements and legitimate recordkeeping needs."
+          ],
+          "items": [
+            "Order and transaction records may be kept for fulfilment, accounting, refunds, disputes, fraud prevention, and legal requirements.",
+            "Account information may be retained while an account remains active and for an appropriate period afterwards where needed.",
+            "Customer support communications may be retained to resolve enquiries and maintain service records.",
+            "Marketing information is managed according to customer preferences, consent requirements, and applicable law."
+          ]
+        },
+        {
+          "heading": "08Data Security",
+          "paragraphs": [
+            "We take reasonable technical and organisational measures to protect personal information against unauthorised access, disclosure, alteration, loss, misuse, or destruction. Depending on our website configuration, measures may include secure connections, access controls, software updates, monitoring, and protections provided by our hosting or service providers.",
+            "No website or electronic transmission can be guaranteed to be completely secure. We cannot promise absolute security, but we will take appropriate steps to address security risks and comply with applicable legal obligations.",
+            "If a personal data breach occurs, we will take appropriate steps to investigate and mitigate its effects and provide notifications where required by applicable law."
+          ],
+          "items": []
+        },
+        {
+          "heading": "09Your Privacy Rights",
+          "paragraphs": [
+            "Subject to applicable law, you may have the right to:",
+            "To exercise a right, contact us using the details in the Contact and Grievance section. We may ask for reasonable information to verify your identity before acting on a request. We will respond within the period required by applicable law.",
+            "You may also have the right to nominate another person to exercise specified rights on your behalf where this is provided by applicable law."
+          ],
+          "items": [
+            "Request information about the personal data we process about you.",
+            "Request correction or completion of inaccurate or incomplete information.",
+            "Request erasure of personal information where applicable, subject to lawful retention requirements.",
+            "Withdraw consent for processing that relies on your consent.",
+            "Raise a complaint or grievance about our handling of your personal information.",
+            "Exercise other rights made available to you under applicable data protection law."
+          ]
+        },
+        {
+          "heading": "10Marketing Communications",
+          "paragraphs": [
+            "We may send promotional emails, messages, product announcements, or offers where permitted by law and where the necessary consent or other lawful basis exists.",
+            "You can opt out of marketing communications by using the unsubscribe option in the message, where available, or by contacting us directly. Opting out of marketing will not necessarily stop essential messages about an existing order, payment, delivery, account security, or legal obligation."
+          ],
+          "items": []
+        },
+        {
+          "heading": "11Third-Party Websites and Services",
+          "paragraphs": [
+            "Our website may link to or use third-party services, including payment gateways, delivery tracking, analytics, social media, and communication platforms.",
+            "We do not control independent third-party websites or their privacy practices. Your use of those sites and services is subject to their applicable terms and policies. We encourage you to review them before providing information directly to a third party."
+          ],
+          "items": []
+        },
+        {
+          "heading": "12Children's Privacy",
+          "paragraphs": [
+            "Our website and products are intended for a general consumer audience. We do not knowingly collect children's personal data in circumstances where collection is prohibited or requires consent or verification that we have not obtained.",
+            "Where applicable law requires verifiable parental consent or additional safeguards for processing children's personal data, we will comply with the relevant requirements.",
+            "If you believe a child has provided personal information to us inappropriately, please contact us so we can review the matter and take appropriate action."
+          ],
+          "items": []
+        },
+        {
+          "heading": "13Account Closure and Data Deletion Requests",
+          "paragraphs": [
+            "If you have an ORYVIA Care account and wish to close it or request deletion of your personal information, contact us using the details below.",
+            "We will review your request and delete or anonymise information where appropriate and legally permissible. Certain records may need to be retained to fulfil pending orders, process refunds, resolve disputes, prevent fraud, or meet legal and accounting requirements.",
+            "Deleting an account does not automatically cancel an order already being processed. Please contact customer support separately if you need assistance with an existing order."
+          ],
+          "items": []
+        },
+        {
+          "heading": "14Changes to This Privacy Policy",
+          "paragraphs": [
+            "We may update this Privacy Policy to reflect changes in our business operations, website functionality, service providers, products, or applicable law.",
+            "We will publish the revised Policy on this page and update the effective date. Where required by law, we will provide additional notice or obtain consent for material changes before applying them to the relevant processing activities.",
+            "We encourage you to review this page periodically."
+          ],
+          "items": []
+        },
+        {
+          "heading": "15Contact Us and Privacy Grievances",
+          "paragraphs": [
+            "If you have questions about this Privacy Policy, wish to exercise your privacy rights, or have a complaint about the handling of your personal information, contact us using the details below.",
+            "Please include your name, order number if relevant, a clear description of your concern, and a preferred way to contact you. Do not send passwords, card security codes, OTPs, or other sensitive payment credentials.",
+            "We will review genuine requests and complaints in accordance with applicable law."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 11912,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:post:10404",
+      "kind": "post",
+      "slug": "blackheads-dullness-and-tanning-understanding-what-your-skin-needs",
+      "url": "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+      "title": "Blackheads, Dullness and Tanning: Understanding What Your Skin Needs",
+      "published_at": "2026-10-21T13:02:16",
+      "modified_at": "2026-10-21T13:02:54",
+      "excerpt": "SEO Title: Blackheads, Dullness and Tanning: A Simple Skincare Guide | Oryvia Care URL Slug: /blackheads-dullness-tanning-skincare-guide/ Meta Description: Learn the difference between blackheads, dullness and tanning, and discover practical skincare habits that support a smoother, more even-looking complexion. Blackheads, Dullness and Tanning: Understanding What Your Skin Needs Blackheads, dull-looking skin, and tanning are common skincare […]",
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "SEO Title: Blackheads, Dullness and Tanning: A Simple Skincare Guide | Oryvia Care",
+            "URL Slug: /blackheads-dullness-tanning-skincare-guide/",
+            "Meta Description: Learn the difference between blackheads, dullness and tanning, and discover practical skincare habits that support a smoother, more even-looking complexion."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Blackheads, Dullness and Tanning: Understanding What Your Skin Needs",
+          "paragraphs": [
+            "Blackheads, dull-looking skin, and tanning are common skincare concerns. Although they can sometimes appear together, they are not the same thing.",
+            "Understanding the difference can help you choose a sensible routine instead of trying too many products at once.",
+            "At Oryvia Care, we believe that skincare should start with understanding your skin, not chasing unrealistic promises of instant results."
+          ],
+          "items": []
+        },
+        {
+          "heading": "What Are Blackheads?",
+          "paragraphs": [
+            "Blackheads are a type of acne lesion that forms when a hair follicle becomes blocked with oil and dead skin cells. The opening remains exposed to air, which contributes to its dark appearance.",
+            "Blackheads often appear on the nose, chin, and forehead.",
+            "To care for blackhead-prone skin, use a suitable gentle cleanser and avoid squeezing or picking at blocked pores. Aggressive scrubbing can irritate the skin and may worsen inflammation.",
+            "For persistent blackheads, ingredients such as salicylic acid may be helpful for some people. However, suitability varies, and a dermatologist can recommend an appropriate approach."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Why Does Skin Sometimes Look Dull?",
+          "paragraphs": [
+            "Dullness is a description of how skin looks, rather than a specific medical condition. It can be associated with dryness, surface buildup, irritation, or uneven pigmentation.",
+            "A simple routine may help improve the appearance of dullness:",
+            "If dullness is accompanied by persistent irritation, a rash, or unusual skin changes, seek professional advice rather than relying only on cosmetic products."
+          ],
+          "items": [
+            "Cleanse gently without stripping the skin.",
+            "Use a moisturizer suited to your skin type.",
+            "Avoid excessive exfoliation.",
+            "Apply sunscreen consistently during the day.",
+            "Give new products time to show whether they suit your skin."
+          ]
+        },
+        {
+          "heading": "What Causes Tanning?",
+          "paragraphs": [
+            "Tanning is the skin’s response to ultraviolet radiation. It can happen after exposure to sunlight, including during everyday activities such as walking, travelling, or working outdoors.",
+            "A tan is a sign that the skin has responded to UV exposure. It should not be treated as a skin condition that can always be instantly removed with a cleanser or scrub.",
+            "The most important preventive step is sun protection. Use broad-spectrum sunscreen with SPF 30 or higher, follow its application instructions, reapply as directed, and seek shade when possible. Hats and protective clothing can provide additional help."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Can a Face Scrub Remove Blackheads and Tan?",
+          "paragraphs": [
+            "A face scrub may help remove some dead cells from the skin’s surface and temporarily improve how smooth the skin feels.",
+            "However, it cannot guarantee the removal of blackheads, and aggressive scrubbing may irritate your skin. It also cannot reliably reverse a tan immediately.",
+            "If you use a face scrub, follow the instructions, apply it gently, and avoid using it on irritated skin. People with sensitive or acne-prone skin may need a different approach.",
+            "Persistent pigmentation or blackheads may respond better to targeted skincare ingredients or professional guidance than to frequent physical exfoliation."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Build a Balanced Skincare Routine",
+          "paragraphs": [
+            "You do not need to treat every skin concern with a separate product. Start with a gentle cleanser, a suitable moisturizer, and daytime sun protection.",
+            "Add other products gradually, depending on your needs. Avoid combining multiple exfoliating products before understanding how your skin responds.",
+            "Remember that irritation can make skin concerns more noticeable, so maintaining the skin’s protective barrier is an important part of a balanced routine."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Discover Everyday Skin Care with Oryvia Care",
+          "paragraphs": [
+            "Your skin deserves care that is consistent, thoughtful, and suited to your individual needs.",
+            "Oryvia Care offers face-care essentials, including face wash and face scrub options, to help you build a routine around everyday cleansing and personal care. Check each product’s ingredients and instructions to decide whether it is right for your skin.",
+            "Rather than aiming for a particular skin colour or an overnight transformation, focus on keeping your skin comfortable, protected, and healthy-looking.",
+            "Your natural skin deserves care, not unrealistic expectations.",
+            "Disclaimer: Individual results vary. Cosmetic products cannot guarantee the removal of blackheads, tanning, or pigmentation. Consult a dermatologist for persistent or worsening skin concerns."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 4630,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:post:10402",
+      "kind": "post",
+      "slug": "dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp",
+      "url": "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+      "title": "Dandruff Care Guide: Everyday Habits for a Healthier-Feeling Scalp",
+      "published_at": "2026-10-21T13:01:18",
+      "modified_at": "2026-10-21T13:04:19",
+      "excerpt": "Dandruff Care Guide: Everyday Habits for a Healthier-Feeling Scalp White flakes on your shoulders, an itchy scalp, or visible scaling can make hair care frustrating. Dandruff is a common scalp concern, but it does not mean that you have poor hygiene. The good news is that a thoughtful hair-care routine and an appropriate shampoo can […]",
+      "sections": [
+        {
+          "heading": "Dandruff Care Guide: Everyday Habits for a Healthier-Feeling Scalp",
+          "paragraphs": [
+            "White flakes on your shoulders, an itchy scalp, or visible scaling can make hair care frustrating. Dandruff is a common scalp concern, but it does not mean that you have poor hygiene.",
+            "The good news is that a thoughtful hair-care routine and an appropriate shampoo can help many people manage ordinary dandruff. Understanding what your scalp needs is the first step."
+          ],
+          "items": []
+        },
+        {
+          "heading": "What Causes Dandruff?",
+          "paragraphs": [
+            "Dandruff can have several contributing factors, including scalp oil, individual skin sensitivity, and the activity of naturally occurring microorganisms on the scalp.",
+            "Dryness can also cause flaking, but not every flaky scalp has the same cause. Conditions such as seborrhoeic dermatitis, psoriasis, and eczema can resemble dandruff.",
+            "That is why choosing products based on your symptoms, rather than relying on guesswork, matters."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Choose an Appropriate Anti-Dandruff Shampoo",
+          "paragraphs": [
+            "If you frequently experience dandruff, consider a shampoo specifically formulated for dandruff care.",
+            "Depending on the product, an anti-dandruff shampoo may contain active ingredients such as ketoconazole, selenium sulfide, or zinc pyrithione where permitted. These ingredients serve different purposes, and the correct choice depends on the formulation and your needs.",
+            "Read the ingredient list and directions carefully. Medicated shampoos may have specific instructions about how much to use, how long to leave them on the scalp, and how frequently to apply them.",
+            "Do not assume that every shampoo marketed for dandruff contains the same active ingredients or works in the same way."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Wash Your Scalp Properly",
+          "paragraphs": [
+            "Apply shampoo according to the label, focusing on the scalp rather than concentrating only on the lengths of your hair.",
+            "Massage gently with your fingertips. Avoid scratching with your nails, which can irritate the scalp.",
+            "Rinse thoroughly so that product residue does not remain on your scalp or hair. If your hair is long or dry, you may find it helpful to use conditioner on the lengths and ends, following the product instructions."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Avoid Common Hair-Care Mistakes",
+          "paragraphs": [
+            "Scratching the scalp: Scratching may increase irritation and damage the skin.",
+            "Using too many products at once: Introducing several new treatments together makes it harder to identify what is helping or causing a reaction.",
+            "Assuming every flake is dandruff: Persistent scaling may have another cause and could require a different treatment.",
+            "Ignoring product instructions: Leaving a shampoo on longer than directed does not automatically improve the result.",
+            "Expecting instant relief: Scalp concerns can take time to improve, and results vary with the underlying cause and treatment."
+          ],
+          "items": []
+        },
+        {
+          "heading": "When Should You Seek Professional Advice?",
+          "paragraphs": [
+            "Consult a dermatologist if dandruff is severe, persistent, or accompanied by pronounced redness, swelling, sores, significant itching, or hair loss. You should also seek advice if an appropriate over-the-counter approach does not help.",
+            "Early assessment can help distinguish ordinary dandruff from other scalp conditions."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Find Your Hair-Care Routine with Oryvia Care",
+          "paragraphs": [
+            "A comfortable scalp starts with consistent care and products that suit your needs.",
+            "Oryvia Care’s anti-dandruff shampoo can be considered as part of your hair-care routine. Check its ingredients and label directions to understand how it should be used. If the product is not a medicated treatment, persistent dandruff may require a shampoo containing an appropriate active ingredient or advice from a healthcare professional.",
+            "Give your scalp time, avoid unnecessary irritation, and keep your routine focused on what works for you.",
+            "Good hair care begins with caring for the scalp.",
+            "Disclaimer: This article is for general educational purposes and is not a medical diagnosis or treatment plan."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 3779,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:post:10400",
+      "kind": "post",
+      "slug": "how-to-exfoliate-without-irritating-your-skin",
+      "url": "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+      "title": "How to Exfoliate Without Irritating Your Skin",
+      "published_at": "2026-10-21T13:00:04",
+      "modified_at": "2026-10-21T13:04:06",
+      "excerpt": "Does your skin sometimes feel rough or look less fresh than usual? Exfoliation may be one part of your skincare routine to consider. A face scrub is a type of physical exfoliant that uses small particles to help remove some dead skin cells from the skin’s surface. When used appropriately, exfoliation can help skin feel […]",
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "Does your skin sometimes feel rough or look less fresh than usual? Exfoliation may be one part of your skincare routine to consider.",
+            "A face scrub is a type of physical exfoliant that uses small particles to help remove some dead skin cells from the skin’s surface. When used appropriately, exfoliation can help skin feel smoother. However, too much scrubbing can cause irritation, redness, and dryness.",
+            "At Oryvia Care, we believe that self-care should feel comfortable, not harsh. Here is what to know before adding a face scrub to your routine."
+          ],
+          "items": []
+        },
+        {
+          "heading": "What Does a Face Scrub Do?",
+          "paragraphs": [
+            "Your skin naturally sheds dead cells over time. A face scrub can help loosen and remove some surface buildup through gentle physical exfoliation.",
+            "Depending on the formula and your skin, exfoliation may make the surface feel smoother and help temporarily improve the appearance of dullness.",
+            "However, a scrub cannot guarantee the removal of blackheads, permanently eliminate pigmentation, or instantly reverse tanning. These concerns may need different approaches."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How to Use a Face Scrub Correctly",
+          "paragraphs": [
+            "Step 1: Begin with clean skin.",
+            "Follow the product instructions. If directed, gently cleanse your face first to remove sweat, oil, sunscreen, and everyday impurities.",
+            "Step 2: Wet your face.",
+            "Using water can help you apply some scrubs more comfortably. Follow the instructions for your particular product.",
+            "Step 3: Massage gently.",
+            "Apply the recommended amount and use light, circular movements without pressing hard. Avoid the delicate eye area and any broken, irritated, or inflamed skin.",
+            "Step 4: Rinse thoroughly.",
+            "Remove the product completely with lukewarm water. Do not keep scrubbing to make your skin feel extra smooth.",
+            "Step 5: Moisturize.",
+            "Follow with a suitable moisturizer. During the day, use sunscreen to protect your skin from sun damage."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How Often Should You Use a Face Scrub?",
+          "paragraphs": [
+            "There is no universal schedule that works for everyone. Some people tolerate occasional exfoliation, while others experience irritation even with infrequent use.",
+            "Start conservatively and follow the product label. If your skin becomes tight, red, sensitive, or flaky, stop exfoliating until it settles.",
+            "Avoid combining a scrub with multiple other exfoliating products in the same routine unless you know your skin tolerates that combination."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Common Exfoliation Mistakes",
+          "paragraphs": [
+            "Scrubbing harder for better results: More pressure does not mean better exfoliation.",
+            "Using a scrub every day: Frequent use may damage the skin’s protective barrier.",
+            "Scrubbing active breakouts: Inflamed acne can become more irritated with physical friction.",
+            "Ignoring sunscreen: Sun protection remains an important part of daytime skincare.",
+            "Expecting immediate transformation: Healthy-looking skin develops through consistent, suitable care rather than aggressive treatment."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Is a Face Scrub Suitable for Every Skin Type?",
+          "paragraphs": [
+            "Not necessarily. People with sensitive skin, active eczema, rosacea, inflamed acne, or a weakened skin barrier may need to avoid physical scrubs or seek professional guidance first.",
+            "If you are unsure, consult a dermatologist about the safest approach for your skin."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Make Gentle Exfoliation Part of Your Oryvia Care Routine",
+          "paragraphs": [
+            "A face scrub should complement your skincare routine, not replace cleansing, moisturizing, or sun protection.",
+            "Explore Oryvia Care’s face-care range and choose products according to your skin’s needs. Read the instructions carefully, use them as directed, and remember that gentle care is usually a better starting point than aggressive scrubbing.",
+            "Your skincare routine should leave your skin feeling cared for, not overworked.",
+            "Disclaimer: Product suitability varies. Follow the individual product label and discontinue use if irritation occurs."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 3711,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:post:10398",
+      "kind": "post",
+      "slug": "how-to-choose-the-right-face-wash-for-your-skin-type",
+      "url": "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+      "title": "How to Choose the Right Face Wash for Your Skin Type",
+      "published_at": "2026-10-21T12:58:07",
+      "modified_at": "2026-10-21T13:03:54",
+      "excerpt": "How to Choose the Right Face Wash for Your Skin Type A face wash is often the first step in a skincare routine, but choosing one can feel confusing. With so many formulas and product claims available, it is easy to wonder which cleanser is right for you. The truth is that there is no […]",
+      "sections": [
+        {
+          "heading": "How to Choose the Right Face Wash for Your Skin Type",
+          "paragraphs": [
+            "A face wash is often the first step in a skincare routine, but choosing one can feel confusing. With so many formulas and product claims available, it is easy to wonder which cleanser is right for you.",
+            "The truth is that there is no single face wash that is perfect for everyone. Your skin type, personal preferences, and sensitivity all matter.",
+            "Here is how to make a more informed choice."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Face Wash for Oily Skin",
+          "paragraphs": [
+            "Oily skin often produces excess sebum, which can leave the face looking shiny, particularly around the forehead, nose, and chin.",
+            "If your skin is oily, look for a cleanser designed to remove excess oil without leaving your face feeling excessively dry.",
+            "Washing your face too frequently or using harsh cleansers may irritate your skin and make it feel uncomfortable. Start with a gentle routine and observe how your skin responds."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Face Wash for Dry Skin",
+          "paragraphs": [
+            "Dry skin may feel tight, rough, or flaky, particularly after cleansing.",
+            "A gentle cleanser that does not leave your skin feeling stripped is often a suitable choice. Avoid very hot water and excessive rubbing.",
+            "Follow cleansing with a moisturizer to help maintain hydration and keep your skin feeling comfortable."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Face Wash for Combination Skin",
+          "paragraphs": [
+            "Combination skin typically has more oil in some areas and less moisture in others. For example, your forehead and nose may become oily while your cheeks feel normal or dry.",
+            "A balanced, gentle cleanser can be a useful starting point. Pay attention to how different areas of your face respond instead of assuming that your entire face has identical needs."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Face Wash for Sensitive Skin",
+          "paragraphs": [
+            "Sensitive skin may react to certain fragrances, active ingredients, or cleansing formulas.",
+            "Look for products labelled for sensitive skin, review the ingredient list, and introduce new products carefully. A patch test can help identify possible irritation, although it cannot guarantee that a product will never cause a reaction.",
+            "Stop using any product that causes persistent burning, redness, or discomfort."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How Often Should You Wash Your Face?",
+          "paragraphs": [
+            "For many people, cleansing once in the morning and once in the evening is a reasonable routine. However, your needs may differ depending on your skin type, exercise habits, and product use.",
+            "After sweating heavily, gently cleanse your skin when practical. Avoid repeatedly washing your face throughout the day unless there is a specific reason."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Common Face-Washing Mistakes to Avoid",
+          "paragraphs": [
+            "Using very hot water: Lukewarm water is generally more comfortable and less likely to contribute to dryness.",
+            "Scrubbing too hard: Vigorous rubbing can irritate your skin. Use your fingertips and gentle movements.",
+            "Choosing products only for fragrance: A pleasant fragrance does not necessarily mean a formula is better suited to your skin.",
+            "Skipping moisturizer: Even oily skin can benefit from an appropriately selected moisturizer.",
+            "Expecting instant results: A face wash helps with cleansing, but concerns such as acne, pigmentation, and persistent irritation may require a more targeted approach."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Find Your Everyday Cleansing Essential with Oryvia Care",
+          "paragraphs": [
+            "The right cleansing routine should leave your skin feeling clean and comfortable, not tight or irritated.",
+            "Oryvia Care encourages you to choose your products thoughtfully, pay attention to your skin’s response, and keep your daily routine simple.",
+            "Because good skincare is not about using the most products. It is about choosing the ones that work for your needs.",
+            "Disclaimer: This article provides general skincare information and does not replace professional medical advice."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 3598,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    },
+    {
+      "source_identity": "wp:post:10396",
+      "kind": "post",
+      "slug": "the-ultimate-daily-skincare-routine-for-healthy-glowing-skin",
+      "url": "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+      "title": "The Ultimate Daily Skincare Routine for Healthy, Glowing Skin",
+      "published_at": "2026-10-21T12:56:15",
+      "modified_at": "2026-10-21T13:03:36",
+      "excerpt": "The Ultimate Daily Skincare Routine for Healthy, Glowing Skin Healthy-looking skin does not always require an elaborate routine or a shelf full of products. Often, the best approach is to keep things simple, choose products that suit your skin, and follow a consistent skincare routine. At Oryvia Care, we believe that skincare should fit naturally […]",
+      "sections": [
+        {
+          "heading": "The Ultimate Daily Skincare Routine for Healthy, Glowing Skin",
+          "paragraphs": [
+            "Healthy-looking skin does not always require an elaborate routine or a shelf full of products. Often, the best approach is to keep things simple, choose products that suit your skin, and follow a consistent skincare routine.",
+            "At Oryvia Care, we believe that skincare should fit naturally into your everyday life. Whether you are managing a busy schedule, spending time outdoors, or simply looking for a little extra self-care, a few thoughtful steps can help you care for your skin."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Step 1: Start Your Day with a Gentle Face Wash",
+          "paragraphs": [
+            "Throughout the day and night, your skin accumulates oil, sweat, and environmental impurities. Cleansing helps remove these unwanted residues and leaves your face feeling fresh.",
+            "Choose a face wash that suits your skin type. If your skin feels tight or uncomfortable after washing, your cleanser may be too harsh for you.",
+            "Use lukewarm water, gently massage the cleanser over your face, and rinse thoroughly. Avoid scrubbing vigorously, as this can irritate the skin."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Step 2: Keep Your Skin Moisturized",
+          "paragraphs": [
+            "Moisturizing is an important step for most skin types, including oily skin. A suitable moisturizer helps maintain skin hydration and supports the skin’s natural protective barrier.",
+            "If you have oily skin, you may prefer a lightweight texture. If your skin is dry, a richer moisturizer may feel more comfortable.",
+            "Apply moisturizer according to the product instructions, ideally while your skin is slightly damp after cleansing."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Step 3: Make Sun Protection a Daily Habit",
+          "paragraphs": [
+            "Sun exposure can contribute to tanning, uneven skin tone, premature skin ageing, and sun damage. Applying a broad-spectrum sunscreen with SPF 30 or higher is a useful daily habit.",
+            "Apply it to exposed skin before going outdoors, following the label instructions. Reapply as directed, especially after sweating, swimming, or spending extended periods outside.",
+            "Remember that sunscreen is useful even when the weather is cloudy."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Step 4: Follow a Simple Nighttime Routine",
+          "paragraphs": [
+            "Your evening routine can be straightforward. Cleanse your face to remove sunscreen, makeup, sweat, and accumulated impurities. Follow with a moisturizer suited to your skin.",
+            "Avoid introducing several new skincare products at once. Giving your skin time to adjust makes it easier to identify which products work well for you."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Step 5: Do Not Forget Healthy Daily Habits",
+          "paragraphs": [
+            "Skincare is not just about the products you apply. Try to maintain regular sleep, eat a balanced diet, drink enough water, and avoid picking at pimples or irritated skin.",
+            "Your skin’s needs can also change with the seasons, so adjust your routine when necessary."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Build Your Routine with Oryvia Care",
+          "paragraphs": [
+            "A consistent skincare routine starts with understanding what your skin needs. A suitable cleanser, a moisturizer, and daily sun protection can provide a practical foundation without making skincare complicated.",
+            "Explore Oryvia Care for everyday personal-care essentials and make your routine a moment of care for yourself.",
+            "Healthy skin begins with small habits repeated every day.",
+            "Disclaimer: Individual skin needs and results vary. Patch-test new products when appropriate, follow product directions, and consult a dermatologist for persistent skin concerns."
+          ],
+          "items": []
+        }
+      ],
+      "text_length": 3250,
+      "shortcode_only": false,
+      "issues": [],
+      "review_state": "needs_review"
+    }
+  ],
+  "contacts": [
+    {
+      "href": "https://wa.me/91XXXXXXXXXX",
+      "kind": "whatsapp",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/privacy-policy/",
+        "https://oryviacare.in/refund_returns/",
+        "https://oryviacare.in/",
+        "https://oryviacare.in/about-us/",
+        "https://oryviacare.in/contact-us/",
+        "https://oryviacare.in/news/",
+        "https://oryviacare.in/terms-and-conditions/",
+        "https://oryviacare.in/10305-2/",
+        "https://oryviacare.in/shop/",
+        "https://oryviacare.in/erp-subscription/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/",
+        "https://oryviacare.in/category/uncategorized/",
+        "https://oryviacare.in/product-category/hair-care/",
+        "https://oryviacare.in/product-category/skincare/",
+        "https://oryviacare.in/product-category/packages/"
+      ]
+    },
+    {
+      "href": "https://www.facebook.com/sharer/sharer.php",
+      "kind": "social",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/"
+      ]
+    },
+    {
+      "href": "https://twitter.com/intent/tweet",
+      "kind": "social",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/"
+      ]
+    },
+    {
+      "href": "https://www.linkedin.com/shareArticle",
+      "kind": "social",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/"
+      ]
+    },
+    {
+      "href": "https://wa.me/919105430713",
+      "kind": "whatsapp",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/privacy-policy/",
+        "https://oryviacare.in/refund_returns/",
+        "https://oryviacare.in/",
+        "https://oryviacare.in/about-us/",
+        "https://oryviacare.in/contact-us/",
+        "https://oryviacare.in/news/",
+        "https://oryviacare.in/terms-and-conditions/",
+        "https://oryviacare.in/10305-2/",
+        "https://oryviacare.in/shop/",
+        "https://oryviacare.in/erp-subscription/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/",
+        "https://oryviacare.in/category/uncategorized/",
+        "https://oryviacare.in/product-category/hair-care/",
+        "https://oryviacare.in/product-category/skincare/",
+        "https://oryviacare.in/product-category/packages/"
+      ]
+    },
+    {
+      "href": "tel:+919105430713",
+      "kind": "tel",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/privacy-policy/",
+        "https://oryviacare.in/refund_returns/",
+        "https://oryviacare.in/",
+        "https://oryviacare.in/about-us/",
+        "https://oryviacare.in/contact-us/",
+        "https://oryviacare.in/news/",
+        "https://oryviacare.in/terms-and-conditions/",
+        "https://oryviacare.in/10305-2/",
+        "https://oryviacare.in/shop/",
+        "https://oryviacare.in/erp-subscription/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/",
+        "https://oryviacare.in/category/uncategorized/",
+        "https://oryviacare.in/product-category/hair-care/",
+        "https://oryviacare.in/product-category/skincare/",
+        "https://oryviacare.in/product-category/packages/"
+      ]
+    },
+    {
+      "href": "mailto:oryviacare@gmail.com",
+      "kind": "mailto",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/privacy-policy/",
+        "https://oryviacare.in/refund_returns/",
+        "https://oryviacare.in/",
+        "https://oryviacare.in/about-us/",
+        "https://oryviacare.in/contact-us/",
+        "https://oryviacare.in/news/",
+        "https://oryviacare.in/terms-and-conditions/",
+        "https://oryviacare.in/10305-2/",
+        "https://oryviacare.in/shop/",
+        "https://oryviacare.in/erp-subscription/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/",
+        "https://oryviacare.in/category/uncategorized/",
+        "https://oryviacare.in/product-category/hair-care/",
+        "https://oryviacare.in/product-category/skincare/",
+        "https://oryviacare.in/product-category/packages/"
+      ]
+    },
+    {
+      "href": "https://instagram.com/yourhandle",
+      "kind": "social",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/privacy-policy/",
+        "https://oryviacare.in/refund_returns/",
+        "https://oryviacare.in/",
+        "https://oryviacare.in/about-us/",
+        "https://oryviacare.in/contact-us/",
+        "https://oryviacare.in/news/",
+        "https://oryviacare.in/terms-and-conditions/",
+        "https://oryviacare.in/10305-2/",
+        "https://oryviacare.in/shop/",
+        "https://oryviacare.in/erp-subscription/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/",
+        "https://oryviacare.in/category/uncategorized/",
+        "https://oryviacare.in/product-category/hair-care/",
+        "https://oryviacare.in/product-category/skincare/",
+        "https://oryviacare.in/product-category/packages/"
+      ]
+    },
+    {
+      "href": "https://facebook.com/yourpage",
+      "kind": "social",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/privacy-policy/",
+        "https://oryviacare.in/refund_returns/",
+        "https://oryviacare.in/",
+        "https://oryviacare.in/about-us/",
+        "https://oryviacare.in/contact-us/",
+        "https://oryviacare.in/news/",
+        "https://oryviacare.in/terms-and-conditions/",
+        "https://oryviacare.in/10305-2/",
+        "https://oryviacare.in/shop/",
+        "https://oryviacare.in/erp-subscription/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/",
+        "https://oryviacare.in/category/uncategorized/",
+        "https://oryviacare.in/product-category/hair-care/",
+        "https://oryviacare.in/product-category/skincare/",
+        "https://oryviacare.in/product-category/packages/"
+      ]
+    },
+    {
+      "href": "https://youtube.com/@yourchannel",
+      "kind": "social",
+      "pages": [
+        "https://oryviacare.in/the-ultimate-daily-skincare-routine-for-healthy-glowing-skin/",
+        "https://oryviacare.in/how-to-choose-the-right-face-wash-for-your-skin-type/",
+        "https://oryviacare.in/how-to-exfoliate-without-irritating-your-skin/",
+        "https://oryviacare.in/dandruff-care-guide-everyday-habits-for-a-healthier-feeling-scalp/",
+        "https://oryviacare.in/blackheads-dullness-and-tanning-understanding-what-your-skin-needs/",
+        "https://oryviacare.in/privacy-policy/",
+        "https://oryviacare.in/refund_returns/",
+        "https://oryviacare.in/",
+        "https://oryviacare.in/about-us/",
+        "https://oryviacare.in/contact-us/",
+        "https://oryviacare.in/news/",
+        "https://oryviacare.in/terms-and-conditions/",
+        "https://oryviacare.in/10305-2/",
+        "https://oryviacare.in/shop/",
+        "https://oryviacare.in/erp-subscription/",
+        "https://oryviacare.in/product/haldi-chandan-6-step-facial-kit/",
+        "https://oryviacare.in/product/oryvia-d-tan-face-pack-with-peppermint-alpha-arbutin-kaolin-clay/",
+        "https://oryviacare.in/product/oryvia-gold-6-step-facial-kit-with-cleanser-scrub-gel-cream-mask-face-serum/",
+        "https://oryviacare.in/product/oryvia-anti-hairfall-shampoo-with-onion-extract-ceramide-np-quinoa-protein/",
+        "https://oryviacare.in/product/oryvia-anti-dandruff-shampoo-for-healthy-scalp-strong-hair/",
+        "https://oryviacare.in/product/oryvia-face-scrub-for-exfoliation-blackhead-tan-care/",
+        "https://oryviacare.in/product/oryvia-face-wash-with-aloe-vera-niacinamide-vitamin-c/",
+        "https://oryviacare.in/product/starter-salon-pack/",
+        "https://oryviacare.in/product/best-seller-salon-pack/",
+        "https://oryviacare.in/product/wholsale-salon-pack/",
+        "https://oryviacare.in/product/saver-salon-pack/",
+        "https://oryviacare.in/category/uncategorized/",
+        "https://oryviacare.in/product-category/hair-care/",
+        "https://oryviacare.in/product-category/skincare/",
+        "https://oryviacare.in/product-category/packages/"
+      ]
+    }
+  ]
+}
