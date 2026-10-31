@@ -1,21 +1,46 @@
 @import "tailwindcss";
 
-/* Oryvia design tokens — see docs/DESIGN_SYSTEM.md. Contrast pairs verified there. */
+/*
+ * Oryvia design tokens — "Kohl, Kesar & Copper" (see docs/DESIGN_SYSTEM.md).
+ * Drawn from the real packaging: black boxes with gold type, bottle-green bottles with copper pumps,
+ * blush labels and gold dust. Contrast pairs are computed in DESIGN_SYSTEM.md.
+ */
 :root {
-  --canvas: #f7f4ec;
+  /* Light surfaces */
+  --canvas: #fbf6ee; /* warm ivory */
   --surface: #ffffff;
-  --surface-sunk: #f1ece0;
-  --ink: #14201a;
-  --ink-muted: #5d6660;
-  --primary: #173f35;
-  --primary-hover: #0f2e26;
-  --on-primary: #ffffff;
-  --teal: #274c4f;
-  --gold: #c9a24b;
-  --gold-soft: #ecdcab;
-  --cream: #f3ecd8;
-  --divider: #e6e0d2;
-  --border-control: #b9b3a5;
+  --surface-sunk: #f3e9da; /* sandstone */
+  --cream: #f7eddc;
+  --blush: #f6e1da; /* label pink */
+  --sage: #e6ece2;
+  --divider: #eadfcd;
+  --border-control: #bfae98;
+
+  /* Ink */
+  --ink: #1a1411; /* kohl */
+  --ink-muted: #6a5b52;
+
+  /* Night surfaces (hero, packages, footer) */
+  --night: #100b09;
+  --night-2: #1c1410;
+  --on-night: #f5ebdd;
+  --on-night-muted: #b9a898;
+
+  /* Accents */
+  --kesar: #d6a13f; /* saffron gold — decoration and large type only on light */
+  --kesar-light: #e2b456; /* gold text on night */
+  --gold-text: #875a12; /* gold for small text on light */
+  --copper: #9a4626; /* links on light */
+  --copper-bright: #c27a4f; /* pump copper — decoration */
+  --rose: #9e3b52;
+  --bottle: #1f3b2e;
+
+  /* Actions */
+  --primary: #1a1411;
+  --primary-hover: #2e231d;
+  --on-primary: #f7e9c6;
+
+  /* Status (unchanged semantics) */
   --success: #1f6b45;
   --success-bg: #e6f2ea;
   --warning: #7a5410;
@@ -25,24 +50,46 @@
   --info: #1f4f73;
   --info-bg: #e6eef5;
   --focus: #1f6fb2;
-  --glass: rgb(255 255 255 / 0.8);
-  --glass-border: rgb(255 255 255 / 0.6);
-  --shadow-ambient: 0 1px 2px rgb(20 32 26 / 0.04), 0 8px 24px rgb(20 32 26 / 0.06);
-  --shadow-overlay: 0 24px 64px rgb(20 32 26 / 0.18);
+
+  --glass: rgb(251 246 238 / 0.72);
+  --glass-border: rgb(255 255 255 / 0.55);
+  --shadow-ambient: 0 1px 2px rgb(26 20 17 / 0.05), 0 10px 30px -8px rgb(26 20 17 / 0.12);
+  --shadow-lift: 0 2px 6px rgb(26 20 17 / 0.06), 0 28px 60px -18px rgb(26 20 17 / 0.32);
+  --shadow-overlay: 0 30px 80px -20px rgb(16 11 9 / 0.45);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Film grain for night sections (inline SVG noise, no network). */
+  --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
 }
 
 @theme inline {
   --color-canvas: var(--canvas);
   --color-surface: var(--surface);
   --color-sunk: var(--surface-sunk);
+  --color-cream: var(--cream);
+  --color-blush: var(--blush);
+  --color-sage: var(--sage);
   --color-ink: var(--ink);
   --color-muted: var(--ink-muted);
+  --color-night: var(--night);
+  --color-night-2: var(--night-2);
+  --color-on-night: var(--on-night);
+  --color-on-night-muted: var(--on-night-muted);
+  --color-kesar: var(--kesar);
+  --color-kesar-light: var(--kesar-light);
+  --color-gold-text: var(--gold-text);
+  --color-copper: var(--copper);
+  --color-copper-bright: var(--copper-bright);
+  --color-rose: var(--rose);
+  --color-bottle: var(--bottle);
   --color-primary: var(--primary);
   --color-primary-hover: var(--primary-hover);
-  --color-teal: var(--teal);
-  --color-gold: var(--gold);
-  --color-gold-soft: var(--gold-soft);
-  --color-cream: var(--cream);
+  --color-on-primary: var(--on-primary);
+  /* Legacy names kept so admin/account pages pick up the new palette without edits. */
+  --color-teal: var(--copper);
+  --color-gold: var(--kesar);
+  --color-gold-soft: #ecd4a0;
   --color-divider: var(--divider);
   --color-control: var(--border-control);
   --color-success: var(--success);
@@ -53,10 +100,11 @@
   --color-error-bg: var(--error-bg);
   --color-info: var(--info);
   --color-info-bg: var(--info-bg);
-  --font-display: var(--font-playfair), "Georgia", serif;
-  --font-sans: var(--font-jost), system-ui, sans-serif;
-  --radius-card: 18px;
-  --radius-control: 11px;
+  --font-display: var(--font-fraunces), "Georgia", serif;
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
+  --font-mark: var(--font-marcellus), var(--font-fraunces), serif;
+  --radius-card: 22px;
+  --radius-control: 999px;
 }
 
 html {
@@ -68,6 +116,11 @@ body {
   font-family: var(--font-sans);
   background: var(--canvas);
   min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background: var(--kesar);
+  color: var(--ink);
 }
 :focus-visible {
   outline: 3px solid var(--focus);
@@ -77,114 +130,165 @@ body {
 .tabular {
   font-variant-numeric: tabular-nums;
 }
-
-/* Glass material: navigation, workspace framing, summary cards. Never under long text or dense tables. */
-.glass {
-  background: var(--glass);
-  border: 1px solid var(--glass-border);
-  box-shadow: var(--shadow-ambient);
+.font-display {
+  font-variation-settings: "SOFT" 50, "WONK" 0;
+  letter-spacing: -0.015em;
 }
-@supports (backdrop-filter: blur(1px)) {
+
+@layer components {
+  /* Glass material: navigation, workspace framing, summary cards. Never under long text or dense tables. */
   .glass {
-    backdrop-filter: blur(16px) saturate(1.2);
-    -webkit-backdrop-filter: blur(16px) saturate(1.2);
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--shadow-ambient);
   }
-}
-
-.card {
-  background: var(--surface);
-  border-radius: var(--radius-card);
-  box-shadow: var(--shadow-ambient);
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  min-height: 44px;
-  padding: 0 1.25rem;
-  border-radius: var(--radius-control);
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  transition: background-color 150ms, box-shadow 150ms, transform 150ms;
-}
-.btn:active:not(:disabled) {
-  transform: translateY(1px);
-}
-.btn:disabled {
-  opacity: 0.55;
-  cursor: not-allowed;
-}
-.btn-primary {
-  background: var(--primary);
-  color: var(--on-primary);
-}
-.btn-primary:hover:not(:disabled) {
-  background: var(--primary-hover);
-}
-.btn-secondary {
-  background: var(--surface);
-  color: var(--ink);
-  box-shadow: inset 0 0 0 1px var(--border-control);
-}
-.btn-secondary:hover:not(:disabled) {
-  box-shadow: inset 0 0 0 1px var(--ink);
-}
-.btn-ghost {
-  color: var(--teal);
-  padding: 0 0.75rem;
-}
-.btn-ghost:hover {
-  background: var(--surface-sunk);
-}
-.btn-danger {
-  background: var(--error);
-  color: #fff;
-}
-
-.input {
-  width: 100%;
-  min-height: 44px;
-  padding: 0.5rem 0.875rem;
-  border-radius: var(--radius-control);
-  background: var(--surface);
-  border: 1px solid var(--border-control);
-  color: var(--ink);
-}
-.input:focus-visible {
-  outline-offset: 0;
-}
-.input[aria-invalid="true"] {
-  border-color: var(--error);
-}
-.label {
-  display: block;
-  font-size: 0.875rem;
-  font-weight: 500;
-  margin-bottom: 0.375rem;
-}
-.field-error {
-  color: var(--error);
-  font-size: 0.8125rem;
-  margin-top: 0.25rem;
-}
-
-.eyebrow {
-  font-size: 0.75rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--teal);
-  font-weight: 500;
+  @supports (backdrop-filter: blur(1px)) {
+    .glass {
+      backdrop-filter: blur(18px) saturate(1.4);
+      -webkit-backdrop-filter: blur(18px) saturate(1.4);
+    }
+  }
+  
+  .card {
+    background: var(--surface);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-ambient);
+  }
+  
+  /* ── Buttons ── */
+  .btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0 1.35rem;
+    border-radius: var(--radius-control);
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
+    isolation: isolate;
+    overflow: hidden;
+    transition: background-color 200ms, color 200ms, box-shadow 250ms, transform 250ms var(--ease-out);
+  }
+  .btn:active:not(:disabled) {
+    transform: scale(0.97);
+  }
+  .btn:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    background: var(--primary);
+    color: var(--on-primary);
+  }
+  /* Gold sheen sweeps across primary buttons on hover. */
+  .btn-primary::after,
+  .btn-kesar::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(110deg, transparent 30%, rgb(226 180 86 / 0.35) 50%, transparent 70%);
+    transform: translateX(-120%);
+    transition: transform 700ms var(--ease-out);
+  }
+  .btn-primary:hover:not(:disabled)::after,
+  .btn-kesar:hover:not(:disabled)::after {
+    transform: translateX(120%);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--primary-hover);
+    box-shadow: 0 10px 24px -10px rgb(26 20 17 / 0.6);
+  }
+  .btn-kesar {
+    background: linear-gradient(135deg, #e9c06a, var(--kesar) 55%, #c08a2e);
+    color: var(--ink);
+    box-shadow: 0 10px 30px -12px rgb(214 161 63 / 0.8), inset 0 1px 0 rgb(255 255 255 / 0.4);
+  }
+  .btn-kesar::after {
+    background: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / 0.55) 50%, transparent 70%);
+  }
+  .btn-secondary {
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: inset 0 0 0 1px var(--border-control);
+  }
+  .btn-secondary:hover:not(:disabled) {
+    box-shadow: inset 0 0 0 1.5px var(--ink);
+  }
+  .btn-ghost {
+    color: var(--copper);
+    padding: 0 0.85rem;
+  }
+  .btn-ghost:hover {
+    background: var(--surface-sunk);
+  }
+  .btn-night {
+    color: var(--on-night);
+    box-shadow: inset 0 0 0 1px rgb(245 235 221 / 0.35);
+  }
+  .btn-night:hover {
+    background: rgb(245 235 221 / 0.08);
+    box-shadow: inset 0 0 0 1px var(--kesar-light);
+  }
+  .btn-danger {
+    background: var(--error);
+    color: #fff;
+  }
+  
+  .input {
+    width: 100%;
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+    border-radius: 14px;
+    background: var(--surface);
+    border: 1px solid var(--border-control);
+    color: var(--ink);
+    transition: border-color 150ms, box-shadow 150ms;
+  }
+  .input:hover {
+    border-color: var(--ink-muted);
+  }
+  .input:focus-visible {
+    outline-offset: 0;
+    box-shadow: 0 0 0 4px rgb(214 161 63 / 0.25);
+  }
+  .input[aria-invalid="true"] {
+    border-color: var(--error);
+  }
+  .label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.375rem;
+  }
+  .field-error {
+    color: var(--error);
+    font-size: 0.8125rem;
+    margin-top: 0.25rem;
+  }
+  
+  .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold-text);
+    font-weight: 700;
+  }
+  .on-night .eyebrow {
+    color: var(--kesar-light);
+  }
 }
 
 .prose-oryvia p {
   margin: 0 0 1rem;
-  line-height: 1.75;
+  line-height: 1.8;
 }
 .prose-oryvia h2 {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 2rem 0 0.75rem;
 }
 .prose-oryvia ul {
@@ -194,50 +298,712 @@ body {
 }
 .prose-oryvia li {
   margin-bottom: 0.375rem;
-  line-height: 1.65;
+  line-height: 1.7;
+}
+.prose-oryvia li::marker {
+  color: var(--kesar);
 }
 
+@layer components {
+  /* ── Night sections ── */
+  .on-night {
+    position: relative;
+    background: var(--night);
+    color: var(--on-night);
+    isolation: isolate;
+  }
+  .on-night::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: var(--grain);
+    opacity: 0.07;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+  .text-gold-gradient {
+    background: linear-gradient(100deg, #b98328 0%, #f3d488 28%, #d6a13f 45%, #fff1c8 52%, #c8902f 70%, #e8c272 100%);
+    background-size: 220% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shimmer 6s ease-in-out infinite;
+  }
+}
+
+/* ── Motion primitives ── */
 @keyframes rise {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(14px);
   }
   to {
     opacity: 1;
     transform: none;
   }
 }
+@keyframes word-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.55em) rotate(2deg);
+    filter: blur(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: blur(0);
+  }
+}
+@keyframes shimmer {
+  0%,
+  100% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 0% 0;
+  }
+}
 @keyframes float {
   0%,
   100% {
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0) rotate(var(--r, 0deg));
   }
   50% {
-    transform: translateY(-8px);
+    transform: translate3d(0, -14px, 0) rotate(calc(var(--r, 0deg) + 1.5deg));
   }
 }
+@keyframes drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  33% {
+    transform: translate3d(6%, -8%, 0) scale(1.12);
+  }
+  66% {
+    transform: translate3d(-7%, 5%, 0) scale(0.92);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes pop {
+  0% {
+    transform: scale(0.4);
+  }
+  60% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* Opacity only: a transform here would make the page a containing block for position: fixed children. */
+@keyframes page-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .rise {
-  animation: rise 600ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation: rise 550ms var(--ease-out) both;
+}
+.page-enter {
+  animation: page-in 350ms var(--ease-out) both;
 }
 .float-slow {
-  animation: float 7s ease-in-out infinite;
+  animation: float 8s ease-in-out infinite;
 }
+.pop {
+  animation: pop 450ms var(--ease-spring) both;
+}
+
+/* Kinetic headline: each word is wrapped by <Kinetic>, staggered with --i. */
+.kinetic .w {
+  display: inline-block;
+  animation: word-in 750ms var(--ease-out) both;
+  animation-delay: calc(var(--i) * 55ms + var(--base, 0ms) + var(--intro-delay, 0ms));
+}
+
+/* Scroll reveal: <Reveal> toggles data-shown when the element enters the viewport. */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  filter: blur(4px);
+  transition: opacity 700ms var(--ease-out), transform 700ms var(--ease-out), filter 700ms var(--ease-out);
+  transition-delay: var(--d, 0ms);
+}
+.reveal[data-shown="true"] {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+/* Without JavaScript, content is never hidden. */
+@media (scripting: none) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+/* Ambient light orbs behind the hero. */
+.orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.55;
+  animation: drift 22s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Infinite ticker. Content is duplicated (second copy aria-hidden). Pauses on hover/focus. */
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee var(--speed, 40s) linear infinite;
+}
+.marquee-wrap:hover .marquee,
+.marquee-wrap:focus-within .marquee {
+  animation-play-state: paused;
+}
+.marquee-mask {
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+/* Product card: pointer-driven tilt and a gold light that follows the cursor (vars set by <Tilt>). */
+.tilt {
+  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateZ(0);
+  transition: transform 500ms var(--ease-out), box-shadow 400ms var(--ease-out);
+  transform-style: preserve-3d;
+}
+.tilt[data-active="true"] {
+  transition: transform 120ms linear, box-shadow 400ms var(--ease-out);
+  box-shadow: var(--shadow-lift);
+}
+.sheen {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 400ms;
+  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), rgb(255 230 170 / 0.38), transparent 45%);
+  mix-blend-mode: soft-light;
+}
+.tilt[data-active="true"] .sheen {
+  opacity: 1;
+}
+
+@layer components {
+  /* Animated gold border (conic gradient rotating behind a 1px mask). */
+  .gold-ring {
+    position: relative;
+    isolation: isolate;
+  }
+  .gold-ring::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    z-index: -1;
+    border-radius: inherit;
+    padding: 1px;
+    background: conic-gradient(from var(--a, 0deg), transparent 0deg, rgb(226 180 86 / 0.9) 60deg, transparent 120deg, transparent 360deg);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: ring 6s linear infinite;
+  }
+}
+
+@property --a {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes ring {
+  to {
+    --a: 360deg;
+  }
+}
+
+/* Animated link underline. */
+.link-draw {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 450ms var(--ease-out);
+}
+.link-draw:hover,
+.link-draw[aria-current="page"] {
+  background-size: 100% 1.5px;
+}
+
+/* Scroll-linked progress line and parallax, where the browser supports scroll-driven animations. */
+@supports (animation-timeline: view()) {
+  .draw-on-scroll {
+    transform-origin: left center;
+    animation: draw linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 55%;
+  }
+  .parallax-zoom {
+    animation: zoom-settle linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 60%;
+  }
+  .parallax-up {
+    animation: drift-up linear both;
+    animation-timeline: view();
+  }
+}
+@keyframes draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes zoom-settle {
+  from {
+    transform: scale(1.18);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes drift-up {
+  from {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateY(-40px);
+  }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .lift {
-    transition: transform 220ms ease, box-shadow 220ms ease;
+    transition: transform 350ms var(--ease-out), box-shadow 350ms var(--ease-out);
   }
   .lift:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 2px 4px rgb(20 32 26 / 0.05), 0 16px 36px rgb(20 32 26 / 0.1);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lift);
   }
 }
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
     animation-duration: 1ms !important;
     animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
     transition-duration: 1ms !important;
     scroll-behavior: auto !important;
   }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+  .tilt {
+    transform: none !important;
+  }
+  .marquee {
+    animation: none;
+  }
+}
+
+@keyframes drawer-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* ───────────── Session 3b: lighter, flowing system ───────────── */
+
+/* Gold line across the top that tracks page scroll (--scroll set by <SmoothScroll>). */
+.scroll-progress {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 2px;
+  z-index: 60;
+  transform-origin: 0 50%;
+  transform: scaleX(var(--scroll, 0));
+  background: linear-gradient(90deg, var(--copper-bright), var(--kesar), var(--copper-bright));
+  pointer-events: none;
+}
+
+/* Deep gold for large display type on light backgrounds (every stop ≥ 3.4:1 on ivory). */
+.text-gold-deep {
+  background: linear-gradient(100deg, #7a4f10 0%, #a8701f 30%, #b07a26 48%, #8a5a12 70%, #a8701f 100%);
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 7s ease-in-out infinite;
+}
+
+/* Light hero: soft colour mesh + a dotted grid that fades toward the edges. */
+.hero-light {
+  position: relative;
+  isolation: isolate;
+  background: radial-gradient(120% 80% at 50% 0%, #fff9f0 0%, var(--canvas) 60%);
+}
+.hero-light .mesh {
+  position: absolute;
+  inset: -10%;
+  z-index: -2;
+  pointer-events: none;
+}
+.hero-light .mesh span {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  opacity: 0.75;
+  animation: drift 24s ease-in-out infinite;
+}
+.dot-grid {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: radial-gradient(rgb(26 20 17 / 0.12) 1px, transparent 1.2px);
+  background-size: 26px 26px;
+  mask-image: radial-gradient(70% 60% at 50% 40%, #000 30%, transparent 75%);
+}
+
+/* Hero responds to scroll (--p 0→1 from <ScrollVar>): copy lifts and fades, the product fan spreads. */
+.hero-copy {
+  transform: translate3d(0, calc(var(--p, 0) * -120px), 0);
+  opacity: calc(1 - var(--p, 0) * 1.6);
+}
+.hero-fan {
+  transform: translate3d(0, calc(var(--p, 0) * -60px), 0) scale(calc(1 + var(--p, 0) * 0.12));
+}
+.hero-fan .fan-card {
+  transform: translate3d(calc(var(--spread, 0) * var(--p, 0) * 180px), calc(var(--p, 0) * var(--lift, 0) * 1px), 0) rotate(calc(var(--p, 0) * var(--spin, 0) * 1deg));
+}
+
+/* Pill badge with a travelling gold edge. */
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem 0.4rem 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: rgb(255 255 255 / 0.75);
+  box-shadow: var(--shadow-ambient);
+  backdrop-filter: blur(10px);
+}
+
+/* Pinned horizontal gallery (<HorizontalPin>). */
+.hpin[data-pinned="true"] .hpin-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.hpin-track {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0 max(1.25rem, calc((100vw - 1400px) / 2 + 2rem));
+  will-change: transform;
+}
+.hpin[data-pinned="false"] .hpin-track {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1.25rem;
+  scrollbar-width: none;
+  padding-bottom: 0.5rem;
+}
+.hpin[data-pinned="false"] .hpin-track > * {
+  scroll-snap-align: start;
+}
+.hpin-bar span {
+  transform: scaleX(var(--p, 0));
+}
+.hpin[data-pinned="false"] .hpin-bar {
+  display: none;
+}
+
+/* Spotlight cards: a soft light and a brighter border follow the cursor (--sx/--sy from <Spotlight>). */
+@layer components {
+  .spot {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border-radius: 28px;
+    background: var(--surface);
+    box-shadow: inset 0 0 0 1px var(--divider), var(--shadow-ambient);
+    transition: transform 500ms var(--ease-out), box-shadow 500ms var(--ease-out);
+  }
+  .spot::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(500px circle at var(--sx, -999px) var(--sy, -999px), rgb(214 161 63 / 0.14), transparent 45%);
+    pointer-events: none;
+  }
+  .spot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: radial-gradient(320px circle at var(--sx, -999px) var(--sy, -999px), rgb(194 122 79 / 0.85), transparent 45%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+  .spot:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/* Headlines inside a <Reveal> wait until it is on screen, then slide up out of a mask. */
+.reveal .kinetic .w {
+  animation-play-state: paused;
+}
+.reveal[data-shown="true"] .kinetic .w {
+  animation-play-state: running;
+}
+.mask-words .w {
+  animation-name: word-up;
+}
+.mask-words > span {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  padding-bottom: 0.2em;
+  margin-bottom: -0.2em;
+}
+@keyframes word-up {
+  from {
+    transform: translateY(105%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* Reverse ticker for the second image row. */
+.marquee-reverse {
+  animation-direction: reverse;
+}
+
+/* Status-step animation in the "track every order" card. */
+@keyframes fill-step {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.track-line {
+  transform-origin: left;
+  animation: fill-step 3.2s var(--ease-out) infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-copy,
+  .hero-fan,
+  .hero-fan .fan-card {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .scroll-progress {
+    display: none;
+  }
+  .reveal .kinetic .w {
+    animation-play-state: running;
+  }
+}
+
+/* ── Session 3c: intro, story, stepper, gallery ── */
+
+/* Curtain intro (home, once per session). */
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(90% 70% at 50% 40%, #fffaf2, var(--canvas) 70%);
+  animation: intro-lift 800ms var(--ease-out) 1150ms both;
+  pointer-events: none;
+}
+.intro-inner {
+  text-align: center;
+  animation: intro-fade 450ms ease 1150ms both;
+}
+.intro-mark {
+  font-family: var(--font-mark);
+  font-size: clamp(2.6rem, 9vw, 6rem);
+  letter-spacing: 0.32em;
+  margin-right: -0.32em;
+  line-height: 1;
+  overflow: hidden;
+}
+.intro-mark span {
+  display: inline-block;
+  animation: word-up 800ms var(--ease-out) both;
+}
+.intro-rule {
+  display: block;
+  height: 1px;
+  width: min(320px, 60vw);
+  margin: 1.4rem auto 1rem;
+  background: linear-gradient(90deg, transparent, var(--kesar), transparent);
+  transform-origin: center;
+  animation: draw 900ms var(--ease-out) 550ms both;
+}
+.intro-sub {
+  font-size: 0.75rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--gold-text);
+  font-weight: 700;
+  animation: rise 700ms var(--ease-out) 800ms both;
+}
+@keyframes intro-lift {
+  to {
+    clip-path: inset(0 0 100% 0);
+    visibility: hidden;
+  }
+}
+@keyframes intro-fade {
+  to {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+.intro {
+  clip-path: inset(0 0 0 0);
+}
+[data-intro-seen] .intro,
+[data-intro-done] .intro {
+  display: none;
+}
+/* Hero headline waits for the curtain on first view. */
+html:not([data-intro-seen]) .intro ~ .hero-light {
+  --intro-delay: 1050ms;
+}
+
+.story-copy > * {
+  animation: rise 650ms var(--ease-out) both;
+}
+
+/* Checkout progress stepper. */
+.stepper-fill {
+  transform-origin: left;
+  transition: transform 900ms var(--ease-out);
+}
+
+/* Product gallery cursor zoom. */
+.zoom-lens img {
+  transition: transform 300ms var(--ease-out), transform-origin 0ms;
+}
+.zoom-lens[data-zoom="true"] img {
+  transform: scale(1.7);
+}
+
+/* Sticky buy bar. */
+.buy-bar {
+  transform: translateY(130%);
+  transition: transform 500ms var(--ease-out);
+}
+.buy-bar[data-show="true"] {
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro {
+    display: none;
+  }
+}
+
+/* Lenis (smooth scroll) required rules — native smooth scrolling must be off while Lenis drives. */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+/* ── Polish pass ── */
+
+/* Pill buttons get a ring that follows their shape. */
+.btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--canvas), 0 0 0 4.5px var(--focus);
+}
+
+/* Skeleton shimmer for loading states. */
+.skel {
+  position: relative;
+  overflow: hidden;
+  background: var(--surface-sunk);
+  border-radius: 18px;
+}
+.skel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.65), transparent);
+  animation: skel 1.3s ease-in-out infinite;
+}
+@keyframes skel {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* Toast. */
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.toast {
+  animation: toast-in 380ms var(--ease-spring) both;
 }

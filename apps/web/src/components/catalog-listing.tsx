@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { api, type ProductCard as Card } from "@/lib/api";
+import { Kinetic } from "./kinetic";
+import { Reveal } from "./motion";
 import { ProductCard } from "./product-card";
 
 interface Search {
@@ -45,7 +47,7 @@ export async function CatalogListing({ basePath, category, search }: { basePath:
 
   return (
     <div>
-      <form method="get" action={basePath} className="card mb-8 grid gap-3 p-4 sm:grid-cols-[1fr_auto_auto_auto] sm:items-end">
+      <form method="get" action={basePath} className="glass mb-10 grid gap-3 rounded-[28px] p-4 sm:grid-cols-[1fr_auto_auto_auto] sm:items-end sm:p-5">
         <div>
           <label htmlFor="f-q" className="label">Search</label>
           <input id="f-q" name="q" defaultValue={search.q} className="input" placeholder="Product name or keyword" />
@@ -89,9 +91,11 @@ export async function CatalogListing({ basePath, category, search }: { basePath:
               <Link href="/shop" className="btn btn-primary">View all products</Link>
             </div>
           ) : (
-            <ul className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
+            <ul className="grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
               {data.items.map((p, i) => (
-                <li key={p.id}><ProductCard p={p} priority={i < 4} /></li>
+                <Reveal as="li" key={p.id} delay={(i % 4) * 80}>
+                  <ProductCard p={p} priority={i < 4} />
+                </Reveal>
               ))}
             </ul>
           )}
@@ -110,13 +114,28 @@ export async function CatalogListing({ basePath, category, search }: { basePath:
   );
 }
 
+/** Page header for every inner page: light colour mesh, dotted grid, masked headline. Slides under the floating header. */
 export function PageIntro({ eyebrow, title, children }: { eyebrow?: string; title: string; children?: React.ReactNode }) {
   return (
-    <header className="mx-auto max-w-[1400px] px-5 pb-8 pt-10 sm:px-8 sm:pt-14">
-      {eyebrow && <p className="eyebrow mb-3">{eyebrow}</p>}
-      <h1 className="font-display text-4xl leading-tight sm:text-5xl">{title}</h1>
-      {children && <div className="mt-4 max-w-2xl text-lg text-muted">{children}</div>}
-    </header>
+    <div className="hero-light -mt-[84px] overflow-hidden pt-[84px]">
+      <div className="mesh" aria-hidden="true">
+        <span className="right-[4%] top-[-30%] h-[22rem] w-[22rem] bg-[#f3d49a]" />
+        <span className="left-[-8%] top-[10%] h-[18rem] w-[18rem] bg-[#f4cdc2]" style={{ animationDelay: "-9s" }} />
+      </div>
+      <div className="dot-grid" aria-hidden="true" />
+      <header className="relative mx-auto max-w-[1400px] px-5 pb-12 pt-12 sm:px-8 sm:pb-16 sm:pt-16">
+        {eyebrow && (
+          <p className="eyebrow rise mb-4 flex items-center gap-3">
+            <span className="inline-block h-px w-10 bg-kesar" aria-hidden="true" />
+            {eyebrow}
+          </p>
+        )}
+        <h1 className="font-display text-5xl leading-[1.02] tracking-[-0.03em] sm:text-7xl">
+          <Kinetic text={title} className="mask-words" />
+        </h1>
+        {children && <div className="rise relative mt-5 max-w-2xl text-lg text-muted" style={{ animationDelay: "300ms" }}>{children}</div>}
+      </header>
+    </div>
   );
 }
 

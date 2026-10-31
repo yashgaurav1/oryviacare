@@ -15,7 +15,7 @@ const NAV = [
 export function Wordmark({ className = "" }: { className?: string }) {
   // The source site publishes a text wordmark (no image logo is configured). We keep it typographic.
   return (
-    <span className={`font-display tracking-[0.28em] text-[1.35rem] leading-none ${className}`} aria-label="Oryvia">
+    <span className={`font-[family-name:var(--font-mark)] tracking-[0.26em] text-[1.15rem] leading-none sm:tracking-[0.32em] sm:text-[1.4rem] ${className}`} aria-label="Oryvia">
       ORYVIA
     </span>
   );
@@ -23,7 +23,7 @@ export function Wordmark({ className = "" }: { className?: string }) {
 
 function Icon({ d, label }: { d: string; label: string }) {
   return (
-    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+    <svg aria-hidden="true" className="shrink-0" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <title>{label}</title>
       <path d={d} />
     </svg>
@@ -41,8 +41,17 @@ export function Header({ cartCount: initialCount, signedIn }: { cartCount: numbe
   const [count, setCount] = useState(initialCount);
   const [drawer, setDrawer] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  // On the home page the header floats transparently over the hero until the page scrolls.
+  const floating = pathname === "/" && !scrolled;
 
+  useEffect(() => {
+    const on = () => setScrolled(window.scrollY > 40);
+    on();
+    window.addEventListener("scroll", on, { passive: true });
+    return () => window.removeEventListener("scroll", on);
+  }, []);
   useEffect(() => setCount(initialCount), [initialCount]);
   useEffect(() => {
     const on = (e: Event) => setCount((e as CustomEvent<{ count: number }>).detail.count);
@@ -67,20 +76,24 @@ export function Header({ cartCount: initialCount, signedIn }: { cartCount: numbe
         Skip to content
       </a>
       <header className="sticky top-0 z-40 px-3 pt-3 sm:px-5">
-        <div className="glass mx-auto flex h-16 max-w-[1400px] items-center gap-2 rounded-[18px] px-3 sm:px-5">
-          <button className="btn btn-ghost lg:hidden -ml-1" aria-label="Open menu" aria-expanded={drawer} onClick={() => setDrawer(true)}>
+        <div
+          className={`mx-auto flex h-16 max-w-[1400px] items-center gap-2 rounded-full px-3 transition-all duration-500 sm:px-6 ${
+            floating ? "border border-transparent bg-transparent text-ink" : "glass text-ink shadow-[var(--shadow-lift)]"
+          }`}
+        >
+          <button className="btn btn-ghost -ml-1 !px-2.5 !text-current sm:!px-3.5 lg:hidden" aria-label="Open menu" aria-expanded={drawer} onClick={() => setDrawer(true)}>
             <Icon d={ICONS.menu} label="Menu" />
           </button>
-          <Link href="/" className="mr-4 text-ink">
+          <Link href="/" className="mr-2 sm:mr-4">
             <Wordmark />
           </Link>
           <nav aria-label="Primary" className="hidden lg:block">
-            <ul className="flex items-center gap-1">
+            <ul className="flex items-center">
               {NAV.map((n) => (
                 <li key={n.href}>
                   <Link
                     href={n.href}
-                    className={`rounded-lg px-3 py-2 text-[0.95rem] hover:bg-sunk ${pathname.startsWith(n.href) ? "text-primary font-medium" : "text-ink"}`}
+                    className={`link-draw mx-3 py-1 text-[0.93rem] font-medium ${pathname.startsWith(n.href) ? "" : "opacity-80 hover:opacity-100"}`}
                     aria-current={pathname.startsWith(n.href) ? "page" : undefined}
                   >
                     {n.label}
@@ -90,16 +103,16 @@ export function Header({ cartCount: initialCount, signedIn }: { cartCount: numbe
             </ul>
           </nav>
           <div className="ml-auto flex items-center gap-1">
-            <button className="btn btn-ghost" aria-label="Search products (press /)" onClick={() => setSearchOpen(true)}>
+            <button className="btn btn-ghost !px-2.5 !text-current sm:!px-3.5" aria-label="Search products (press /)" onClick={() => setSearchOpen(true)}>
               <Icon d={ICONS.search} label="Search" />
             </button>
-            <Link href={signedIn ? "/account" : "/login"} className="btn btn-ghost" aria-label={signedIn ? "Your account" : "Sign in"}>
+            <Link href={signedIn ? "/account" : "/login"} className="btn btn-ghost !px-2.5 !text-current sm:!px-3.5" aria-label={signedIn ? "Your account" : "Sign in"}>
               <Icon d={ICONS.user} label="Account" />
             </Link>
-            <Link href="/cart" className="btn btn-ghost relative" aria-label={`Cart, ${count} item${count === 1 ? "" : "s"}`}>
+            <Link href="/cart" className="btn btn-ghost relative !px-2.5 !text-current sm:!px-3.5" aria-label={`Cart, ${count} item${count === 1 ? "" : "s"}`}>
               <Icon d={ICONS.bag} label="Cart" />
               {count > 0 && (
-                <span className="tabular absolute -top-0.5 right-0.5 min-w-5 rounded-full bg-primary px-1.5 text-center text-[0.7rem] leading-5 text-white">{count}</span>
+                <span key={count} className="pop tabular absolute -top-0.5 right-0.5 min-w-5 rounded-full bg-kesar px-1.5 text-center text-[0.7rem] font-bold leading-5 text-ink">{count}</span>
               )}
             </Link>
           </div>
@@ -107,28 +120,28 @@ export function Header({ cartCount: initialCount, signedIn }: { cartCount: numbe
       </header>
 
       {drawer && (
-        <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menu">
-          <button className="absolute inset-0 bg-ink/30" aria-label="Close menu" onClick={() => setDrawer(false)} />
-          <div className="absolute inset-y-0 left-0 w-[86%] max-w-sm bg-surface p-5 shadow-2xl rise">
+        <div className="fixed inset-0 z-50 lg:hidden" data-lenis-prevent role="dialog" aria-modal="true" aria-label="Menu">
+          <button className="absolute inset-0 bg-night/50 backdrop-blur-sm" aria-label="Close menu" onClick={() => setDrawer(false)} />
+          <div className="on-night absolute inset-y-0 left-0 w-[86%] max-w-sm p-6 shadow-2xl [animation:drawer-in_500ms_var(--ease-out)_both]">
             <div className="mb-6 flex items-center justify-between">
               <Wordmark />
-              <button className="btn btn-ghost" aria-label="Close menu" onClick={() => setDrawer(false)} autoFocus>
+              <button className="btn btn-night" aria-label="Close menu" onClick={() => setDrawer(false)} autoFocus>
                 <Icon d={ICONS.close} label="Close" />
               </button>
             </div>
             <ul className="space-y-1">
-              {NAV.map((n) => (
-                <li key={n.href}>
-                  <Link href={n.href} className="block rounded-xl px-3 py-3 text-lg hover:bg-sunk">
+              {NAV.map((n, i) => (
+                <li key={n.href} className="rise" style={{ animationDelay: `${120 + i * 50}ms` }}>
+                  <Link href={n.href} className="block rounded-2xl px-3 py-3 font-display text-3xl transition-colors hover:text-kesar-light">
                     {n.label}
                   </Link>
                 </li>
               ))}
-              <li className="border-t border-divider pt-3 mt-3">
-                <Link href="/track-order" className="block rounded-xl px-3 py-3 hover:bg-sunk">Track an order</Link>
+              <li className="mt-4 border-t border-on-night/15 pt-4">
+                <Link href="/track-order" className="block rounded-xl px-3 py-2.5 text-on-night-muted hover:text-on-night">Track an order</Link>
               </li>
               <li>
-                <Link href="/contact" className="block rounded-xl px-3 py-3 hover:bg-sunk">Contact</Link>
+                <Link href="/contact" className="block rounded-xl px-3 py-2.5 text-on-night-muted hover:text-on-night">Contact</Link>
               </li>
             </ul>
           </div>
@@ -190,7 +203,7 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
 
   return (
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label="Search products">
-      <button className="absolute inset-0 bg-ink/30" aria-label="Close search" onClick={onClose} />
+      <button className="absolute inset-0 bg-night/50 backdrop-blur-sm" aria-label="Close search" onClick={onClose} />
       <div className="relative mx-auto mt-[10vh] w-[min(640px,calc(100%-2rem))] card overflow-hidden rise">
         <form
           onSubmit={(e) => {
@@ -222,7 +235,7 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
             }}
           />
         </form>
-        <ul id="search-results" role="listbox" className="max-h-[50vh] overflow-auto p-2">
+        <ul id="search-results" role="listbox" data-lenis-prevent className="max-h-[50vh] overflow-auto p-2">
           {state === "error" && <li className="p-4 text-error">Search failed. Try again.</li>}
           {q.trim().length >= 2 && state === "idle" && items.length === 0 && (
             <li className="p-4 text-muted">No products match “{q}”. Try “face”, “shampoo” or “facial kit”.</li>

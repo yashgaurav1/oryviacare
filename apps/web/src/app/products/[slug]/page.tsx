@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/catalog-listing";
 import { AddToCart, Price, StockBadge } from "@/components/commerce";
+import { SectionHead } from "@/components/kinetic";
+import { Reveal } from "@/components/motion";
 import { ProductCard } from "@/components/product-card";
+import { ProductGallery, StickyBuyBar } from "@/components/product-gallery";
 import { apiOrNull, type ProductCard as Card } from "@/lib/api";
 
 interface Detail extends Card {
@@ -36,6 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
   const p = await load((await params).slug);
   if (!p) notFound();
+  const tint = p.categories[0]?.slug === "hair-care" ? "bg-sage" : "bg-blush";
   const intro = p.descriptionSections.find((s) => !s.heading)?.paragraphs ?? [];
   // Structured data mirrors exactly what the page renders. No rating unless genuine published reviews exist.
   const jsonLd = {
@@ -73,22 +76,12 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           </ol>
         </nav>
         <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr]">
-          <section aria-label="Product images">
-            {p.images.length ? (
-              <ul className="grid gap-3 sm:grid-cols-2">
-                {p.images.map((img, i) => (
-                  <li key={img.src} className={`relative overflow-hidden rounded-[18px] bg-cream ${i === 0 ? "aspect-[4/3] sm:col-span-2" : "aspect-square"}`}>
-                    <Image src={img.src} alt={img.alt} fill priority={i === 0} sizes={i === 0 ? "(min-width: 1024px) 50vw, 100vw" : "(min-width: 1024px) 25vw, 50vw"} className="object-contain" />
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <div className="grid aspect-square place-items-center rounded-[18px] bg-cream text-muted">Image pending</div>
-            )}
+          <section aria-label="Product images" className="lg:sticky lg:top-28 lg:self-start">
+            <ProductGallery images={p.images} tint={tint} />
           </section>
-          <section aria-labelledby="pname" className="lg:sticky lg:top-28 lg:self-start">
+          <section aria-labelledby="pname" className="rise" style={{ animationDelay: "120ms" }}>
             {p.categories[0] && <p className="eyebrow mb-3">{p.categories[0].name}</p>}
-            <h1 id="pname" className="font-display text-3xl leading-tight sm:text-4xl">{p.name}</h1>
+            <h1 id="pname" className="font-display text-4xl leading-[1.05] tracking-[-0.02em] sm:text-5xl">{p.name}</h1>
             {p.packSize && <p className="mt-2 text-muted">Net quantity: {p.packSize}</p>}
             <div className="mt-5 flex flex-wrap items-center gap-3">
               <Price pricePaise={p.pricePaise} referencePaise={p.referencePaise} referenceLabel={p.referenceLabel} size="lg" />
@@ -96,8 +89,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             </div>
             <p className="mt-1 text-xs text-muted">Price as published by Oryvia. A tax breakdown will appear on orders once tax settings are confirmed.</p>
             {p.shortDescription && <p className="mt-5 text-lg leading-relaxed">{p.shortDescription}</p>}
-            <div className="mt-6">
-              <AddToCart variantId={p.variantId} available={p.availability === "in_stock"} maxQuantity={p.availableQuantity} />
+            <div id="buy-box" className="mt-6">
+              <AddToCart variantId={p.variantId} available={p.availability === "in_stock"} maxQuantity={p.availableQuantity} name={p.name} image={p.images[0]?.src} />
             </div>
             {p.featuredIngredients.length > 0 && (
               <div className="mt-8">
@@ -105,7 +98,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <ul className="flex flex-wrap gap-2">
                   {p.featuredIngredients.map((i) => (
                     <li key={i.slug}>
-                      <Link href={`/ingredients/${i.slug}`} className="inline-block rounded-full bg-sunk px-3 py-1.5 text-sm hover:bg-cream">{i.name}</Link>
+                      <Link href={`/ingredients/${i.slug}`} className="inline-block rounded-full border border-kesar/50 bg-surface px-4 py-1.5 text-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-ink hover:bg-ink hover:text-on-primary">{i.name}</Link>
                     </li>
                   ))}
                 </ul>
@@ -132,9 +125,16 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             </section>
           )}
           {p.directions.length > 0 && (
-            <section className="prose-oryvia">
-              <h2>How to use</h2>
-              <ol className="list-decimal pl-5">{p.directions.map((t) => <li key={t}>{t}</li>)}</ol>
+            <section>
+              <h2 className="mb-5 font-display text-3xl">How to use</h2>
+              <ol className="grid gap-3 sm:grid-cols-2">
+                {p.directions.map((t, i) => (
+                  <Reveal as="li" key={t} delay={i * 70} className="flex gap-4 rounded-[22px] bg-surface p-5 shadow-[var(--shadow-ambient)]">
+                    <span className="grid size-10 shrink-0 place-items-center rounded-full bg-ink font-display text-sm text-kesar-light">{String(i + 1).padStart(2, "0")}</span>
+                    <span className="pt-2 leading-relaxed">{t}</span>
+                  </Reveal>
+                ))}
+              </ol>
             </section>
           )}
           {p.precautions.length > 0 && (
@@ -178,11 +178,17 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           )}
         </div>
 
+        <StickyBuyBar targetId="buy-box" name={p.name} image={p.images[0] ?? null} pricePaise={p.pricePaise} variantId={p.variantId} available={p.availability === "in_stock"} maxQuantity={p.availableQuantity} />
+
         {p.related.length > 0 && (
-          <section className="mt-20">
-            <h2 className="mb-6 font-display text-3xl">You may also like</h2>
-            <ul className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
-              {p.related.map((r) => <li key={r.id}><ProductCard p={r} /></li>)}
+          <section className="mt-24">
+            <SectionHead eyebrow="More from Oryvia" title="You may also like" />
+            <ul className="grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-4">
+              {p.related.map((r, i) => (
+                <Reveal as="li" key={r.id} delay={i * 90}>
+                  <ProductCard p={r} />
+                </Reveal>
+              ))}
             </ul>
           </section>
         )}

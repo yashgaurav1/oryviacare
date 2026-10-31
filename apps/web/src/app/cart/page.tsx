@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Container, PageIntro } from "@/components/catalog-listing";
+import { Stepper } from "@/components/stepper";
 import { api } from "@/lib/api";
 import { CartViewClient, type CartView } from "./cart-view";
 
@@ -11,6 +12,7 @@ export default async function CartPage() {
     <>
       <PageIntro title="Your cart" />
       <Container>
+        <Stepper current={0} />
         <CartViewClient initial={cart} />
       </Container>
     </>

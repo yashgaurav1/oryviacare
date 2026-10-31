@@ -74,6 +74,20 @@ Mutation check: reversing the batch ordering in `unshippedPool` makes the FEFO t
 | 375 px: admin order detail with fulfilment panel | No horizontal overflow | Pass |
 | `next build` after session 2 changes | Pass | Pass |
 
+## Design pass (session 3), 2026-10-31
+| Check | Result |
+| --- | --- |
+| `next build`, web typecheck | Pass |
+| No horizontal overflow at 375 px: home, shop, product, login, cart, checkout, partner apply, admin | Pass (DOM measurement) |
+| Pinned range showcase at 1440 px: sticks at top, track halfway across at halfway scroll | Pass |
+| "Meet the range" story: pins; product name advances through all five as scroll progresses | Pass (scroll events dispatched by script) |
+| Intro: plays on a fresh session, hidden on return visits | Pass |
+| Product gallery thumbnails switch the main image | Pass |
+| Add to cart from a product card shows a toast (name, View cart link) and the badge reads "Cart, 1 item" | Pass (test item removed afterwards) |
+| Unknown URL shows the branded 404 page with HTTP status 404 | Pass |
+| Sticky buy bar appearing after scrolling past the buy box | **Not verified** — the browser pane was hidden, which suspends IntersectionObserver delivery |
+| Visual review of animations | Partial — the pane was minimised for much of the session, so most checks were DOM measurements rather than screenshots |
+
 ## Not verified
 - C01 URL-state filters exercised only via HTTP status, not browser back/forward.
 - C02 cart merge: code path exists, not covered by a test.

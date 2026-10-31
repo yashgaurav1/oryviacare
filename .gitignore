@@ -10,3 +10,4 @@ packages/db/generated/
 test-results/
 playwright-report/
 data/source/assets/
+*.tsbuildinfo

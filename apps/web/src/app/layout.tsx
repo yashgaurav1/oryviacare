@@ -1,12 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { Jost, Playfair_Display } from "next/font/google";
+import { Fraunces, Manrope, Marcellus } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { SmoothScroll } from "@/components/motion";
+import { Toaster } from "@/components/toaster";
 import { apiOrNull, type Me } from "@/lib/api";
 import "./globals.css";
 
-const jost = Jost({ subsets: ["latin"], variable: "--font-jost", display: "swap" });
-const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair", display: "swap", weight: ["500", "600"] });
+// Fraunces (variable, soft optical axes) for display; Manrope for UI; Marcellus echoes the classic roman capitals printed on the packs.
+const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces", display: "swap", axes: ["SOFT", "WONK", "opsz"], style: ["normal", "italic"] });
+const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope", display: "swap" });
+const marcellus = Marcellus({ subsets: ["latin"], variable: "--font-marcellus", display: "swap", weight: "400" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.PUBLIC_ORIGIN ?? "http://localhost:3000"),
@@ -15,7 +19,7 @@ export const metadata: Metadata = {
   robots: process.env.ALLOW_INDEXING === "true" ? undefined : { index: false, follow: false },
 };
 
-export const viewport: Viewport = { themeColor: "#f7f4ec", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#fbf6ee", width: "device-width", initialScale: 1 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const [me, cart, settings] = await Promise.all([
@@ -24,16 +28,18 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     apiOrNull<{ contact: Record<string, string> | null; announcement: { text: string; href?: string } | null }>("/v1/content/settings/public"),
   ]);
   return (
-    <html lang="en-IN" className={`${jost.variable} ${playfair.variable}`}>
+    <html lang="en-IN" className={`${fraunces.variable} ${manrope.variable} ${marcellus.variable}`}>
       <body>
+        <SmoothScroll />
         {settings?.announcement && (
-          <div className="bg-primary px-4 py-2 text-center text-sm text-white">{settings.announcement.text}</div>
+          <div className="bg-night px-4 py-2 text-center text-sm text-on-night">{settings.announcement.text}</div>
         )}
         <Header cartCount={cart?.items.length ?? 0} signedIn={!!me} />
         <main id="main" className="min-h-[60vh]">
           {children}
         </main>
         <Footer contact={settings?.contact ?? null} />
+        <Toaster />
       </body>
     </html>
   );

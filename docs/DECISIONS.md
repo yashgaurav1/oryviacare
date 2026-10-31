@@ -27,6 +27,7 @@ Technical decisions (made, reversible) and commercial decisions (blocked on the 
 | D-019 | Refunds need a second person (requester ≠ approver); approving a real-money refund also needs 2FA | Money control. Dev seed adds a `finance_operator` account so the flow can be exercised. | If Oryvia runs with one operator, add an explicit owner override setting (not built). |
 | D-020 | Refund approval never pretends to move money: development orders are recorded as `recorded_development`; provider payments get 503 until the Razorpay refund adapter exists | Honest status labels. | Razorpay refund adapter (M-007). |
 | D-021 | Customer order timeline shows an allow-list of events; staff reasons stay internal except a return-rejection note written for the customer | Previously staff transition reasons were visible to customers. | — |
+| D-022 | Visual system "Kohl, Kesar & Copper": night sections, saffron gold, copper links; Fraunces, Manrope, Marcellus; CSS and canvas motion, plus Lenis for smooth scrolling (pinned 1.3.26, the newest release older than two weeks) | Matches the real packaging (black and gold boxes, green bottles with copper pumps, gold dust). CSS, IntersectionObserver and one small canvas keep pages server-rendered and the bundle small. | Tokens in `globals.css`; motion primitives in `components/motion.tsx` and `kinetic.tsx`. |
 
 ## Commercial decisions blocked on the merchant
 

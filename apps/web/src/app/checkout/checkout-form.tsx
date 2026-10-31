@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { formatPaise } from "@oryvia/contracts";
 import { Banner, Field } from "@/components/forms";
 import { call, cartChanged, newIdempotencyKey, type ClientError } from "@/lib/client";
+import { Stepper } from "@/components/stepper";
 
 interface Quote {
   lines: Array<{ variantId: string; productName: string; quantity: number; lineSubtotalPaise: number }>;
@@ -82,6 +83,8 @@ export function CheckoutForm({ methods, email: initialEmail }: { methods: Method
   const fe = (k: string) => fields[`shippingAddress.${k}`];
 
   return (
+    <>
+    <Stepper current={step === "details" ? 1 : 2} />
     <div className="grid gap-8 lg:grid-cols-[1fr_400px]">
       <form
         noValidate
@@ -157,5 +160,6 @@ export function CheckoutForm({ methods, email: initialEmail }: { methods: Method
         )}
       </aside>
     </div>
+    </>
   );
 }

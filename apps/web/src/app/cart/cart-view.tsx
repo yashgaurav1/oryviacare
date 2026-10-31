@@ -69,8 +69,8 @@ export function CartViewClient({ initial }: { initial: CartView }) {
           </Banner>
         ))}
         <ul className="space-y-3">
-          {cart.items.map((i) => (
-            <li key={i.id} className="card flex gap-4 p-4">
+          {cart.items.map((i, n) => (
+            <li key={i.id} className="rise card flex gap-4 p-4 transition-shadow duration-300 hover:shadow-[var(--shadow-lift)]" style={{ animationDelay: `${n * 70}ms` }}>
               <Link href={`/products/${i.productSlug}`} className="relative size-24 shrink-0 overflow-hidden rounded-xl bg-cream">
                 {i.image && <Image src={i.image.src} alt={i.image.alt} fill sizes="96px" className="object-cover" />}
               </Link>
@@ -79,7 +79,7 @@ export function CartViewClient({ initial }: { initial: CartView }) {
                 {i.variantTitle && <span className="text-sm text-muted">{i.variantTitle}</span>}
                 {i.problem && <p className="text-sm text-error" role="alert">{i.problem.message}</p>}
                 <div className="mt-auto flex flex-wrap items-center justify-between gap-3">
-                  <div className="inline-flex items-center rounded-[11px] ring-1 ring-control">
+                  <div className="inline-flex items-center rounded-full ring-1 ring-control">
                     <button className="h-10 w-10 disabled:opacity-40" aria-label={`Decrease quantity of ${i.productName}`} disabled={i.quantity <= 1 || busy === i.id} onClick={() => mutate(i.id, `/v1/carts/current/items/${i.id}`, "PATCH", { quantity: i.quantity - 1 })}>−</button>
                     <span className="tabular w-10 text-center" aria-live="polite">{i.quantity}</span>
                     <button className="h-10 w-10 disabled:opacity-40" aria-label={`Increase quantity of ${i.productName}`} disabled={i.quantity >= Math.min(99, i.availableQuantity) || busy === i.id} onClick={() => mutate(i.id, `/v1/carts/current/items/${i.id}`, "PATCH", { quantity: i.quantity + 1 })}>+</button>
@@ -92,7 +92,7 @@ export function CartViewClient({ initial }: { initial: CartView }) {
           ))}
         </ul>
       </section>
-      <aside className="glass h-fit rounded-[18px] p-6 lg:sticky lg:top-28" aria-label="Order summary">
+      <aside className="glass rise h-fit rounded-[28px] p-6 lg:sticky lg:top-28" style={{ animationDelay: "150ms" }} aria-label="Order summary">
         <h2 className="mb-4 font-display text-2xl">Summary</h2>
         <dl className="space-y-2">
           <div className="flex justify-between"><dt>Subtotal</dt><dd className="tabular">{formatPaise(cart.quote.subtotalPaise)}</dd></div>
