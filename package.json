@@ -9,7 +9,7 @@
     "scripts/migration"
   ],
   "engines": {
-    "node": ">=22"
+    "node": "24.x"
   },
   "scripts": {
     "db:start": "npm run start -w @oryvia/db",
