@@ -2,7 +2,15 @@
 // (so no password is ever set or printed here); this grants the owner role to that account once.
 // Refuses to run if any owner already exists.
 // Usage: npm run bootstrap:owner -w @oryvia/api -- --email someone@example.com
-import { prisma } from "../core/db.js";
+// Needs only DATABASE_URL (not the API's full environment), so an owner can run it from their own machine
+// against a hosted database: DATABASE_URL="…" npm run bootstrap:owner -- --email you@example.com
+import { createPrisma } from "@oryvia/db";
+
+if (!process.env.DATABASE_URL) {
+  console.error("Set DATABASE_URL first.");
+  process.exit(2);
+}
+const prisma = createPrisma(process.env.DATABASE_URL);
 
 const i = process.argv.indexOf("--email");
 const email = i > 0 ? process.argv[i + 1]?.toLowerCase() : undefined;

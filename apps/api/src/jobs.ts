@@ -7,7 +7,7 @@ const MAX_ATTEMPTS = 8;
 
 export interface MailAdapter {
   name: string;
-  send(msg: { to: string; template: string; data: Record<string, unknown> }): Promise<{ providerId: string | null; state: "sent" | "captured_dev" }>;
+  send(msg: { to: string; template: string; data: Record<string, unknown> }): Promise<{ providerId: string | null; state: "sent" | "captured_dev" | "not_sent_no_provider" }>;
 }
 
 /** Development mail sink: writes the message to the job log and database. It does not deliver email. */
@@ -18,6 +18,20 @@ export const devMailSink: MailAdapter = {
     return { providerId: null, state: "captured_dev" };
   },
 };
+
+/**
+ * Production stand-in until a real email provider is connected: nothing is sent and nothing personal is logged
+ * (reset and verification links are credentials). Messages are recorded as not sent so they can be retried later.
+ */
+export const noProviderMail: MailAdapter = {
+  name: "no_provider",
+  async send(msg) {
+    console.warn(`[mail] not sent, no email provider configured (template=${msg.template})`);
+    return { providerId: null, state: "not_sent_no_provider" };
+  },
+};
+
+const defaultMail = () => (process.env.NODE_ENV === "production" ? noProviderMail : devMailSink);
 
 const TEMPLATE_BY_TOPIC: Record<string, string> = {
   "order.placed": "order_received",
@@ -67,7 +81,7 @@ export async function processOutbox(db: Db, mail: MailAdapter, batch = 25) {
   return { claimed: claimed.length, done };
 }
 
-export async function runJobsOnce(db: Db, mail: MailAdapter = devMailSink) {
+export async function runJobsOnce(db: Db, mail: MailAdapter = defaultMail()) {
   const started = new Date();
   const outbox = await processOutbox(db, mail);
   const expiry = await expireUnpaidReservations(db);
