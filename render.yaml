@@ -21,8 +21,8 @@ services:
       npm run db:generate &&
       npm run db:migrate &&
       npm run seed:reference &&
-      npm run import:apply &&
-      npm run source:assets
+      npm run source:assets &&
+      npm run import:apply
     startCommand: npm run start -w @oryvia/api
     healthCheckPath: /api/health/live
     envVars:
