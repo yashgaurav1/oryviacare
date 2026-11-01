@@ -11,7 +11,7 @@ Last updated: 2026-10-31 (Asia/Kolkata). Session 2: fulfilment, returns and refu
 | Database | Render Postgres `oryvia-db` (PostgreSQL 18, free: **expires 30 days after creation**) |
 | Code | https://github.com/yashgaurav1/oryviacare, branch `main`, auto-deploys on push |
 
-The services were created by hand and through the Render API, not from the blueprint, so their names differ from `render.yaml` (`oryvia-api`, `oryvia-web`). Search engines are blocked (`ALLOW_INDEXING=false`). Products are imported but unpublished until the owner publishes them in Admin → Products. No payments, tax or email provider yet. Free services sleep after 15 minutes idle.
+The services were created by hand and through the Render API, not from the blueprint, so their names differ from `render.yaml` (`oryvia-api`, `oryvia-web`). Search engines are blocked (`ALLOW_INDEXING=false`). All 7 products are published at the owner's request at old-site prices (merchant price confirmation still open, M-002). Warehouse `MAIN` exists; stock quantities and the delivery rule are not entered, so products show out of stock. No payments, tax or email provider yet. Free services sleep after 15 minutes idle.
 
 ## Where the build stands
 

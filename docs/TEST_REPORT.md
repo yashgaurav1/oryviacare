@@ -101,7 +101,10 @@ Mutation check: reversing the batch ordering in `unshippedPool` makes the FEFO t
 | Sign-in with a non-existent account | 401 `INVALID_EMAIL_OR_PASSWORD` |
 | Real account registered by the owner reached the live database | Pass |
 | Owner role granted once via `bootstrap:owner` | Pass (`owners: 1`) |
-| Owner sign-in and `/admin`, product publish, image optimisation with published products, two-factor on staging | **Not yet verified** |
+| All 7 products published at the owner's request (audit-logged); warehouse MAIN created | Pass |
+| Product images: 2 per product, raw and optimised both 200 | Pass |
+| Owner sign-in to `/admin` | Reported working by the owner (screens seen); not independently tested |
+| Add to cart with real stock, two-factor enrolment on staging | **Not yet verified** (no stock entered) |
 
 ## Not verified
 - C01 URL-state filters exercised only via HTTP status, not browser back/forward.
