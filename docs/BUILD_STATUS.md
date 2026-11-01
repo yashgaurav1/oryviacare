@@ -2,6 +2,17 @@
 
 Last updated: 2026-10-31 (Asia/Kolkata). Session 2: fulfilment, returns and refunds added.
 
+## Staging deployment (2026-11-01)
+
+| Piece | Where |
+| --- | --- |
+| Website | https://oryviacare-web.onrender.com (Render service `oryviacare-web`, free, Oregon) |
+| API | https://oryviacare.onrender.com (Render service `oryviacare`, free, Oregon; job loop runs in-process) |
+| Database | Render Postgres `oryvia-db` (PostgreSQL 18, free: **expires 30 days after creation**) |
+| Code | https://github.com/yashgaurav1/oryviacare, branch `main`, auto-deploys on push |
+
+The services were created by hand and through the Render API, not from the blueprint, so their names differ from `render.yaml` (`oryvia-api`, `oryvia-web`). Search engines are blocked (`ALLOW_INDEXING=false`). Products are imported but unpublished until the owner publishes them in Admin → Products. No payments, tax or email provider yet. Free services sleep after 15 minutes idle.
+
 ## Where the build stands
 
 | Phase (brief §22) | State |

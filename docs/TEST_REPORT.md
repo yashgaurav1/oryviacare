@@ -88,6 +88,21 @@ Mutation check: reversing the batch ordering in `unshippedPool` makes the FEFO t
 | Sticky buy bar appearing after scrolling past the buy box | **Not verified** — the browser pane was hidden, which suspends IntersectionObserver delivery |
 | Visual review of animations | Partial — the pane was minimised for much of the session, so most checks were DOM measurements rather than screenshots |
 
+## Staging deployment on Render, 2026-11-01
+| Check | Result |
+| --- | --- |
+| Both deploys report `live` (commit 776ce5b) | Pass |
+| `/api/health/ready` | 200 |
+| Website home, shop, register | 200 |
+| Unknown page | 404 |
+| `/media` images through the website | Pass (PNG 1.5 MB, JPEG 222 KB) |
+| `robots.txt` disallows all; pages carry `noindex` | Pass |
+| Admin API anonymous | 401 |
+| Sign-in with a non-existent account | 401 `INVALID_EMAIL_OR_PASSWORD` |
+| Real account registered by the owner reached the live database | Pass |
+| Owner role granted once via `bootstrap:owner` | Pass (`owners: 1`) |
+| Owner sign-in and `/admin`, product publish, image optimisation with published products, two-factor on staging | **Not yet verified** |
+
 ## Not verified
 - C01 URL-state filters exercised only via HTTP status, not browser back/forward.
 - C02 cart merge: code path exists, not covered by a test.
