@@ -22,7 +22,7 @@ type R = {
 
 const DISPOSITION: Record<string, string> = {
   pending: "Not received yet",
-  quarantine: "In quarantine — awaiting inspection",
+  quarantine: "In quarantine, awaiting inspection",
   restocked: "Restocked to sellable stock",
   disposed: "Disposed (written off)",
 };

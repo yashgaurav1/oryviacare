@@ -52,7 +52,7 @@ export default async function Home() {
   return (
     <>
       <Intro />
-      {/* 1. Hero — light, colour mesh, dotted grid, gold dust; reacts to the cursor and to scroll */}
+      {/* 1. Hero: light, colour mesh, dotted grid, gold dust; reacts to the cursor and to scroll */}
       <ScrollVar className="hero-light -mt-[84px] overflow-hidden pt-[84px]">
         <div className="mesh" aria-hidden="true">
           <span className="left-[52%] top-[-6%] h-[34rem] w-[34rem] bg-[#f3d49a]" />
@@ -146,7 +146,7 @@ export default async function Home() {
         </section>
       )}
 
-      {/* 3. Pinned horizontal showcase — vertical scroll drives the range sideways */}
+      {/* 3. Pinned horizontal showcase: vertical scroll drives the range sideways */}
       {items.length > 0 && (
         <section className="mt-24" aria-labelledby="range-h">
           <HorizontalPin
@@ -246,7 +246,7 @@ export default async function Home() {
         </section>
       )}
 
-      {/* 5. Feature grid — real capabilities of this store, cursor spotlight on each card */}
+      {/* 5. Feature grid: real capabilities of this store, cursor spotlight on each card */}
       <Container className="mt-28">
         <SectionHead eyebrow="Designed to be clear" title={<>Everything you need, <em className="text-copper">nothing you don&apos;t</em></>} />
         <Spotlight className="grid gap-4 md:grid-cols-6">
@@ -312,7 +312,7 @@ export default async function Home() {
       <section id="ritual" className="mt-28 scroll-mt-24 bg-cream py-24">
         <Container>
           <SectionHead eyebrow="Find your routine" title={<>Start with <em className="text-copper">what you need</em></>}>
-            Pick a step. We show the products in that category — no guesswork, no diagnosis.
+            Pick a step. We show the products in that category, with no guesswork and no diagnosis.
           </SectionHead>
           <div className="relative">
             <span aria-hidden="true" className="draw-on-scroll absolute left-0 right-0 top-[2.1rem] hidden h-px bg-gradient-to-r from-kesar via-copper-bright to-kesar lg:block" />
@@ -379,7 +379,7 @@ export default async function Home() {
         </Reveal>
       </Container>
 
-      {/* 9. Professional packages — light band with travelling gold edges */}
+      {/* 9. Professional packages: light band with travelling gold edges */}
       {packages && packages.length > 0 && (
         <section className="relative mt-28 overflow-hidden bg-gradient-to-br from-cream via-canvas to-blush py-24">
           <span aria-hidden="true" className="orb -right-40 top-0 h-[30rem] w-[30rem] bg-kesar/30" />

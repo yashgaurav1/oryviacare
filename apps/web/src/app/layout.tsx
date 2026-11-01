@@ -14,7 +14,7 @@ const marcellus = Marcellus({ subsets: ["latin"], variable: "--font-marcellus", 
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.PUBLIC_ORIGIN ?? "http://localhost:3000"),
-  title: { default: "Oryvia Care — Skincare & Hair Care", template: "%s · Oryvia Care" },
+  title: { default: "Oryvia Care | Skincare & Hair Care", template: "%s · Oryvia Care" },
   description: "Oryvia skincare and hair care for everyday routines, with professional packages for salons and retailers.",
   robots: process.env.ALLOW_INDEXING === "true" ? undefined : { index: false, follow: false },
 };

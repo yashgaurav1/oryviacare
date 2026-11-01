@@ -84,7 +84,7 @@ export function CartViewClient({ initial }: { initial: CartView }) {
                     <span className="tabular w-10 text-center" aria-live="polite">{i.quantity}</span>
                     <button className="h-10 w-10 disabled:opacity-40" aria-label={`Increase quantity of ${i.productName}`} disabled={i.quantity >= Math.min(99, i.availableQuantity) || busy === i.id} onClick={() => mutate(i.id, `/v1/carts/current/items/${i.id}`, "PATCH", { quantity: i.quantity + 1 })}>+</button>
                   </div>
-                  <span className="tabular font-medium">{i.lineSubtotalPaise !== null ? formatPaise(i.lineSubtotalPaise) : "—"}</span>
+                  <span className="tabular font-medium">{i.lineSubtotalPaise !== null ? formatPaise(i.lineSubtotalPaise) : "-"}</span>
                   <button className="btn btn-ghost text-sm" disabled={busy === i.id} onClick={() => mutate(i.id, `/v1/carts/current/items/${i.id}`, "DELETE")}>Remove</button>
                 </div>
               </div>

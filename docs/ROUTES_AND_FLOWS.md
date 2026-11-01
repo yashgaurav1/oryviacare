@@ -1,6 +1,6 @@
 # Routes and flows
 
-## Web (apps/web) — all routes render; "pending" means an honest not-yet-available state
+## Web (apps/web): all routes render; "pending" means an honest not-yet-available state
 | Route | State |
 | --- | --- |
 | `/`, `/shop`, `/category/[slug]`, `/search`, `/products/[slug]` | Live data |
@@ -22,7 +22,7 @@
 
 Legacy WordPress URLs redirect (308) per `apps/web/src/lib/legacy-redirects.json`.
 
-## API (apps/api) — OpenAPI at `/api/docs`, JSON at `/api/openapi.json`
+## API (apps/api): OpenAPI at `/api/docs`, JSON at `/api/openapi.json`
 `/api/auth/*` (Better Auth) · `/api/health/{live,ready}` · `/api/v1/catalog/*` · `/api/v1/packages` · `/api/v1/{contact,quotes,newsletter}` · `/api/v1/content/*` · `/api/v1/carts/*` · `/api/v1/checkout/{payment-methods,quote,orders}` · `/api/v1/track` · `/api/v1/account/{me,orders,orders/:id/returns}` · `/api/v1/partner/*` · `/api/v1/admin/*` (incl. `orders/:id/{operations,shipments,cancel-lines,returns,refunds}`, `shipments/:id/{dispatch,deliver,cancel}`, `returns[/:id[/decide|/receive]]`, `return-lines/:id/inspect`, `refunds[/:id/decide]`)
 
 ## Purchase flow

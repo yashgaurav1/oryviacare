@@ -7,9 +7,9 @@ import { ReturnRequestForm } from "./return-form";
 
 const RETURN_STATUS: Record<string, string> = {
   submitted: "Waiting for review",
-  approved: "Approved — please send the items back",
+  approved: "Approved: please send the items back",
   rejected: "Not approved",
-  received: "Received — being inspected",
+  received: "Received and being inspected",
   inspected: "Inspection complete",
 };
 
@@ -23,7 +23,7 @@ export default async function OrderDetail({ params }: { params: Promise<{ id: st
     <div className="space-y-6">
       <Link href="/account/orders" className="text-sm text-teal">← Orders</Link>
       <h1 className="tabular font-display text-4xl">{o.reference}</h1>
-      {o.isDevelopmentOrder && <p className="rounded-xl bg-warning-bg px-4 py-3 text-sm text-warning">Development order — no payment was taken.</p>}
+      {o.isDevelopmentOrder && <p className="rounded-xl bg-warning-bg px-4 py-3 text-sm text-warning">Development order: no payment was taken.</p>}
       <OrderTimeline order={o} />
 
       {o.returns.length > 0 && (

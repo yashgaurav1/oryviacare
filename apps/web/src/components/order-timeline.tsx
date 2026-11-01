@@ -24,10 +24,10 @@ const EVENT_LABEL: Record<string, string> = {
   shipment_delivered: "A parcel was delivered",
   lines_cancelled: "Some items were cancelled",
   return_requested: "Return requested",
-  return_approved: "Return approved — please send the items back",
+  return_approved: "Return approved: please send the items back",
   return_rejected: "Return not approved",
   return_received: "Returned items received",
-  refund_recorded_development: "Refund recorded (development order — no money moved)",
+  refund_recorded_development: "Refund recorded (development order, no money moved)",
   refund_succeeded: "Refund sent",
 };
 

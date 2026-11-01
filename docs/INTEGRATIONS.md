@@ -15,7 +15,7 @@ Health states: `not_configured`, `configured_unverified`, `sandbox_verified`, `l
 | Search | sandbox_verified | PostgreSQL `ILIKE` + trigram index | Optional hosted engine |
 | AI assistance | not_configured | None | Optional |
 | Analytics | first-party only | `analytics_events` written server-side for `order_placed` | Optional provider + consent |
-| Recurring billing | not_configured | — | Mandate-capable provider |
-| Payouts | not_configured | — | — |
+| Recurring billing | not_configured | - | Mandate-capable provider |
+| Payouts | not_configured | - | - |
 
 Secrets live only in `.env` (git-ignored). `.env.example` documents every variable.

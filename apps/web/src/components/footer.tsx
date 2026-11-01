@@ -69,7 +69,15 @@ export function Footer({ contact }: { contact: PublicContact | null }) {
         ORYVIA
       </p>
       <div className="border-t border-on-night/10">
-        <p className="mx-auto max-w-[1400px] px-5 py-6 text-xs text-on-night-muted sm:px-8">© {new Date().getFullYear()} Oryvia Care. All prices in INR.</p>
+        <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-x-6 gap-y-2 px-5 py-6 text-xs text-on-night-muted sm:px-8">
+          <p>© {new Date().getFullYear()} Oryvia Care. All prices in INR.</p>
+          <p>
+            Designed by{" "}
+            <a href="https://www.linkedin.com/in/yash-gaurav/" target="_blank" rel="noopener noreferrer" className="link-draw font-semibold text-kesar-light">
+              Yash Gaurav
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );

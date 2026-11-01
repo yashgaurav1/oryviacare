@@ -93,7 +93,7 @@ export function AddToCart({
       )}
       <div className={compact ? "" : "grid gap-2 sm:grid-cols-2"}>
         <button className="btn btn-primary w-full" disabled={state === "adding"} onClick={() => add(false)}>
-          {state === "adding" ? "Adding…" : state === "added" ? <span key="added" className="pop inline-flex items-center gap-1.5"><span aria-hidden="true">✓</span> Added — add more</span> : "Add to cart"}
+          {state === "adding" ? "Adding…" : state === "added" ? <span key="added" className="pop inline-flex items-center gap-1.5"><span aria-hidden="true">✓</span> Added. Add more</span> : "Add to cart"}
         </button>
         {!compact && (
           <button className="btn btn-secondary w-full" disabled={state === "adding"} onClick={() => add(true)}>

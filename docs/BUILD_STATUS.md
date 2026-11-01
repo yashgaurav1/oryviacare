@@ -17,27 +17,27 @@ The services were created by hand and through the Render API, not from the bluep
 
 | Phase (brief §22) | State |
 | --- | --- |
-| A — Ground the business and data | **Done for the public surface.** Crawl, ledger, normalization, media download, visual review, idempotent import, exception register. |
-| B — Running foundation | **Done.** Monorepo, real PostgreSQL, Prisma migrations with DB-level invariants, Better Auth sessions, RBAC, outbox + worker, env validation. Object storage = local filesystem adapter (public media only); private uploads not built. |
-| C — One complete commerce path | **Done and verified** with a labelled development payment method. Razorpay adapter **not implemented** (no test keys). |
-| D — Full design and consumer experience | **Partly done.** Home, shop/category/search, product, ingredients, packages, business, journal, policies, about/contact/FAQ/careers, cart, checkout, tracking, auth, account (overview/orders/settings + 2FA). Wishlist, addresses, rewards, subscriptions, compare, reviews submission: **not implemented** (honest pages). |
-| E — Operational platform | **Partly done.** Admin overview (incl. ship/return/refund queues), orders (list/filter/detail/transitions), **fulfilment** (shipments from committed batches, partial shipments, dispatch, delivered, void, line cancellation), **returns** (approve/reject, receive into quarantine, restock/dispose), **refunds** (two-person approval, refundable-balance ledger; money movement needs Razorpay), products (publish/unpublish), packages (evidence + approval), migration review, inventory, enquiries/quotes, partner applications, delivery settings. Not built: product editor, CMS editor, courier/label integration, CRM, analytics charts, exports, team/roles UI, audit viewer, job monitor. |
-| F — Professional operations | **Started.** Application wizard (save/submit), admin decisions with state machine, approval creates business account + owner membership, partner workspace overview. Not built: wholesale ordering, partner price lists, quotes→orders, stock requests, team invitations, resources/training, commissions/settlements UI. |
-| G — Integrations and hardening | **Not started** beyond the dev mail sink. |
-| H — Release and handoff | **Not started.** |
+| A: Ground the business and data | **Done for the public surface.** Crawl, ledger, normalization, media download, visual review, idempotent import, exception register. |
+| B: Running foundation | **Done.** Monorepo, real PostgreSQL, Prisma migrations with DB-level invariants, Better Auth sessions, RBAC, outbox + worker, env validation. Object storage = local filesystem adapter (public media only); private uploads not built. |
+| C: One complete commerce path | **Done and verified** with a labelled development payment method. Razorpay adapter **not implemented** (no test keys). |
+| D: Full design and consumer experience | **Partly done.** Home, shop/category/search, product, ingredients, packages, business, journal, policies, about/contact/FAQ/careers, cart, checkout, tracking, auth, account (overview/orders/settings + 2FA). Wishlist, addresses, rewards, subscriptions, compare, reviews submission: **not implemented** (honest pages). |
+| E: Operational platform | **Partly done.** Admin overview (incl. ship/return/refund queues), orders (list/filter/detail/transitions), **fulfilment** (shipments from committed batches, partial shipments, dispatch, delivered, void, line cancellation), **returns** (approve/reject, receive into quarantine, restock/dispose), **refunds** (two-person approval, refundable-balance ledger; money movement needs Razorpay), products (publish/unpublish), packages (evidence + approval), migration review, inventory, enquiries/quotes, partner applications, delivery settings. Not built: product editor, CMS editor, courier/label integration, CRM, analytics charts, exports, team/roles UI, audit viewer, job monitor. |
+| F: Professional operations | **Started.** Application wizard (save/submit), admin decisions with state machine, approval creates business account + owner membership, partner workspace overview. Not built: wholesale ordering, partner price lists, quotes→orders, stock requests, team invitations, resources/training, commissions/settlements UI. |
+| G: Integrations and hardening | **Not started** beyond the dev mail sink. |
+| H: Release and handoff | **Not started.** |
 
 ## Exact commands to resume
 
 ```bash
 npm install
-npm run db:start              # terminal 1 — keeps running (embedded PostgreSQL on :54329)
+npm run db:start              # terminal 1: keeps running (embedded PostgreSQL on :54329)
 npm run db:migrate
 npm run seed:reference
 npm run import:apply          # loads data/source into the DB (idempotent)
 npm run seed:dev              # DEVELOPMENT ONLY: dev-publishes products, DEV stock, dev shipping rule, dev accounts
-npm run dev:api               # terminal 2 — http://127.0.0.1:4000/api (docs at /api/docs)
+npm run dev:api               # terminal 2: http://127.0.0.1:4000/api (docs at /api/docs)
 npm run dev:worker            # terminal 3
-npm run dev:web               # terminal 4 — http://localhost:3000
+npm run dev:web               # terminal 4: http://localhost:3000
 npm run test:api              # integration tests against oryvia_app_test
 ```
 
@@ -45,7 +45,7 @@ Dev account credentials are generated randomly into `.data/dev-accounts.json` (g
 
 ## Next steps, in order
 
-1. Razorpay adapter (order create, checkout handoff, signed webhook with raw body, replay dedupe, late-payment handling, **refund execution** for approved refunds) — needs merchant **test** keys.
+1. Razorpay adapter (order create, checkout handoff, signed webhook with raw body, replay dedupe, late-payment handling, **refund execution** for approved refunds): needs merchant **test** keys.
 2. Product/CMS editors (draft → review → publish, versions) so merchant edits stop depending on import.
 3. Wishlist, saved addresses, customer cart-merge UI report.
 4. Partner wholesale ordering + partner price lists + quote → order conversion.

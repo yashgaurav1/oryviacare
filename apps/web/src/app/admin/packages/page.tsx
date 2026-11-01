@@ -15,7 +15,7 @@ type Version = {
 };
 type Pkg = { id: string; slug: string; name: string; status: string; versions: Version[] };
 
-const money = (v: unknown) => (typeof v === "number" ? formatPaise(v) : "—");
+const money = (v: unknown) => (typeof v === "number" ? formatPaise(v) : "-");
 
 export default async function AdminPackages() {
   const pkgs = await api<Pkg[]>("/v1/admin/packages");

@@ -16,7 +16,7 @@ export default async function TrackOrder({ searchParams }: { searchParams: Promi
         {order ? (
           <>
             <p className="mb-4 tabular font-display text-2xl">{order.reference}</p>
-            {order.isDevelopmentOrder && <p className="mb-4 rounded-xl bg-warning-bg px-4 py-3 text-sm text-warning">Development order — no payment was taken.</p>}
+            {order.isDevelopmentOrder && <p className="mb-4 rounded-xl bg-warning-bg px-4 py-3 text-sm text-warning">Development order: no payment was taken.</p>}
             <OrderTimeline order={order} />
           </>
         ) : (

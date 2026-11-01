@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
- * Oryvia design tokens — "Kohl, Kesar & Copper" (see docs/DESIGN_SYSTEM.md).
+ * Oryvia design tokens: "Kohl, Kesar & Copper" (see docs/DESIGN_SYSTEM.md).
  * Drawn from the real packaging: black boxes with gold type, bottle-green bottles with copper pumps,
  * blush labels and gold dust. Contrast pairs are computed in DESIGN_SYSTEM.md.
  */
@@ -27,11 +27,11 @@
   --on-night-muted: #b9a898;
 
   /* Accents */
-  --kesar: #d6a13f; /* saffron gold — decoration and large type only on light */
+  --kesar: #d6a13f; /* saffron gold: decoration and large type only on light */
   --kesar-light: #e2b456; /* gold text on night */
   --gold-text: #875a12; /* gold for small text on light */
   --copper: #9a4626; /* links on light */
-  --copper-bright: #c27a4f; /* pump copper — decoration */
+  --copper-bright: #c27a4f; /* pump copper: decoration */
   --rose: #9e3b52;
   --bottle: #1f3b2e;
 
@@ -949,7 +949,7 @@ html:not([data-intro-seen]) .intro ~ .hero-light {
   }
 }
 
-/* Lenis (smooth scroll) required rules — native smooth scrolling must be off while Lenis drives. */
+/* Lenis (smooth scroll) required rules: native smooth scrolling must be off while Lenis drives. */
 html.lenis,
 html.lenis body {
   height: auto;

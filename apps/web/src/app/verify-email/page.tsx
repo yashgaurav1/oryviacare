@@ -9,7 +9,7 @@ export default async function VerifyEmail({ searchParams }: { searchParams: Prom
   return (
     <div className="mx-auto max-w-md px-5 py-14">
       <h1 className="mb-4 font-display text-4xl">{error ? "Link not valid" : "Email verified"}</h1>
-      <p className="mb-8 text-muted">{error ? "This verification link has expired or was already used. Sign in to request a new one." : "Thanks — your email address is confirmed."}</p>
+      <p className="mb-8 text-muted">{error ? "This verification link has expired or was already used. Sign in to request a new one." : "Thanks: your email address is confirmed."}</p>
       <Link href="/account" className="btn btn-primary">Go to my account</Link>
     </div>
   );

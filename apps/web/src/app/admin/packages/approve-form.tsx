@@ -36,7 +36,7 @@ export function ApproveForm({ versionId, components }: { versionId: string; comp
           {components.map((c) => (
             <tr key={c.variantId}>
               <td className="py-1 pr-2">{c.name}</td>
-              <td className="tabular py-1 text-center text-muted">{c.observedQty ?? "—"}</td>
+              <td className="tabular py-1 text-center text-muted">{c.observedQty ?? "-"}</td>
               {(["paid", "free"] as const).map((k) => (
                 <td key={k} className="py-1">
                   <label className="sr-only" htmlFor={`${versionId}-${c.variantId}-${k}`}>{k} quantity for {c.name}</label>

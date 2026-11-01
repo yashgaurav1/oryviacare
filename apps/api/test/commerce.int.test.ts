@@ -32,7 +32,7 @@ beforeEach(async () => {
 });
 afterAll(async () => prisma.$disconnect());
 
-describe("C05 — two customers attempt the final unit", () => {
+describe("C05: two customers attempt the final unit", () => {
   it("confirms exactly one order and rejects the other with stock_unavailable", async () => {
     const { variant } = await publishedProduct(prisma, { stock: 1 });
     const results = await Promise.allSettled([place(variant.id, 1, "a@oryvia.test"), place(variant.id, 1, "b@oryvia.test")]);
@@ -56,7 +56,7 @@ describe("C05 — two customers attempt the final unit", () => {
   });
 });
 
-describe("C04 — double submit / retry of checkout", () => {
+describe("C04: double submit / retry of checkout", () => {
   it("creates one order and one reservation for concurrent requests with the same idempotency key", async () => {
     const { variant } = await publishedProduct(prisma, { stock: 5 });
     const c = await cartWith(variant.id, 2);
@@ -87,7 +87,7 @@ describe("C04 — double submit / retry of checkout", () => {
   });
 });
 
-describe("C07 — price tampering", () => {
+describe("C07: price tampering", () => {
   it("rejects an order whose quote hash does not match the server quote", async () => {
     const { variant } = await publishedProduct(prisma, { stock: 5, unitPaise: 49900 });
     const c = await cartWith(variant.id, 1);
@@ -156,14 +156,14 @@ describe("Order lifecycle and stock ledger", () => {
   });
 });
 
-describe("C10 — conflicting packages", () => {
+describe("C10: conflicting packages", () => {
   it("database refuses an approved package version without a price and approver", async () => {
     const pkg = await prisma.package.create({ data: { slug: "starter", name: "Starter" } });
     await expect(prisma.packageVersion.create({ data: { packageId: pkg.id, version: 1, approvalState: "approved" } })).rejects.toThrow(/package_versions_approved_has_price/);
   });
 });
 
-describe("C09 — importing the same source twice", () => {
+describe("C09: importing the same source twice", () => {
   it("does not duplicate products, packages, media or observations", () => {
     const run = () =>
       execFileSync(process.execPath, ["--env-file-if-exists=../../.env", "--import", "tsx", "src/import.ts"], {

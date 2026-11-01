@@ -10,7 +10,7 @@ Storefront and operations platform for Oryvia Care (skincare and hair care). Typ
 | `packages/contracts` | Shared Zod request contracts and money formatting |
 | `scripts/migration` | Crawler, normalizer, media downloader, importer for oryviacare.in |
 | `data/source` | Crawl evidence, normalized records, exception register |
-| `docs` | Living build documents — start with `docs/BUILD_STATUS.md` |
+| `docs` | Living build documents: start with `docs/BUILD_STATUS.md` |
 
 ## Local setup (Windows/macOS/Linux, Node 22+; no Docker required)
 

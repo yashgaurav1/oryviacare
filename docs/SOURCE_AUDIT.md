@@ -1,4 +1,4 @@
-# Source audit — oryviacare.in
+# Source audit: oryviacare.in
 
 Crawl run: 2026-10-31 02:23–02:24 UTC. Evidence: `data/source/` (raw snapshots under `raw/`).
 
@@ -23,10 +23,10 @@ Content types: 11 product pages, 3 product categories (Skin Care, Hair Care, Pac
 
 ## Findings
 
-### Pricing — blocker
+### Pricing: blocker
 - **Strike-through prices exceed printed MRP.** Back-label photo of the Face Scrub shows *M.R.P. ₹399.00 (incl. all taxes)*; the Gold 6 Step Facial Kit box shows *M.R.P. ₹499*. The site shows ₹999 struck through on both. All other products show a similar ~2× "original price". These readings are OCR candidates (`visual-review.json`) and need merchant confirmation, but until then no reference price is displayed.
 
-### Packages — blocker (all four)
+### Packages: blocker (all four)
 | Package | Store API / purchase area | Narrative "Package Price" | Store API "regular" | Narrative "original value" | Widget units | Narrative units |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Starter | ₹11,599 | ₹10,000 | ₹42,361 | ₹15,862 | 39 | 36 + 4 = 40 |
@@ -36,24 +36,24 @@ Content types: 11 product pages, 3 product categories (Skin Care, Hair Care, Pac
 
 The bundle widget does not mark components as paid or complimentary; narratives say "Herbal Facial Kit" without identifying Gold vs. Haldi Chandan. Note: the homepage crawled today no longer shows the ₹10k–₹50k package section the brief observed; those figures survive only in product narratives.
 
-### Media — high
+### Media: high
 - Hero and "Herbal Beauty Collection" images are **rendered marketing composites** whose label text contradicts itself and product pages (Face Wash "Vitamin C" vs "Vitamin E"; Anti-Hairfall "Onion Extract, Ceramide NP" vs "Bhringraj, Caffeine, Biotin, Keratin"; Scrub 200 g vs 100 g). Never used as evidence.
 - Category "images" are generic line icons.
 - 49 originals downloaded (26 MB), 82 derivative sizes recorded but not downloaded, 7 failed (off-host avatars, blocked by allow-list).
 
-### Content and contact — high
+### Content and contact: high
 - WhatsApp placeholder `wa.me/91XXXXXXXXXX` alongside the real number; social links are template placeholders (`instagram.com/yourhandle` etc.).
 - Homepage FAQ answers for returns and payment are unfilled templates (`[Write your actual policy here…]`).
 - About page contains bracketed placeholder `[Rampur,UP]`; contact page shows "Your address".
 - Links to `/wishlist/`, `/shipping-policy/`, `/refund-policy/` return 404.
 - `/10305-2/` (title ".") duplicates the shop and appears as a breadcrumb step; `/erp-subscription/` is empty.
 
-### Catalogue — medium/low
+### Catalogue: medium/low
 - No SKUs are published; JSON-LD `sku` equals the WordPress post ID.
 - Store API omits categories for the 5 skincare products; the page breadcrumbs carry "Skin Care". Normalizer merges both and logs it.
 - Full ingredient lists are not published (pages refer to packaging). Only the Face Wash publishes "Key Ingredients Highlighted" and net quantity (200 ml).
 - One review ("Priya S.", Face Wash) appears in HTML but not in the Store API reviews endpoint; provenance unknown → not imported as published.
 
 ## Registers
-- `data/source/migration-exceptions.csv` — 71 rows (blocker/high/medium/low), also in Admin → Migration review.
-- `data/source/redirects.csv` — legacy → new mapping; 3 URLs need a merchant decision.
+- `data/source/migration-exceptions.csv`: 71 rows (blocker/high/medium/low), also in Admin → Migration review.
+- `data/source/redirects.csv`: legacy → new mapping; 3 URLs need a merchant decision.

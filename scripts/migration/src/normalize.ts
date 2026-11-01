@@ -427,7 +427,7 @@ writeJson("assets.manifest.json", {
     height: a.height,
     checksum_sha256: null,
     storage_key: null,
-    classification: "unclassified (photograph | marketing composite | 3D) — requires visual review",
+    classification: "unclassified (photograph | marketing composite | 3D): requires visual review",
     rights: "source-site asset; merchant confirmation required",
   })),
 });

@@ -37,8 +37,8 @@ export default async function PackagePage({ params }: { params: Promise<{ slug: 
               {p.components.map((c) => (
                 <tr key={c.slug} className="border-b border-divider last:border-0">
                   <td className="py-2.5 pr-3"><Link href={`/products/${c.slug}`} className="hover:text-primary">{c.product}</Link></td>
-                  <td className="tabular py-2.5 text-right">{c.paidQty ?? "—"}</td>
-                  <td className="tabular py-2.5 text-right">{c.freeQty ?? "—"}</td>
+                  <td className="tabular py-2.5 text-right">{c.paidQty ?? "-"}</td>
+                  <td className="tabular py-2.5 text-right">{c.freeQty ?? "-"}</td>
                 </tr>
               ))}
             </tbody>

@@ -9,8 +9,8 @@ Environment: Windows 11, Node 24.22.0, PostgreSQL 18 (embedded-postgres), databa
 | `npm run typecheck` (all 5 workspaces) | Pass, 0 errors |
 | `npm run test:api` (vitest, real PostgreSQL) | **28 passed, 0 failed, 0 skipped** (13 commerce + 15 operations) |
 | `npx next build` (apps/web) | Pass |
-| Lint | **Not run** — no linter configured yet |
-| Playwright / axe | **Not run** — not set up yet |
+| Lint | **Not run**: no linter configured yet |
+| Playwright / axe | **Not run**: not set up yet |
 
 ### Integration tests (`apps/api/test/commerce.int.test.ts`)
 | Brief ID | Test | Result |
@@ -21,11 +21,11 @@ Environment: Windows 11, Node 24.22.0, PostgreSQL 18 (embedded-postgres), databa
 | C04 | Same key, different body → `idempotency_conflict` | Pass |
 | C07 | Forged quote hash rejected, no order written | Pass |
 | C07 | Unapproved price → `not_purchasable` | Pass |
-| — | No delivery rule → checkout refused | Pass |
-| — | Cancel releases reservation; confirm commits stock with −2 ledger row; dev order stays unpaid; cancelled order cannot be confirmed | Pass |
-| — | Expired reservation → order cancelled, stock released; second run is a no-op | Pass |
-| — | Stock ledger UPDATE/DELETE blocked by trigger; negative reserved blocked by CHECK | Pass |
-| — | Quarantined and expired batches excluded from available stock | Pass |
+| - | No delivery rule → checkout refused | Pass |
+| - | Cancel releases reservation; confirm commits stock with −2 ledger row; dev order stays unpaid; cancelled order cannot be confirmed | Pass |
+| - | Expired reservation → order cancelled, stock released; second run is a no-op | Pass |
+| - | Stock ledger UPDATE/DELETE blocked by trigger; negative reserved blocked by CHECK | Pass |
+| - | Quarantined and expired batches excluded from available stock | Pass |
 | C10 | DB refuses an approved package version without price/approver | Pass |
 | C09 | Import run twice into the test DB → identical counts (7 products, 4 package versions, media, observations, exceptions); nothing published | Pass |
 
@@ -85,8 +85,8 @@ Mutation check: reversing the batch ordering in `unshippedPool` makes the FEFO t
 | Product gallery thumbnails switch the main image | Pass |
 | Add to cart from a product card shows a toast (name, View cart link) and the badge reads "Cart, 1 item" | Pass (test item removed afterwards) |
 | Unknown URL shows the branded 404 page with HTTP status 404 | Pass |
-| Sticky buy bar appearing after scrolling past the buy box | **Not verified** — the browser pane was hidden, which suspends IntersectionObserver delivery |
-| Visual review of animations | Partial — the pane was minimised for much of the session, so most checks were DOM measurements rather than screenshots |
+| Sticky buy bar appearing after scrolling past the buy box | **Not verified**: the browser pane was hidden, which suspends IntersectionObserver delivery |
+| Visual review of animations | Partial: the pane was minimised for much of the session, so most checks were DOM measurements rather than screenshots |
 
 ## Staging deployment on Render, 2026-11-01
 | Check | Result |

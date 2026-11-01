@@ -9,7 +9,7 @@ const find = async (slug: string) => (await api<Ing[]>("/v1/catalog/ingredients"
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const i = await find((await params).slug);
-  return i ? { title: `${i.name} — ingredient`, alternates: { canonical: `/ingredients/${i.slug}` } } : { title: "Ingredient not found" };
+  return i ? { title: `${i.name} ingredient`, alternates: { canonical: `/ingredients/${i.slug}` } } : { title: "Ingredient not found" };
 }
 
 export default async function IngredientPage({ params, searchParams }: { params: Promise<{ slug: string }>; searchParams: Promise<Record<string, string | undefined>> }) {

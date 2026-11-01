@@ -1,4 +1,4 @@
-# Design system — "Kohl, Kesar & Copper"
+# Design system: "Kohl, Kesar & Copper"
 
 Revised 2026-10-31 (session 3, second pass: lighter, flowing, more motion at the merchant's request). The palette is drawn from Oryvia's real packaging: black boxes with gold type (Gold kit, Anti-hairfall), bottle-green bottles with copper pumps (Face Wash, shampoos, Scrub), blush-pink labels and gold-dust artwork. The earlier pale green/ivory system read as generic "clean beauty" and did not match the products.
 
@@ -16,14 +16,14 @@ Tokens: `apps/web/src/app/globals.css` (`:root` + Tailwind `@theme`). Component 
 | ink-muted | `#6A5B52` | Secondary text |
 | night / night-2 | `#100B09` / `#1C1410` | Hero, ticker, packages, footer, mobile menu |
 | on-night / on-night-muted | `#F5EBDD` / `#B9A898` | Text on night |
-| kesar | `#D6A13F` | Saffron gold — decoration, large display type, the gold button fill |
+| kesar | `#D6A13F` | Saffron gold: decoration, large display type, the gold button fill |
 | kesar-light | `#E2B456` | Gold text on night |
 | gold-text | `#875A12` | Small gold text (eyebrows) on light |
 | copper | `#9A4626` | Links and italic accents on light (legacy `teal` token maps here) |
 | copper-bright / bottle / rose | `#C27A4F` / `#1F3B2E` / `#9E3B52` | Ambient light orbs, decoration |
 | status colours | unchanged | Always paired with text |
 
-Contrast (WCAG 2.x, computed 2026-10-31): ink/canvas 16.9; muted/canvas 6.0; muted/surface 6.5; muted/sunk 5.4; on-primary/ink 15.1; gold-text/canvas 5.6; copper/canvas 6.0; copper/sunk 5.3; on-night/night 16.6; on-night-muted/night 8.5; kesar-light/night 10.2; ink/kesar 7.8 (gold button); rose/blush 5.2. **kesar/canvas is 2.2 — never use kesar for text on light backgrounds.** These are token-pair calculations, not an accessibility audit.
+Contrast (WCAG 2.x, computed 2026-10-31): ink/canvas 16.9; muted/canvas 6.0; muted/surface 6.5; muted/sunk 5.4; on-primary/ink 15.1; gold-text/canvas 5.6; copper/canvas 6.0; copper/sunk 5.3; on-night/night 16.6; on-night-muted/night 8.5; kesar-light/night 10.2; ink/kesar 7.8 (gold button); rose/blush 5.2. **kesar/canvas is 2.2: never use kesar for text on light backgrounds.** These are token-pair calculations, not an accessibility audit.
 
 ## Type
 - **Fraunces** (variable; `SOFT`, `WONK`, `opsz` axes, roman + italic): display headings, prices, step numbers. Italic + gold gradient for emphasis words.

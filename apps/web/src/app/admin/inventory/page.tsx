@@ -24,7 +24,7 @@ export default async function Inventory() {
                 <td className="tabular p-3">{v.onHand}</td>
                 <td className="tabular p-3">{v.reserved}</td>
                 <td className="tabular p-3 font-medium">{v.onHand - v.reserved}</td>
-                <td className="p-3 text-xs">{v.batches.map((b, i) => <div key={i}>{b.warehouse} · {b.lot ?? "unbatched"} · {b.status ?? "—"}{b.expiresAt ? ` · exp ${formatDate(b.expiresAt)}` : ""} · {b.onHand}/{b.reserved}</div>)}</td>
+                <td className="p-3 text-xs">{v.batches.map((b, i) => <div key={i}>{b.warehouse} · {b.lot ?? "unbatched"} · {b.status ?? "-"}{b.expiresAt ? ` · exp ${formatDate(b.expiresAt)}` : ""} · {b.onHand}/{b.reserved}</div>)}</td>
               </tr>
             ))}
           </tbody>

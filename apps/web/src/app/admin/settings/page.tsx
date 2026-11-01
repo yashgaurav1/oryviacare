@@ -21,7 +21,7 @@ export default async function Settings() {
           {rows.map((r) => (
             <li key={r.key} className="flex flex-wrap justify-between gap-2 border-b border-divider pb-2">
               <span className="font-medium">{r.key}</span>
-              <span className={r.verified ? "text-success" : "text-warning"}>{r.verified ? "Verified" : "Unverified — not shown publicly"}</span>
+              <span className={r.verified ? "text-success" : "text-warning"}>{r.verified ? "Verified" : "Unverified: not shown publicly"}</span>
               <span className="text-muted">v{r.version} · {formatDateTime(r.updatedAt)}</span>
             </li>
           ))}

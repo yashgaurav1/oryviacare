@@ -38,7 +38,7 @@ for (const p of products) {
     if (!bal) {
       await prisma.$transaction([
         prisma.stockBalance.create({ data: { variantId: v.id, warehouseId: wh.id, batchId: batch.id, onHand: 25 } }),
-        prisma.stockMovement.create({ data: { variantId: v.id, warehouseId: wh.id, batchId: batch.id, delta: 25, reason: "receipt", reference: "lot:DEV-LOT-1", note: "DEVELOPMENT stock receipt — not a stocktake" } }),
+        prisma.stockMovement.create({ data: { variantId: v.id, warehouseId: wh.id, batchId: batch.id, delta: 25, reason: "receipt", reference: "lot:DEV-LOT-1", note: "DEVELOPMENT stock receipt: not a stocktake" } }),
       ]);
     }
   }
