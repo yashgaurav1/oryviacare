@@ -1,3 +1,5 @@
+> **Update 2026-11-01:** the owner chose to host everything on Render (no Vercel). `render.yaml` now defines `oryvia-db`, `oryvia-api` and `oryvia-web`; the website forwards `/api` and `/media` to the API. Read the Vercel steps below as the `oryvia-web` Render service.
+
 # Prompt: push Oryvia Pro to GitHub and deploy a public staging site
 
 Paste everything below the line into a new Claude Code session opened in this repository. Fill in the four values in "Inputs" first.
