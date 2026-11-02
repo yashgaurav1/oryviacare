@@ -112,6 +112,8 @@ First fix (`e98b348`, server-side retries) passed against a stand-in but failed 
 
 Replacement, tested in a browser against a stand-in that returns 502 until the browser calls it: "Opening the store" showed, the browser woke it, and the shop opened by itself with the full page. With a healthy API, a failed page still shows the normal error.
 
+Live on Render (`c459866`), browser opening `/shop` after 17 idle minutes: Render's own loading page for about 45 s, then "Opening the store", API restart logged at 06:08:38, shop open by itself by 06:08:53, with products and footer. About 1 min 50 s in total, no error shown. Not tested: a write (add to cart, sign in) from a tab left open while the API fell asleep; expect an error until the page is refreshed.
+
 ## Not verified
 - C01 URL-state filters exercised only via HTTP status, not browser back/forward.
 - C02 cart merge: code path exists, not covered by a test.
