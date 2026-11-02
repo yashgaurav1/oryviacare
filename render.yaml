@@ -64,6 +64,9 @@ services:
         value: production
       - key: API_INTERNAL_URL
         value: https://oryvia-api.onrender.com
+      # Browsers call this to wake a sleeping API. Read at build time; not a secret.
+      - key: NEXT_PUBLIC_API_URL
+        value: https://oryvia-api.onrender.com
       - key: PUBLIC_ORIGIN
         value: https://oryvia-web.onrender.com
       - key: ALLOW_INDEXING

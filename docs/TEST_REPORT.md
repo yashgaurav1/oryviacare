@@ -108,7 +108,9 @@ Mutation check: reversing the batch ordering in `unshippedPool` makes the FEFO t
 
 ### Sleeping API (2026-11-02)
 
-Production build of the website against a stand-in API that answered the host's 502 for 15 seconds, then forwarded to the live API: `/shop` returned 200 in 17.3 s with the full page. Once awake, `/shop` took 0.3 s. A JSON 503 from the API itself was not retried (error returned in under 0.1 s). Writes are not retried; this is by reading the code, not tested.
+First fix (`e98b348`, server-side retries) passed against a stand-in but failed live: after 17 idle minutes `/shop` waited 165 s and returned 500, and the API log showed no restart. An outside request then woke it in 53 s. The server-side wait was removed.
+
+Replacement, tested in a browser against a stand-in that returns 502 until the browser calls it: "Opening the store" showed, the browser woke it, and the shop opened by itself with the full page. With a healthy API, a failed page still shows the normal error.
 
 ## Not verified
 - C01 URL-state filters exercised only via HTTP status, not browser back/forward.
