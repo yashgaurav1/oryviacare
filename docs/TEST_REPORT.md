@@ -106,6 +106,10 @@ Mutation check: reversing the batch ordering in `unshippedPool` makes the FEFO t
 | Owner sign-in to `/admin` | Reported working by the owner (screens seen); not independently tested |
 | Add to cart with real stock, two-factor enrolment on staging | **Not yet verified** (no stock entered) |
 
+### Sleeping API (2026-11-02)
+
+Production build of the website against a stand-in API that answered the host's 502 for 15 seconds, then forwarded to the live API: `/shop` returned 200 in 17.3 s with the full page. Once awake, `/shop` took 0.3 s. A JSON 503 from the API itself was not retried (error returned in under 0.1 s). Writes are not retried; this is by reading the code, not tested.
+
 ## Not verified
 - C01 URL-state filters exercised only via HTTP status, not browser back/forward.
 - C02 cart merge: code path exists, not covered by a test.

@@ -5,6 +5,11 @@ import { cookies } from "next/headers";
 
 const API = process.env.API_INTERNAL_URL ?? "http://127.0.0.1:4000";
 
+// On Render's free plan the API sleeps when idle and takes about a minute to wake, so reads wait for it instead of failing the page.
+const WAKE_WAIT_MS = process.env.NODE_ENV === "production" ? 120_000 : 0;
+const WAKE_RETRY_MS = 2_000;
+const WAKE_ATTEMPT_MS = 60_000;
+
 export class ApiFailure extends Error {
   constructor(
     readonly status: number,
@@ -15,13 +20,35 @@ export class ApiFailure extends Error {
   }
 }
 
+/**
+ * Writes are never repeated, because the first attempt may have reached the API.
+ * A JSON error came from the API itself, so it is a real answer; only the host's own 502/503/504 means "still waking".
+ */
+async function fetchWaking(url: string, init: RequestInit): Promise<Response> {
+  if (init.method !== "GET") return fetch(url, init);
+  const deadline = Date.now() + WAKE_WAIT_MS;
+  // React memoizes identical GETs for the whole render, so a retry needs a signal to reach the network again.
+  for (let attempt = init; ; attempt = { ...init, signal: AbortSignal.timeout(WAKE_ATTEMPT_MS) }) {
+    try {
+      const res = await fetch(url, attempt);
+      const waking = [502, 503, 504].includes(res.status) && !res.headers.get("content-type")?.includes("json");
+      if (!waking || Date.now() >= deadline) return res;
+      // Not awaited: on a memoized response this is a stream copy, and its cancel never settles.
+      void res.body?.cancel().catch(() => undefined);
+    } catch (e) {
+      if (Date.now() >= deadline) throw e;
+    }
+    await new Promise((r) => setTimeout(r, WAKE_RETRY_MS));
+  }
+}
+
 export async function api<T>(path: string, init: { method?: string; body?: unknown; revalidate?: number | false } = {}): Promise<T> {
   const jar = await cookies();
   const cookieHeader = jar
     .getAll()
     .map((c) => `${c.name}=${encodeURIComponent(c.value)}`)
     .join("; ");
-  const res = await fetch(`${API}/api${path}`, {
+  const res = await fetchWaking(`${API}/api${path}`, {
     method: init.method ?? "GET",
     headers: { ...(cookieHeader ? { cookie: cookieHeader } : {}), ...(init.body ? { "content-type": "application/json" } : {}) },
     body: init.body ? JSON.stringify(init.body) : undefined,
